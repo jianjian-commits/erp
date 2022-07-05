@@ -1,0 +1,144 @@
+.category-filter-frame {
+  padding: 15px 20px;
+  .category-animation {
+    margin-right: 0;
+  }
+}
+
+.category-cascader-fix {
+  display: flex;
+  align-items: center;
+  height: 34px;
+  padding: 5px 12px;
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  border-bottom: 1px solid #eef1f5;
+
+  &:hover {
+    color: #1e80e5;
+    background-color: transparent;
+    .right-out-lined {
+      color: #1e80e5 !important;
+    }
+  }
+}
+
+// 修改 cascader 的样式
+.gm-cascader-wrap {
+  min-height: 500px;
+  // begin cascader
+  .ant-cascader-menu {
+    height: inherit;
+    max-height: 500px;
+    overflow-y: auto;
+    &:nth-child(2) {
+      height: 100vh;
+    }
+  }
+  .ant-cascader-menu-item {
+    height: 34px;
+    margin-bottom: 10px;
+    &:hover {
+      font-weight: 600;
+    }
+  }
+  .ant-cascader-menu-item.ant-cascader-menu-item-active {
+    border-radius: 2px;
+  }
+  // end
+}
+
+.category-tree {
+  width: 275px;
+  overflow-x: scroll;
+  background-color: #fff;
+  border-right: 1px solid rgba(0, 0, 0, 0.07);
+
+  .category-tree-select {
+    width: 100%;
+    height: 62px;
+    padding-right: 26px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(216, 222, 231, 0.6);
+    .category-tree-select-content {
+      width: 160px;
+      margin-left: 40px;
+      color: #0363ff;
+    }
+    .right-out-lined {
+      &:hover {
+        color: #1e80e5 !important;
+      }
+    }
+  }
+
+  .tree-style {
+    width: 100%;
+    height: calc(100vh - 256px);
+    padding-left: 16px;
+    overflow-y: scroll;
+    font-size: 14px;
+
+    // begin 修改 antd tree 组件样式
+    .ant-tree-treenode {
+      display: flex;
+      align-items: center;
+      height: 34px;
+      padding: 0;
+      margin-bottom: 10px;
+      &:first-child {
+        margin-bottom: 20px;
+      }
+      &:hover {
+        width: calc(100% - 8px);
+        font-weight: 600;
+        background-color: rgb(238 241 245, 0.2);
+      }
+    }
+    .ant-tree-treenode.ant-tree-treenode-selected {
+      width: calc(100% - 8px);
+      font-weight: 600;
+      background: #eef1f5;
+    }
+    .ant-tree-switcher {
+      top: 5px;
+    }
+    .ant-tree-node-content-wrapper.ant-tree-node-selected {
+      background-color: #eef1f5;
+      &:hover {
+        background-color: #eef1f5;
+      }
+    }
+    .ant-tree-node-content-wrapper {
+      &:hover {
+        background-color: transparent;
+      }
+    }
+    // end
+  }
+}
+
+.category-table {
+  width: 100%;
+  height: calc(100vh - 256px);
+  background-color: #fff;
+
+  .gm-table-x .gm-table-x-table .gm-table-x-tbody {
+    height: calc(100vh - 328px);
+  }
+}
+
+.mini-table {
+  width: calc(100% - 275px);
+  height: 100%;
+}
+
+.max-table {
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}

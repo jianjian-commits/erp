@@ -1,0 +1,42 @@
+
+@import "~@gm-pc/react/src/var.less";
+
+.b-recommend-plan-header {
+  margin-top: 10px;
+
+  .b-recommend-plan-header-triangle {
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-width: 20px 40px;
+
+    &.first-active {
+      border-left-color: var(--gm-color-primary);
+      background: var(--gm-color-bg-back);
+    }
+
+    &.second-active {
+      border-left-color: var(--gm-color-bg-back);
+      background: var(--gm-color-primary);
+    }
+  }
+
+  .b-recommend-plan-header-step {
+    height: 40px;
+    font-size: 18px;
+    background: var(--gm-color-bg-back);
+
+    &.active {
+      color: white;
+      background: var(--gm-color-primary);
+    }
+  }
+
+  .b-recommend-plan-header-first-step {
+    .b-recommend-plan-header-step;
+  }
+
+  .b-recommend-plan-header-second-step {
+    .b-recommend-plan-header-step;
+  }
+}

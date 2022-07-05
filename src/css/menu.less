@@ -1,0 +1,110 @@
+.b-menu-item {
+  .b-menu-item-head {
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid var(--gm-color-border);
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .b-menu-item-content {
+    min-height: 181px;
+    max-height: 362px;
+    background: white;
+    border: 1px solid var(--gm-color-border);
+  }
+
+  &:hover {
+    .b-menu-item-head {
+      background: var(--gm-color-bg-primary-light) !important;
+      border-color: var(--gm-color-bg-primary) !important;
+    }
+
+    .b-menu-item-content {
+      border: 1px solid var(--gm-color-bg-primary);
+    }
+
+    .b-menu-item-add {
+      color: var(--gm-color-primary);
+    }
+  }
+}
+
+.b-day-item {
+  border-right: 1px solid var(--gm-color-border);
+
+  &:last-child {
+    border-right: none;
+  }
+
+  &.b-day-item-selected {
+    background: var(--gm-color-table-td-active);
+  }
+
+  // 进入生产
+  &.b-day-item-status-2 {
+    background: var(--gm-color-bg-disabled);
+
+    .b-menu-item {
+      .b-menu-item-head {
+        background: var(--gm-label-color-inactive) !important;
+        border-color: var(--gm-label-color-inactive) !important;
+      }
+
+      .b-menu-item-content {
+        border-color: var(--gm-color-border) !important;
+      }
+    }
+  }
+
+  .b-day-item-head {
+    height: 59px;
+    padding: 10px;
+  }
+
+  .b-day-label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 68px;
+    padding: 2px 4px;
+    color: white;
+    background: var(--gm-color-bg-primary);
+
+    &::after {
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      display: block;
+      width: 0;
+      height: 0;
+      content: '';
+      border: 34px solid var(--gm-color-bg-primary);
+      border-top: 0;
+      border-bottom: 5px solid transparent;
+      //border-left-color: var(--gm-color-bg-primary);
+      //border-right-color: var(--gm-color-bg-primary);
+    }
+
+    &.b-day-label-status-2 {
+      color: var(--gm-color-default);
+      background: var(--gm-card-bg-inactive);
+
+      &::after {
+        border-right-color: var(--gm-card-bg-inactive);
+        border-left-color: var(--gm-card-bg-inactive);
+      }
+    }
+  }
+}
+
+.b-menu-detail-label {
+  padding: 2px 4px;
+  color: white;
+  background: var(--gm-color-bg-primary);
+
+  &.b-menu-detail-label-2 {
+    color: var(--gm-color-default);
+    background: var(--gm-card-bg-inactive);
+  }
+}

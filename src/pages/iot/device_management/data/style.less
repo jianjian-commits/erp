@@ -1,0 +1,106 @@
+@color-default: var(--gm-color-default);
+@color-primary: var(--gm-color-primary);
+@color-secondary: var(--gm-color-secondary);
+
+@color-bg-default: var(--gm-color-bg-back);
+@color-bg-primary: @color-primary;
+@color-bg-light: var(--gm-color-bg-primary-light);
+
+@color-border-primary: @color-primary;
+@color-border-special: var(--gm-color-border-special);
+
+@color-text-default: @color-default;
+@color-text-primary: @color-primary;
+@color-text-secondary: @color-secondary;
+
+@color-card-active: var(--gm-color-table-td-active);
+
+@color-card-shadow: #ccc;
+
+@screen-size-xs: ~'screen and (max-width: 575.98px)';
+@screen-size-sm: ~'screen and (min-width: 576px) and (max-width: 767.98px)';
+@screen-size-md: ~'screen and (min-width: 768px) and (max-width: 991.98px)';
+@screen-size-lg: ~'screen and (min-width: 992px) and (max-width: 1199.98px)';
+@screen-size-xl: ~'screen and (min-width: 1200px)';
+
+@screen-resolution-low: ~'screen and (max-width: 1024px)';
+@screen-resolution-mid: ~'screen and (min-width: 1025px) and (max-wid)';
+
+.product-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  padding: 24px;
+}
+
+.iot-product-card {
+  padding: 0;
+  margin: 24px;
+  color: black;
+  border: 1px solid white;
+  box-shadow: 0 0 8px @color-card-shadow;
+
+  .iot-product-card-header {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: @color-text-default;
+    vertical-align: middle;
+    background-color: white;
+    border-bottom: 1px solid @color-border-special;
+  }
+
+  .iot-product-card-content {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+
+    .iot-product-card-content-data {
+      flex: 1 1 auto;
+      margin: 8px 16px;
+      text-align: center;
+
+      .iot-product-card-content-data-prop {
+        padding: 2px;
+        font-size: 12px;
+      }
+
+      .iot-product-card-content-data-value {
+        padding: 2px;
+        font-size: 32px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.iot-product-card:hover {
+  cursor: pointer;
+  border: 1px solid @color-border-primary;
+
+  .iot-product-card-header {
+    font-weight: bold;
+    color: @color-text-primary;
+    background-color: @color-bg-light;
+    border-bottom: 1px solid @color-border-primary;
+
+    .iot-product-card-header-title {
+      color: @color-text-primary;
+    }
+  }
+}
+
+.iot-data-record-header {
+  margin: 12px;
+
+  .iot-data-record-header-button {
+    margin: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .iot-data-record-header-text {
+    margin: 8px;
+    font-size: 16px;
+  }
+}

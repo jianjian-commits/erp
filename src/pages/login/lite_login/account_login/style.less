@@ -1,0 +1,148 @@
+.lite-account-login-container {
+  position: absolute;
+  top: 50%;
+  right: 8vw;
+  width: 440px;
+  height: 560px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px 0 rgba(198, 203, 220, 0.42);
+  transform: translate(0, -50%);
+}
+
+.wechat-login-switcher {
+  cursor: pointer;
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  display: flex;
+  justify-content: space-between;
+  & img {
+    height: 60px;
+    width: 60px;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+      transition: all 0.3s;
+    }
+  }
+  & p {
+    width: 111px;
+    height: 30px;
+    background: #DFFFEE;
+    border: 1px solid #0FB35D;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: #0FB35D;
+    line-height: 30px;
+    text-align:center;
+    margin-right: 13px;
+  }
+  &-triangle {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: 66px;
+    border: 4px solid transparent;
+    border-left: 4px solid #0FB35D;
+    z-index: 10;
+    &::after {
+      content: "";
+      position: absolute;
+      border: 3px solid transparent;
+      border-left: 3px solid #DFFFEE;
+      z-index: 20;
+      right: -2px;
+      top: -3px;
+    }
+  }
+}
+
+.lite-account-login {
+  &-form {
+    margin: 60px 48px 69px 48px;
+    button[disabled] {
+      opacity: 0.5;
+      cursor:not-allowed;
+    }
+  }
+  &-title {
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #111111;
+    margin-bottom: 8px;
+  }
+  &-input {
+    margin-top: 24px;
+    height: 60px;
+    &-icon {
+      height: 20px;
+      width: 20px;
+    }
+  }
+  &-checkbox {
+    border: 1px solid #0FB35D;
+  }
+}
+
+.login-checkbox-input {
+  display: none;
+
+  & + .login-checkbox-span {
+    position: relative;
+    top: 2px;
+    background-color: #fff;
+    -webkit-appearance: none;
+    border: 1px solid #C9C9C9;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    transition: background-color 0.1s linear;
+    border-radius: var(--gm-size-border-radius);
+  }
+
+  &:checked + .login-checkbox-span {
+    border: 1px solid #0FB35D;
+    background-color: #0FB35D;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 5px;
+      top: 3px;
+      left: 2px;
+      border-left: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.login-checkbox-span-text {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: #666666;
+  margin-left: 6px;
+}
+
+.lite-account-login-button {
+  width: 344px;
+  height: 60px;
+  background: #0FB35D;
+  border: 0;
+  border-radius: 33px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  color: #FFFFFF;
+  margin-top: 47px;
+  opacity: 0.9;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+    transition: all 0.3s;
+  }
+}

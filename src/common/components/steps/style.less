@@ -1,0 +1,35 @@
+@import "~@gm-pc/react/src/var.less";
+
+.b-customize-step-header {
+  .b-customize-step-header-triangle {
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-width: 20px 0 20px 40px;
+    background: var(--gm-color-bg-back);
+
+    &.active {
+      border-left-color: var(--gm-color-primary);
+      background: var(--gm-color-bg-back);
+    }
+  }
+
+  .b-customize-step-header-step {
+    height: 40px;
+    font-size: 18px;
+    background: var(--gm-color-bg-back);
+
+    &.active {
+      color: white;
+      background: var(--gm-color-primary);
+    }
+  }
+}
+
+.b-step-form {
+  .gm-form {
+    .gm-form-group {
+      padding-bottom: 20px;
+    }
+  }
+}

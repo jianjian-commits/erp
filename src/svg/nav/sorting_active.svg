@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/菜单/分拣/selected</title>
+    <g id="icon/菜单/分拣/selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <polyline id="路径" stroke="#FFFFFF" stroke-width="1.2" points="9 15 3 15 3 5 9 5"></polyline>
+        <rect id="矩形" stroke="#FFFFFF" stroke-width="1.2" fill="#FFFFFF" x="12" y="12.8" width="4.5" height="4.5"></rect>
+        <circle id="椭圆形" stroke="#FFFFFF" stroke-width="1.2" fill="#FFFFFF" cx="14.5" cy="5.2" r="2.5"></circle>
+        <polyline id="路径" stroke="#FFFFFF" stroke-width="1.2" transform="translate(7.121320, 5.121320) rotate(-225.000000) translate(-7.121320, -5.121320) " points="5.62132034 6.62132034 5.62132034 3.62132034 8.62132034 3.62132034"></polyline>
+        <polyline id="路径" stroke="#FFFFFF" stroke-width="1.2" transform="translate(7.121320, 15.121320) rotate(-225.000000) translate(-7.121320, -15.121320) " points="5.62132034 16.6213203 5.62132034 13.6213203 8.62132034 13.6213203"></polyline>
+    </g>
+</svg>

@@ -1,0 +1,65 @@
+.diy-shop {
+  border: 1px solid var(--gm-color-border);
+  width: 370px;
+  height: 600px;
+
+  .diy-shop-header,
+  .footer {
+    max-width: 100%;
+  }
+
+  .diy-shop-footer {
+    border-top: 1px solid var(--gm-color-border);
+  }
+
+  .diy-shop-box {
+    width: 100%;
+    height: 165px;
+  }
+
+  .diy-shop-box-active {
+    width: 100%;
+    height: 165px;
+    position: relative;
+
+    &::after {
+      content: ' ';
+      border: 2px dashed var(--gm-color-border-primary);
+      width: 100%;
+      height: auto;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.top-tip {
+  height: 36;
+  line-height: 36px;
+  background: #e8f0ff;
+}
+
+.static-box {
+  background: var(--gm-color-bg-back);
+  flex: 1;
+  margin: 10px 5px;
+  height: 100px;
+  padding: 10px;
+}
+
+.notice-box {
+  padding: 5px;
+
+  .notice-box-title {
+    border: 1px solid var(--gm-color-border);
+    line-height: 30px;
+    height: 30px;
+  }
+
+  & img {
+    width: 100%;
+    height: 120px;
+  }
+}

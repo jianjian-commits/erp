@@ -1,0 +1,36 @@
+.diy-shop {
+  border: 1px solid var(--gm-color-border);
+  width: 370px;
+  height: 600px;
+
+  .diy-shop-header,
+  .footer {
+    max-width: 100%;
+  }
+
+  .diy-shop-footer {
+    border-top: 1px solid var(--gm-color-border);
+  }
+
+  .diy-shop-box {
+    width: 100%;
+    height: 165px;
+  }
+
+  .diy-shop-box-active {
+    width: 100%;
+    height: 165px;
+    position: relative;
+
+    &::after {
+      content: ' ';
+      border: 2px dashed var(--gm-color-border-primary);
+      width: 100%;
+      height: auto;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
+  }
+}

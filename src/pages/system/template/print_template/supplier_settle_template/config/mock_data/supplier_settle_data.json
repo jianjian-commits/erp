@@ -1,0 +1,1106 @@
+{
+  "settle_sheet": {
+   "settle_sheet_id": "348513055774081324",
+   "rversion": "2",
+   "create_time": "1617259568906",
+   "update_time": "1617260128377",
+   "delete_time": "0",
+   "settle_time": "0",
+   "group_id": "348252191422677016",
+   "station_id": "348252191489785882",
+   "creator_id": "348252191993102361",
+   "settle_sheet_serial_no": "GYSJK21040100002",
+   "target_id": "348401701985714206",
+   "account_type": 1,
+   "credit_type": 3,
+   "total_price": "316.18",
+   "delta_amount": "20",
+   "should_amount": "336.18",
+   "actual_amount": "0",
+   "need_amount": "336.18",
+   "sheet_status": 1,
+   "abstract": "",
+   "no_tax_total_price": "267.73",
+   "tax_price": "38.45",
+   "product_total_price": "306.18",
+   "amount_discounts": {
+    "amount_discounts": [
+     {
+      "create_time": "1617260128377",
+      "creator_id": "348252191993102361",
+      "discount_reason": 5,
+      "discount_type": 1,
+      "discount_amount": "20",
+      "remark": ""
+     }
+    ]
+   },
+   "item_ids": {
+    "item_ids": [
+     "348513022035099657",
+     "348512777138077705",
+     "348492758211624969",
+     "348513310200561673"
+    ]
+   }
+  },
+  "transaction_flows": [],
+  "supplier": {
+   "supplier_id": "348401701985714206",
+   "status": "0",
+   "create_time": "1617193196861",
+   "update_time": "1617275034670",
+   "delete_time": "0",
+   "group_id": "348252191422677016",
+   "default_purchase_id": "0",
+   "name": "蔬菜供应商",
+   "description": "",
+   "is_valid": false,
+   "address": {
+    "country_id": "0",
+    "province_id": "0",
+    "city_id": "0",
+    "district_id": "0",
+    "street_id": "0",
+    "receiver": "",
+    "phone": "",
+    "address": "",
+    "poi_title": "",
+    "poi_address": "",
+    "geotag": {
+     "latitude": "",
+     "longitude": ""
+    },
+    "is_default": false
+   },
+   "credit_type": 3,
+   "phone": "",
+   "customized_code": "scgys6013",
+   "attrs": {
+    "china_vat_invoice": {
+     "company_name": "",
+     "company_address": "",
+     "company_phone": "",
+     "invoice_type": 2,
+     "taxpayer_identity_number": "",
+     "bank_name": "",
+     "bank_account": "",
+     "bank_card_owner_name": "",
+     "max_invoice_amount": "",
+     "business_license_number": "",
+     "financial_contact_name": "",
+     "financial_contact_phone": "",
+     "taxpayer_type": 1,
+     "invoice_setting": "0"
+    },
+    "qualification_images": [],
+    "available_category_ids": [
+     "348252195029778472",
+     "348252195046555688",
+     "348252195096887336",
+     "348252195113664552"
+    ]
+   }
+  },
+  "stock_sheets": [
+   {
+    "stock_sheet_id": "348492758211624969",
+    "create_time": "1617247470626",
+    "update_time": "1617259748377",
+    "delete_time": "0",
+    "sheet_type": 100,
+    "status": "0",
+    "group_id": "348252191422677016",
+    "station_id": "348252191489785882",
+    "target_id": "348401701985714206",
+    "statement_id": "0",
+    "sku_id": "0",
+    "related_sheet_id": "0",
+    "related_sheet_serial_no": "",
+    "sheet_status": 4,
+    "submit_time": "1617247471706",
+    "commit_time": "0",
+    "creator_id": "348252191993102361",
+    "remark": "",
+    "discounts": {
+     "details": []
+    },
+    "cost_allocation": {
+     "details": []
+    },
+    "total_price": "217.24",
+    "details": {
+     "details": [
+      {
+       "detail_id": "1",
+       "create_batches": [
+        {
+         "batch_id": "348492829011476493",
+         "create_time": "1617247512814",
+         "in_stock_time": "1617247471706",
+         "update_time": "1617247512814",
+         "delete_time": "0",
+         "group_id": "348252191422677016",
+         "station_id": "348252191489785882",
+         "spu_id": "348252195163996201",
+         "sku_id": "348379456521371690",
+         "base_unit_id": "500001",
+         "sku_unit_id": "2",
+         "in_stock_sheet_id": "348492758211624969",
+         "batch_serial_no": "CGRK21040100004000002",
+         "stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "28.00000000",
+           "price": "7.75862069"
+          },
+          "sku_unit": {
+           "unit_id": "2",
+           "quantity": "4.66666667",
+           "price": "0"
+          }
+         },
+         "input_stock": {
+          "input": {
+           "unit_id": "500000",
+           "quantity": "14",
+           "price": "15.5172413793103448"
+          },
+          "input2": {
+           "unit_id": "2",
+           "quantity": "4.66666667",
+           "price": "0"
+          }
+         },
+         "base_unit_quantity": "14",
+         "production_time": "0",
+         "expiry_time": "0",
+         "production_task_id": "0",
+         "supplier_id": "348401701985714206",
+         "shelf_id": "0",
+         "type": 1,
+         "remark": "",
+         "origin_stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "28.00000000",
+           "price": "7.75862069"
+          },
+          "sku_unit": {
+           "unit_id": "2",
+           "quantity": "4.66666667",
+           "price": "0"
+          }
+         },
+         "source_sheet_type": 100,
+         "stock_sheet_serial_no": "CGRK21040100004",
+         "production_task_serial_no": "",
+         "is_remaining": true,
+         "target_customer_id": "0",
+         "target_route_id": "0"
+        }
+       ],
+       "update_batches": [],
+       "production_task_id": "0",
+       "spu_id": "348252195163996201",
+       "sku_id": "348379456521371690",
+       "base_unit_id": "500001",
+       "sku_unit_id": "2",
+       "remark": "",
+       "input_stock": {
+        "input": {
+         "unit_id": "500000",
+         "quantity": "14",
+         "price": "15.51714286"
+        },
+        "input2": {
+         "unit_id": "2",
+         "quantity": "4.66666667",
+         "price": "0"
+        }
+       },
+       "amount": "217.24",
+       "origin_stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "28.00000000",
+         "price": "7.75862069"
+        },
+        "sku_unit": {
+         "unit_id": "2",
+         "quantity": "4.66666667",
+         "price": "0"
+        }
+       },
+       "stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "28.00000000",
+         "price": "7.75862069"
+        },
+        "sku_unit": {
+         "unit_id": "2",
+         "quantity": "4.66666667",
+         "price": "0.00000000"
+        }
+       },
+       "operator_id": "0",
+       "sku_unit_rate": "2.00000000",
+       "replace_batch_id": "0",
+       "production_task_serial_no": "",
+       "creator_id": "348252191993102361",
+       "detail_type": 0,
+       "related_detail_id": "0",
+       "target_customer_id": "0",
+       "production_cost": "",
+       "is_by_product": false,
+       "input_tax": "16",
+       "tax_amount": "252.00",
+       "tax_input_price": "18",
+       "origin_tax_input_price": ""
+      }
+     ]
+    },
+    "related_sheet_type": 0,
+    "target_type": 2,
+    "target_name": "蔬菜供应商",
+    "last_adjust_time": "0",
+    "batch_index": "2",
+    "driver_id": "0",
+    "settle_sheet_id": "348513055774081324",
+    "settle_sheet_serial_no": "GYSJK21040100002",
+    "pay_status": 2,
+    "after_sale_order_id": "0",
+    "after_sale_order_serial_no": "",
+    "customer_id": "0",
+    "tax_total_price": "252.00",
+    "product_total_price": "252.00",
+    "stock_sheet_serial_no": "CGRK21040100004",
+    "response_time": "0"
+   },
+   {
+    "stock_sheet_id": "348512777138077705",
+    "create_time": "1617259402826",
+    "update_time": "1617259748377",
+    "delete_time": "0",
+    "sheet_type": 100,
+    "status": "0",
+    "group_id": "348252191422677016",
+    "station_id": "348252191489785882",
+    "target_id": "348401701985714206",
+    "statement_id": "0",
+    "sku_id": "0",
+    "related_sheet_id": "0",
+    "related_sheet_serial_no": "",
+    "sheet_status": 4,
+    "submit_time": "1617259410406",
+    "commit_time": "0",
+    "creator_id": "348252191993102361",
+    "remark": "",
+    "discounts": {
+     "details": [
+      {
+       "type": 0,
+       "reason": 1,
+       "money": "15",
+       "money_type": 1,
+       "sku_units": [],
+       "remark": "运费呀",
+       "effected": false,
+       "creator_id": "348252191993102361",
+       "create_time": "1617259402864"
+      }
+     ]
+    },
+    "cost_allocation": {
+     "details": []
+    },
+    "total_price": "76.99",
+    "details": {
+     "details": [
+      {
+       "detail_id": "1",
+       "create_batches": [
+        {
+         "batch_id": "348512789871984653",
+         "create_time": "1617259410414",
+         "in_stock_time": "1617259410406",
+         "update_time": "1617259410414",
+         "delete_time": "0",
+         "group_id": "348252191422677016",
+         "station_id": "348252191489785882",
+         "spu_id": "348252195147218985",
+         "sku_id": "348374959573172266",
+         "base_unit_id": "500001",
+         "sku_unit_id": "1",
+         "in_stock_sheet_id": "348512777138077705",
+         "batch_serial_no": "CGRK21040100006000001",
+         "stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "8.90000000",
+           "price": "2.01904762"
+          },
+          "sku_unit": {
+           "unit_id": "1",
+           "quantity": "8.9",
+           "price": "0"
+          }
+         },
+         "input_stock": {
+          "input": {
+           "unit_id": "500001",
+           "quantity": "8.9",
+           "price": "2.019047619047619"
+          },
+          "input2": {
+           "unit_id": "1",
+           "quantity": "8.9",
+           "price": "0"
+          }
+         },
+         "base_unit_quantity": "8.9",
+         "production_time": "0",
+         "expiry_time": "0",
+         "production_task_id": "0",
+         "supplier_id": "348401701985714206",
+         "shelf_id": "0",
+         "type": 1,
+         "remark": "",
+         "origin_stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "8.90000000",
+           "price": "2.01904762"
+          },
+          "sku_unit": {
+           "unit_id": "1",
+           "quantity": "8.9",
+           "price": "0"
+          }
+         },
+         "source_sheet_type": 100,
+         "stock_sheet_serial_no": "CGRK21040100006",
+         "production_task_serial_no": "",
+         "is_remaining": true,
+         "target_customer_id": "0",
+         "target_route_id": "0"
+        }
+       ],
+       "update_batches": [],
+       "production_task_id": "0",
+       "spu_id": "348252195147218985",
+       "sku_id": "348374959573172266",
+       "base_unit_id": "500001",
+       "sku_unit_id": "1",
+       "remark": "",
+       "input_stock": {
+        "input": {
+         "unit_id": "500001",
+         "quantity": "8.9",
+         "price": "2.01910112"
+        },
+        "input2": {
+         "unit_id": "1",
+         "quantity": "8.9",
+         "price": "0"
+        }
+       },
+       "amount": "17.97",
+       "origin_stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "8.90000000",
+         "price": "2.01904762"
+        },
+        "sku_unit": {
+         "unit_id": "1",
+         "quantity": "8.9",
+         "price": "0"
+        }
+       },
+       "stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "8.90000000",
+         "price": "2.01904762"
+        },
+        "sku_unit": {
+         "unit_id": "1",
+         "quantity": "8.90000000",
+         "price": "0.00000000"
+        }
+       },
+       "operator_id": "0",
+       "sku_unit_rate": "1.00000000",
+       "replace_batch_id": "0",
+       "production_task_serial_no": "",
+       "creator_id": "348252191993102361",
+       "detail_type": 0,
+       "related_detail_id": "0",
+       "target_customer_id": "0",
+       "production_cost": "",
+       "is_by_product": false,
+       "input_tax": "5",
+       "tax_amount": "18.87",
+       "tax_input_price": "2.12",
+       "origin_tax_input_price": ""
+      },
+      {
+       "detail_id": "2",
+       "create_batches": [
+        {
+         "batch_id": "348512789872050189",
+         "create_time": "1617259410417",
+         "in_stock_time": "1617259410406",
+         "update_time": "1617259410417",
+         "delete_time": "0",
+         "group_id": "348252191422677016",
+         "station_id": "348252191489785882",
+         "spu_id": "348252195163996201",
+         "sku_id": "348379456521371690",
+         "base_unit_id": "500001",
+         "sku_unit_id": "1",
+         "in_stock_sheet_id": "348512777138077705",
+         "batch_serial_no": "CGRK21040100006000002",
+         "stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "7.00000000",
+           "price": "8.43103448"
+          },
+          "sku_unit": {
+           "unit_id": "1",
+           "quantity": "7",
+           "price": "0"
+          }
+         },
+         "input_stock": {
+          "input": {
+           "unit_id": "500001",
+           "quantity": "7",
+           "price": "8.4310344827586207"
+          },
+          "input2": {
+           "unit_id": "1",
+           "quantity": "7",
+           "price": "0"
+          }
+         },
+         "base_unit_quantity": "7",
+         "production_time": "0",
+         "expiry_time": "0",
+         "production_task_id": "0",
+         "supplier_id": "348401701985714206",
+         "shelf_id": "0",
+         "type": 1,
+         "remark": "",
+         "origin_stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "7.00000000",
+           "price": "8.43103448"
+          },
+          "sku_unit": {
+           "unit_id": "1",
+           "quantity": "7",
+           "price": "0"
+          }
+         },
+         "source_sheet_type": 100,
+         "stock_sheet_serial_no": "CGRK21040100006",
+         "production_task_serial_no": "",
+         "is_remaining": true,
+         "target_customer_id": "0",
+         "target_route_id": "0"
+        }
+       ],
+       "update_batches": [],
+       "production_task_id": "0",
+       "spu_id": "348252195163996201",
+       "sku_id": "348379456521371690",
+       "base_unit_id": "500001",
+       "sku_unit_id": "1",
+       "remark": "",
+       "input_stock": {
+        "input": {
+         "unit_id": "500001",
+         "quantity": "7",
+         "price": "8.43142857"
+        },
+        "input2": {
+         "unit_id": "1",
+         "quantity": "7",
+         "price": "0"
+        }
+       },
+       "amount": "59.02",
+       "origin_stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "7.00000000",
+         "price": "8.43103448"
+        },
+        "sku_unit": {
+         "unit_id": "1",
+         "quantity": "7",
+         "price": "0"
+        }
+       },
+       "stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "7.00000000",
+         "price": "8.43103448"
+        },
+        "sku_unit": {
+         "unit_id": "1",
+         "quantity": "7.00000000",
+         "price": "0.00000000"
+        }
+       },
+       "operator_id": "0",
+       "sku_unit_rate": "1.00000000",
+       "replace_batch_id": "0",
+       "production_task_serial_no": "",
+       "creator_id": "348252191993102361",
+       "detail_type": 0,
+       "related_detail_id": "0",
+       "target_customer_id": "0",
+       "production_cost": "",
+       "is_by_product": false,
+       "input_tax": "16",
+       "tax_amount": "68.46",
+       "tax_input_price": "9.78",
+       "origin_tax_input_price": ""
+      }
+     ]
+    },
+    "related_sheet_type": 0,
+    "target_type": 2,
+    "target_name": "蔬菜供应商",
+    "last_adjust_time": "0",
+    "batch_index": "2",
+    "driver_id": "0",
+    "settle_sheet_id": "348513055774081324",
+    "settle_sheet_serial_no": "GYSJK21040100002",
+    "pay_status": 2,
+    "after_sale_order_id": "0",
+    "after_sale_order_serial_no": "",
+    "customer_id": "0",
+    "tax_total_price": "102.33",
+    "product_total_price": "87.33",
+    "stock_sheet_serial_no": "CGRK21040100006",
+    "response_time": "0"
+   },
+   {
+    "stock_sheet_id": "348513022035099657",
+    "create_time": "1617259548789",
+    "update_time": "1617259748377",
+    "delete_time": "0",
+    "sheet_type": 100,
+    "status": "0",
+    "group_id": "348252191422677016",
+    "station_id": "348252191489785882",
+    "target_id": "348401701985714206",
+    "statement_id": "0",
+    "sku_id": "0",
+    "related_sheet_id": "0",
+    "related_sheet_serial_no": "",
+    "sheet_status": 4,
+    "submit_time": "1617259551904",
+    "commit_time": "0",
+    "creator_id": "348252191993102361",
+    "remark": "",
+    "discounts": {
+     "details": []
+    },
+    "cost_allocation": {
+     "details": []
+    },
+    "total_price": "23.16",
+    "details": {
+     "details": [
+      {
+       "detail_id": "1",
+       "create_batches": [
+        {
+         "batch_id": "348513027269591053",
+         "create_time": "1617259551916",
+         "in_stock_time": "1617259551904",
+         "update_time": "1617259551916",
+         "delete_time": "0",
+         "group_id": "348252191422677016",
+         "station_id": "348252191489785882",
+         "spu_id": "348252195147218985",
+         "sku_id": "348374959573172266",
+         "base_unit_id": "500001",
+         "sku_unit_id": "2",
+         "in_stock_sheet_id": "348513022035099657",
+         "batch_serial_no": "CGRK21040100007000001",
+         "stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "5.00000000",
+           "price": "1.99047619"
+          },
+          "sku_unit": {
+           "unit_id": "2",
+           "quantity": "1.66666667",
+           "price": "0"
+          }
+         },
+         "input_stock": {
+          "input": {
+           "unit_id": "500001",
+           "quantity": "5",
+           "price": "1.9904761904761905"
+          },
+          "input2": {
+           "unit_id": "2",
+           "quantity": "1.66666667",
+           "price": "0"
+          }
+         },
+         "base_unit_quantity": "5",
+         "production_time": "0",
+         "expiry_time": "0",
+         "production_task_id": "0",
+         "supplier_id": "348401701985714206",
+         "shelf_id": "0",
+         "type": 1,
+         "remark": "",
+         "origin_stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "5.00000000",
+           "price": "1.99047619"
+          },
+          "sku_unit": {
+           "unit_id": "2",
+           "quantity": "1.66666667",
+           "price": "0"
+          }
+         },
+         "source_sheet_type": 100,
+         "stock_sheet_serial_no": "CGRK21040100007",
+         "production_task_serial_no": "",
+         "is_remaining": true,
+         "target_customer_id": "0",
+         "target_route_id": "0"
+        }
+       ],
+       "update_batches": [],
+       "production_task_id": "0",
+       "spu_id": "348252195147218985",
+       "sku_id": "348374959573172266",
+       "base_unit_id": "500001",
+       "sku_unit_id": "2",
+       "remark": "",
+       "input_stock": {
+        "input": {
+         "unit_id": "500001",
+         "quantity": "5",
+         "price": "1.99000000"
+        },
+        "input2": {
+         "unit_id": "2",
+         "quantity": "1.66666667",
+         "price": "0"
+        }
+       },
+       "amount": "9.95",
+       "origin_stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "5.00000000",
+         "price": "1.99047619"
+        },
+        "sku_unit": {
+         "unit_id": "2",
+         "quantity": "1.66666667",
+         "price": "0"
+        }
+       },
+       "stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "5.00000000",
+         "price": "1.99047619"
+        },
+        "sku_unit": {
+         "unit_id": "2",
+         "quantity": "1.66666667",
+         "price": "0.00000000"
+        }
+       },
+       "operator_id": "0",
+       "sku_unit_rate": "1.00000000",
+       "replace_batch_id": "0",
+       "production_task_serial_no": "",
+       "creator_id": "348252191993102361",
+       "detail_type": 0,
+       "related_detail_id": "0",
+       "target_customer_id": "0",
+       "production_cost": "",
+       "is_by_product": false,
+       "input_tax": "5",
+       "tax_amount": "10.45",
+       "tax_input_price": "2.09",
+       "origin_tax_input_price": ""
+      },
+      {
+       "detail_id": "2",
+       "create_batches": [
+        {
+         "batch_id": "348513027269656589",
+         "create_time": "1617259551918",
+         "in_stock_time": "1617259551904",
+         "update_time": "1617259551918",
+         "delete_time": "0",
+         "group_id": "348252191422677016",
+         "station_id": "348252191489785882",
+         "spu_id": "348252195147218985",
+         "sku_id": "348374959573172266",
+         "base_unit_id": "500001",
+         "sku_unit_id": "1",
+         "in_stock_sheet_id": "348513022035099657",
+         "batch_serial_no": "CGRK21040100007000002",
+         "stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "7.00000000",
+           "price": "1.88679245"
+          },
+          "sku_unit": {
+           "unit_id": "1",
+           "quantity": "7",
+           "price": "0"
+          }
+         },
+         "input_stock": {
+          "input": {
+           "unit_id": "500001",
+           "quantity": "7",
+           "price": "1.8867924528301887"
+          },
+          "input2": {
+           "unit_id": "1",
+           "quantity": "7",
+           "price": "0"
+          }
+         },
+         "base_unit_quantity": "7",
+         "production_time": "0",
+         "expiry_time": "0",
+         "production_task_id": "0",
+         "supplier_id": "348401701985714206",
+         "shelf_id": "0",
+         "type": 1,
+         "remark": "",
+         "origin_stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "7.00000000",
+           "price": "1.88679245"
+          },
+          "sku_unit": {
+           "unit_id": "1",
+           "quantity": "7",
+           "price": "0"
+          }
+         },
+         "source_sheet_type": 100,
+         "stock_sheet_serial_no": "CGRK21040100007",
+         "production_task_serial_no": "",
+         "is_remaining": true,
+         "target_customer_id": "0",
+         "target_route_id": "0"
+        }
+       ],
+       "update_batches": [],
+       "production_task_id": "0",
+       "spu_id": "348252195147218985",
+       "sku_id": "348374959573172266",
+       "base_unit_id": "500001",
+       "sku_unit_id": "1",
+       "remark": "",
+       "input_stock": {
+        "input": {
+         "unit_id": "500001",
+         "quantity": "7",
+         "price": "1.88714286"
+        },
+        "input2": {
+         "unit_id": "1",
+         "quantity": "7",
+         "price": "0"
+        }
+       },
+       "amount": "13.21",
+       "origin_stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "7.00000000",
+         "price": "1.88679245"
+        },
+        "sku_unit": {
+         "unit_id": "1",
+         "quantity": "7",
+         "price": "0"
+        }
+       },
+       "stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "7.00000000",
+         "price": "1.88679245"
+        },
+        "sku_unit": {
+         "unit_id": "1",
+         "quantity": "7.00000000",
+         "price": "0.00000000"
+        }
+       },
+       "operator_id": "0",
+       "sku_unit_rate": "1.00000000",
+       "replace_batch_id": "0",
+       "production_task_serial_no": "",
+       "creator_id": "348252191993102361",
+       "detail_type": 0,
+       "related_detail_id": "0",
+       "target_customer_id": "0",
+       "production_cost": "",
+       "is_by_product": false,
+       "input_tax": "6",
+       "tax_amount": "14.00",
+       "tax_input_price": "2",
+       "origin_tax_input_price": ""
+      }
+     ]
+    },
+    "related_sheet_type": 0,
+    "target_type": 2,
+    "target_name": "蔬菜供应商",
+    "last_adjust_time": "0",
+    "batch_index": "2",
+    "driver_id": "0",
+    "settle_sheet_id": "348513055774081324",
+    "settle_sheet_serial_no": "GYSJK21040100002",
+    "pay_status": 2,
+    "after_sale_order_id": "0",
+    "after_sale_order_serial_no": "",
+    "customer_id": "0",
+    "tax_total_price": "24.45",
+    "product_total_price": "24.45",
+    "stock_sheet_serial_no": "CGRK21040100007",
+    "response_time": "0"
+   },
+   {
+    "stock_sheet_id": "348513310200561673",
+    "create_time": "1617259720556",
+    "update_time": "1617259748377",
+    "delete_time": "0",
+    "sheet_type": 320,
+    "status": "0",
+    "group_id": "348252191422677016",
+    "station_id": "348252191489785882",
+    "target_id": "348401701985714206",
+    "statement_id": "0",
+    "sku_id": "0",
+    "related_sheet_id": "0",
+    "related_sheet_serial_no": "",
+    "sheet_status": 4,
+    "submit_time": "1617259725013",
+    "commit_time": "0",
+    "creator_id": "348252191993102361",
+    "remark": "",
+    "discounts": {
+     "details": [
+      {
+       "type": 0,
+       "reason": 1,
+       "money": "5",
+       "money_type": 1,
+       "sku_units": [],
+       "remark": "",
+       "effected": false,
+       "creator_id": "348252191993102361",
+       "create_time": "1617259720617"
+      }
+     ]
+    },
+    "cost_allocation": {
+     "details": []
+    },
+    "total_price": "49.66",
+    "details": {
+     "details": [
+      {
+       "detail_id": "1",
+       "create_batches": [],
+       "update_batches": [
+        {
+         "batch_id": "348492829011476493",
+         "stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "6.40000000",
+           "price": "7.75862069"
+          },
+          "sku_unit": {
+           "unit_id": "2",
+           "quantity": "1.06666667",
+           "price": "0.00000000"
+          }
+         },
+         "update_price": true,
+         "batch_serial_no": "CGRK21040100004000002",
+         "origin_stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "6.40000000",
+           "price": "0.00000000"
+          },
+          "sku_unit": {
+           "unit_id": "2",
+           "quantity": "1.06666667",
+           "price": "0.00000000"
+          }
+         },
+         "operate_type": 503,
+         "input_stock": {
+          "input": {
+           "unit_id": "500001",
+           "quantity": "6.4",
+           "price": "0"
+          },
+          "input2": {
+           "unit_id": "2",
+           "quantity": "1.06666667",
+           "price": "0"
+          }
+         },
+         "old_stock": {
+          "base_unit": {
+           "unit_id": "500001",
+           "quantity": "22.00000000",
+           "price": "7.75862069"
+          },
+          "sku_unit": {
+           "unit_id": "2",
+           "quantity": "3.66666667",
+           "price": "0.00000000"
+          }
+         }
+        }
+       ],
+       "production_task_id": "0",
+       "spu_id": "348252195163996201",
+       "sku_id": "348379456521371690",
+       "base_unit_id": "500001",
+       "sku_unit_id": "2",
+       "remark": "",
+       "input_stock": {
+        "input": {
+         "unit_id": "500000",
+         "quantity": "3.2",
+         "price": "15.51875000"
+        },
+        "input2": {
+         "unit_id": "2",
+         "quantity": "1.06666667",
+         "price": "0"
+        }
+       },
+       "amount": "49.66",
+       "origin_stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "6.40000000",
+         "price": "7.75862069"
+        },
+        "sku_unit": {
+         "unit_id": "2",
+         "quantity": "1.06666667",
+         "price": "0"
+        }
+       },
+       "stock": {
+        "base_unit": {
+         "unit_id": "500001",
+         "quantity": "6.40000000",
+         "price": "7.75937500"
+        },
+        "sku_unit": {
+         "unit_id": "2",
+         "quantity": "1.06666667",
+         "price": "0.00000000"
+        }
+       },
+       "operator_id": "0",
+       "sku_unit_rate": "",
+       "replace_batch_id": "0",
+       "production_task_serial_no": "",
+       "creator_id": "348252191993102361",
+       "detail_type": 0,
+       "related_detail_id": "0",
+       "target_customer_id": "0",
+       "production_cost": "",
+       "is_by_product": false,
+       "input_tax": "16",
+       "tax_amount": "57.60",
+       "tax_input_price": "18.0000000008",
+       "origin_tax_input_price": ""
+      }
+     ]
+    },
+    "related_sheet_type": 0,
+    "target_type": 2,
+    "target_name": "蔬菜供应商",
+    "last_adjust_time": "0",
+    "batch_index": "0",
+    "driver_id": "0",
+    "settle_sheet_id": "348513055774081324",
+    "settle_sheet_serial_no": "GYSJK21040100002",
+    "pay_status": 2,
+    "after_sale_order_id": "0",
+    "after_sale_order_serial_no": "",
+    "customer_id": "0",
+    "tax_total_price": "62.60",
+    "product_total_price": "57.60",
+    "stock_sheet_serial_no": "CGCK21040100001",
+    "response_time": "0"
+   }
+  ],
+  "orders": [],
+  "relation_group_users": {
+   "348252191993102361": {
+    "group_user_id": "348252191993102361",
+    "status": "0",
+    "create_time": "1617104081961",
+    "update_time": "1617104081961",
+    "delete_time": "0",
+    "group_id": "348252191422677016",
+    "account_id": "348252191758221313",
+    "distribution_contractor_id": "0",
+    "name": "admin",
+    "is_valid": false,
+    "type": 8,
+    "attrs": {
+     "visable_all_stations": false,
+     "visable_station_ids": [],
+     "permission_ids": [],
+     "bounded_customer_ids": [],
+     "distribution_contractor_ids": [],
+     "car_license_plate_number": "",
+     "id_number": ""
+    },
+    "username": "admin",
+    "phone": "12312341234",
+    "email": ""
+   }
+  },
+  "relation_customer": {}
+ }
+ 

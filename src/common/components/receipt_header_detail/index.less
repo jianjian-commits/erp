@@ -1,0 +1,77 @@
+@import '~@gm-pc/react/src/var.less';
+
+.b-receipt-header-detail {
+  background: var(--gm-color-bg-back);
+  border-bottom: 1px solid var(--gm-color-border);
+  overflow-x: auto;
+  padding-bottom: 10px;
+  &-summary {
+    border-right: 1px solid var(--gm-color-border);
+    height: auto;
+    white-space: nowrap;
+
+    &-item {
+      & + .b-receipt-header-detail-summary-item {
+        margin-left: 20px;
+      }
+    }
+
+    &-text {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    &-value {
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 16px;
+      color: #56a3f2;
+    }
+  }
+
+  &-header {
+    &-item {
+      font-size: 14px;
+      font-weight: 600;
+      padding-right: 10px;
+
+      &-label {
+        margin-right: 10px;
+      }
+
+      .gm-more-select {
+        .gm-text-desc,
+        .gm-more-select-selected-item {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+
+  &-content {
+    &-item {
+      padding-top: 10px;
+      padding-right: 10px;
+      height: 40px;
+
+      &-label {
+        margin-right: 10px;
+      }
+
+      &-label,
+      &-text {
+        word-wrap: break-word;
+        word-break: break-all;
+      }
+    }
+  }
+
+  .b-receipt-header-tag {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--gm-color-desc);
+    margin-right: 3px;
+  }
+}

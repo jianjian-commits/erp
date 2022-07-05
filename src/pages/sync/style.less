@@ -1,0 +1,39 @@
+@tab-active-color: #0363ff;
+
+.sync-failed {
+  color: red;
+}
+
+.sync-failed-message {
+  padding: 8px;
+}
+
+.sync-failed-text {
+  color: red;
+  text-decoration: underline;
+}
+
+.sync-cancelled {
+  color: red;
+}
+
+.sync-cancelled-text {
+  color: red;
+}
+
+// 给同步信息添加 tab, 后续增加 item
+.gm-sync-wrap {
+  padding: 16px;
+  .ant-tabs-tab {
+    padding: 12px 24px;
+    &:hover {
+      color: @tab-active-color;
+    }
+  }
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: @tab-active-color;
+  }
+  .ant-tabs-ink-bar {
+    background: @tab-active-color;
+  }
+}

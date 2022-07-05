@@ -1,0 +1,41 @@
+.leave {
+  .filter-header {
+    box-sizing: border-box;
+    padding: 15px 20px;
+  }
+  .end {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .careRightHover {
+    &:hover {
+      transform: rotate(90deg);
+    }
+  }
+  .remarkOmit {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .leave-list-warp {
+    padding: 0 16px;
+
+    .gm-box-table-header {
+      padding: 0px;
+      background-color: #fff;
+    }
+    .gm-table-x {
+      border-bottom: none;
+    }
+
+    .category-table {
+      width: 100%;
+      height: calc(100vh - 256px);
+      background-color: #fff;
+
+      .gm-table-x .gm-table-x-table .gm-table-x-tbody {
+        height: calc(100vh - 328px);
+      }
+    }
+  }
+}

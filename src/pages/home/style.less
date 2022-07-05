@@ -1,0 +1,144 @@
+// 整体样式
+.b-home {
+  min-height: 110vh;
+
+  &-top-left {
+    padding-right: 10px;
+  }
+
+  .icon-setting:hover {
+    color: var(--gm-color-primary);
+  }
+}
+
+.b-home-bulletin-0 {
+  background-color: #007eff;
+
+  &:hover {
+    background-color: #0076ef;
+  }
+}
+
+.b-home-bulletin-1 {
+  background-color: #10ce6e;
+
+  &:hover {
+    background-color: #0dbd64;
+  }
+}
+
+.b-home-bulletin-2 {
+  background-color: #f95a59;
+
+  &:hover {
+    background-color: #ea5554;
+  }
+}
+
+.b-home-bulletin-3 {
+  background-color: #ffb822;
+
+  &:hover {
+    background-color: #efac21;
+  }
+}
+
+.b-home-bulletin-gray {
+  background-color: #d6d6d6;
+
+  &:hover {
+    background-color: #d1d1d1;
+  }
+}
+
+@media (max-width: 1200px) {
+  .b-home {
+    &-top-left {
+      padding-right: 0;
+    }
+
+    &-top-right {
+      padding-top: 10px;
+    }
+
+    &-bottom-right {
+      padding-top: 10px;
+      padding-left: 0 !important;
+    }
+  }
+}
+
+.b-home-panel {
+  padding: 10px 20px;
+  background-color: #fff;
+
+  &-header {
+    border-bottom: 1px solid #eee;
+  }
+
+  &-header-icon {
+    height: 16px;
+    margin-right: 5px;
+    border-left: 3px solid var(--gm-color-primary);
+  }
+}
+
+.b-home-ready-bills {
+  &-item {
+    color: var(--gm-color-secondary);
+    text-decoration: none;
+
+    .icon {
+      font-size: 26px;
+    }
+  }
+
+  &-item:hover {
+    color: var(--gm-color-bg-primary);
+    text-decoration: none;
+
+    .item {
+      color: var(--gm-color-bg-primary);
+    }
+  }
+}
+
+.b-home-border-bottom {
+  border-bottom: 1px solid #eee;
+}
+
+.b-home-full-screen-box {
+  min-height: 1080px;
+  overflow: hidden;
+  color: #c4fdff;
+  // background: url("../img/home_full_screen_bg.jpg") top / cover no-repeat;
+
+  .b-home-panel-header {
+    border-color: rgba(123, 188, 255, 0.8);
+  }
+}
+
+.b-popup-close {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -40px 0 0 20px;
+  line-height: 40px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.b-frame-text {
+  width: 100%;
+  height: 100%;
+
+  .b-frame-text-color {
+    color: #7b8292;
+  }
+
+  .b-frame-text-active-color {
+    margin-left: 5px;
+    color: #69a1ec;
+    cursor: pointer;
+  }
+}

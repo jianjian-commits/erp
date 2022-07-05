@@ -1,0 +1,5 @@
+export const COMBINEROUND_CLOSE = 0
+export const COMBINEROUND_UP = 1
+export const COMBINEROUND_MID = 2
+export const COMBINEROUND_WHEN_BEFORE = 3
+export const COMBINEROUND_WHEN_AFTER = 4

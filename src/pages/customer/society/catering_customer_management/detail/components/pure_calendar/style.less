@@ -1,0 +1,89 @@
+.b-calendar {
+  position: relative;
+  width: 228px;
+  overflow: hidden;
+  // cursor: pointer;
+  user-select: none;
+  background: white;
+  border: 1px solid var(--gm-color-border);
+
+  .b-calendar-head {
+    height: 42px;
+
+    .b-calendar-head-icon {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      line-height: 30px;
+      color: var(--gm-color-desc);
+      text-align: center;
+    }
+
+    .b-calendar-head-text {
+      height: 32px;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    .b-calendar-head-icon-disable {
+      cursor: not-allowed !important;
+      opacity: 0.3 !important;
+    }
+
+    .b-calendar-head-year-icon {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  .b-calendar-week {
+    height: 52px;
+    padding: 0 5px;
+  }
+
+  .b-calendar-content {
+    padding: 0 4px;
+  }
+
+  .b-calendar-day {
+    display: flex;
+    line-height: 25px;
+    color: black;
+    text-align: center;
+    border: 3px solid white;
+
+    // &:hover:not(.active):not(.b-calendar-day-old):not(.b-calendar-day-new) {
+    //   color: white !important;
+    //   background-color: var(--gm-color-primary);
+    // }
+
+    &.b-calendar-day-old,
+    &.b-calendar-day-new {
+      color: var(--gm-color-desc);
+      // pointer-events: none;
+      cursor: not-allowed !important;
+      opacity: 0.5 !important;
+    }
+    &.b-current-date {
+      border: 1px solid #56a3f2 !important;
+    }
+    // &.b-date-price:hover {
+    //   color: white !important;
+    // }
+  }
+}
+
+.b-head-card {
+  .b-head-card-month {
+    font-family: PingFangSC-Semibold, PingFangSC;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+  &.b-head-card-select {
+    background: #f7fbfe;
+    border: 1px solid #56a3f2 !important;
+    box-shadow: 4px 4px 8px 0 #eaebec;
+  }
+}

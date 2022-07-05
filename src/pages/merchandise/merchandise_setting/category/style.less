@@ -1,0 +1,140 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable selector-pseudo-class-no-unknown */
+.category-tree-table {
+  width: 100%;
+  min-height: 300px;
+  .ant-tree {
+    width: 100%;
+  }
+
+  .ant-tree-treenode-2 {
+    padding-left: 32px;
+    // background-color: #eef1f5;
+  }
+
+  .ant-tree-treenode-3 {
+    padding-left: 48px;
+  }
+
+  // 树节点样式
+  .ant-tree-treenode {
+    width: 100%;
+    min-width: 100%;
+    height: 64px;
+    line-height: 64px;
+    user-select: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    // 不建议用这个
+    .ant-tree-node-content-wrapper {
+      user-select: text;
+    }
+    .ant-tree-switcher-icon {
+      font-size: 14px;
+    }
+    &:hover {
+      background-color: #e4f0ff;
+    }
+    .ant-tree-node-selected {
+      background: none;
+    }
+
+    .ant-tree-title {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .tree-title-node {
+      display: flex;
+      // justify-content: space-between;
+      width: 100%;
+      line-height: 64px;
+      .tree-title-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        img {
+          width: 40px;
+          height: 40px;
+          background-color: #fff;
+        }
+      }
+      .tree-title {
+        width: 380px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      // .tree-title-placeholder-node {
+      //   width: 100%;
+      //   min-width: 200px;
+      // }
+
+      // 树操作栏
+      .tree-title-action {
+        display: flex;
+        // width: 250px;
+        flex: 1;
+        align-items: center;
+        justify-content: flex-end;
+      }
+    }
+  }
+  .ant-tree-switcher {
+    line-height: 64px;
+  }
+  .ant-tree-node-content-wrapper {
+    width: 100%;
+    line-height: 64px;
+    color: #000;
+    &:hover {
+      background: none;
+    }
+  }
+  //   }
+}
+
+// ======= 图标样式
+.category-icon {
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 480px;
+  height: 320px;
+  overflow: hidden;
+  overflow-y: auto;
+  user-select: none;
+  border: 1px solid #d8dee7;
+  .image-item {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 2px;
+
+    &:hover {
+      border: 2px solid #0363ff;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .image-item-selected {
+    border: 2px solid #0363ff;
+  }
+}
+
+// --- 分类总数
+.category-tree-sum {
+  padding: 0 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}

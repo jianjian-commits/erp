@@ -1,0 +1,342 @@
+{
+    "purchase_tasks": [{
+        "purchase_task_id": "406908937372172323",
+        "status": 256,
+        "create_time": "1652066226762",
+        "update_time": "1652078411539",
+        "delete_time": "0",
+        "group_id": "405348695559634968",
+        "station_id": "405348698092994586",
+        "sku_id": "405458385350164522",
+        "supplier_id": "405348703193268254",
+        "purchaser_id": "405348699972042777",
+        "service_period_id": "0",
+        "request_details": {
+            "request_details": [{
+                "request_sheet_id": "0",
+                "detail_id": "0",
+                "creator_id": "405348699334508569",
+                "sku_revision": "1651999276849",
+                "customer_id": "0",
+                "unit_id": "400000",
+                "val": {
+                    "input": {
+                        "unit_id": "400000",
+                        "quantity": "123",
+                        "price": "0",
+                        "val": ""
+                    },
+                    "calculate": {
+                        "unit_id": "400000",
+                        "quantity": "123",
+                        "price": "0",
+                        "val": ""
+                    }
+                },
+                "request_sheet_serial_no": "",
+                "remark": "",
+                "sheet_unit_id": "0",
+                "sheet_sku_revision": "0",
+                "sheet_value": {
+                    "input": {
+                        "unit_id": "400000",
+                        "quantity": "123",
+                        "price": "",
+                        "val": ""
+                    },
+                    "calculate": {
+                        "unit_id": "400000",
+                        "quantity": "123",
+                        "price": "",
+                        "val": ""
+                    }
+                },
+                "product_sku_id": "0",
+                "request_source": 2048,
+                "supplier_cooperate_model_type": 1
+            }]
+        },
+        "purchase_details": {
+            "purchase_details": []
+        },
+        "request_source": 2048,
+        "purchase_time": "1652067000000",
+        "serial_no": "CG22050900002",
+        "request_value": {
+            "input": {
+                "unit_id": "400000",
+                "quantity": "123",
+                "price": "0",
+                "val": ""
+            },
+            "calculate": {
+                "unit_id": "400000",
+                "quantity": "123",
+                "price": "0",
+                "val": ""
+            }
+        },
+        "plan_value": {
+            "input": {
+                "unit_id": "400000",
+                "quantity": "123",
+                "price": "0",
+                "val": ""
+            },
+            "calculate": {
+                "unit_id": "400000",
+                "quantity": "123",
+                "price": "0",
+                "val": ""
+            }
+        },
+        "purchase_value": {
+            "input": {
+                "unit_id": "400000",
+                "quantity": "0",
+                "price": "0",
+                "val": ""
+            },
+            "calculate": {
+                "unit_id": "400000",
+                "quantity": "0",
+                "price": "0",
+                "val": ""
+            }
+        },
+        "batch_id": "0",
+        "type": 512,
+        "release_time": "0",
+        "purchase_sheet_ids": {
+            "purchase_sheet_ids": []
+        },
+        "supplier_cooperate_model_type": 1,
+        "remark": "",
+        "sku_level_filed_id": "2"
+    }],
+    "sku_stocks": {},
+    "customers": {},
+    "suppliers": {
+        "405348703193268254": {
+            "supplier_id": "405348703193268254",
+            "status": "0",
+            "create_time": "1651136254643",
+            "update_time": "1651136254643",
+            "delete_time": "0",
+            "group_id": "405348695559634968",
+            "default_purchase_id": "0",
+            "name": "测试供应商1",
+            "description": "用于测试",
+            "is_valid": true,
+            "address": {
+                "country_id": "0",
+                "province_id": "0",
+                "city_id": "0",
+                "district_id": "0",
+                "street_id": "0",
+                "receiver": "",
+                "phone": "",
+                "address": "",
+                "poi_title": "",
+                "poi_address": "",
+                "company_name": "",
+                "is_default": false
+            },
+            "credit_type": 0,
+            "phone": "",
+            "customized_code": "W35SXH9ETR5G",
+            "attrs": {
+                "qualification_images": [],
+                "available_category_ids": []
+            },
+            "settings": {
+                "code": false,
+                "name": false,
+                "receiver": false,
+                "phone": false,
+                "order_price": false
+            },
+            "warehouse_id": "0",
+            "relation_group_id": "0",
+            "relation_customer_id": "0",
+            "wait_pay_amount": "",
+            "supplier_type": 1,
+            "warehouse_name": ""
+        }
+    },
+    "group_users": {
+        "405348699972042777": {
+            "group_user_id": "405348699972042777",
+            "status": "0",
+            "create_time": "1651136252730",
+            "update_time": "1651136252730",
+            "delete_time": "0",
+            "group_id": "405348695559634968",
+            "account_id": "405348699854602241",
+            "distribution_contractor_id": "0",
+            "name": "purchaser2",
+            "is_valid": true,
+            "type": 9,
+            "attrs": {
+                "visable_all_stations": false,
+                "visable_station_ids": [],
+                "permission_ids": [],
+                "bounded_customer_ids": [],
+                "distribution_contractor_ids": [],
+                "car_license_plate_number": "",
+                "id_number": ""
+            },
+            "remark": "",
+            "username": "purchaser2",
+            "phone": "12312341237",
+            "email": "",
+            "warehouse_ids": []
+        }
+    },
+    "sku_map": {
+        "405458385350164522": {
+            "sku_id": "405458385350164522",
+            "status": "0",
+            "revision": "1651999276849",
+            "create_time": "1651201630301",
+            "update_time": "1651999276849",
+            "delete_time": "0",
+            "group_id": "405348695559634968",
+            "category_id": "4",
+            "category1_id": "2",
+            "category2_id": "4",
+            "category3_id": "0",
+            "category4_id": "0",
+            "category5_id": "0",
+            "spu_id": "405458385299832873",
+            "base_unit_id": "400000",
+            "second_base_unit_id": "0",
+            "second_base_unit_ratio": "",
+            "max_unit_id": "100",
+            "source_sku_id": "0",
+            "source_group_id": "0",
+            "name": "商品06",
+            "name_pinyin_first_letter": "sp",
+            "name_pinyin_letter": "shangpin",
+            "customize_code": "sp064666",
+            "desc": "",
+            "sku_type": 2,
+            "not_package_sub_sku_type": 1,
+            "package_sub_sku_type": 0,
+            "expiry_date": 0,
+            "repeated_field": {
+                "alias": [
+                    ""
+                ],
+                "images": [],
+                "extras": []
+            },
+            "dispatch_type": 1,
+            "rank": 0,
+            "purchaser_id": "0",
+            "supplier_id": "0",
+            "production_unit_id": "400000",
+            "production_unit": {
+                "unit_id": "400000",
+                "status": "0",
+                "revision": "0",
+                "create_time": "0",
+                "update_time": "0",
+                "delete_time": "0",
+                "group_id": "0",
+                "name": "毫升",
+                "rate": "1",
+                "type": 0,
+                "parent_id": "400000",
+                "country_id": "0"
+            },
+            "purchase_unit_id": "400000",
+            "loss_ratio": "0",
+            "package_price": "",
+            "tax": "0",
+            "finance_category_id": "0",
+            "input_tax": "0",
+            "supplier_input_taxs": {
+                "supplier_input_tax": {}
+            },
+            "manual_purchase": false,
+            "shelf_id": "0",
+            "units": {
+                "units": []
+            },
+            "on_sale": true,
+            "is_weight": true,
+            "ingredients": {
+                "ingredients": []
+            },
+            "related_combine_sku_ids_map": {
+                "related_combine_sku_ids_map": {}
+            },
+            "package_calculate_type": 1,
+            "package_num": 1,
+            "package_sku_id": "0",
+            "cost": "0",
+            "bar_code": "",
+            "min_price": "",
+            "max_price": "",
+            "supplier_cooperate_model_type": 1,
+            "sku_level": {
+                "sku_level": [{
+                        "level_id": "1",
+                        "name": "规格",
+                        "is_delete": false
+                    },
+                    {
+                        "level_id": "2",
+                        "name": "2",
+                        "is_delete": false
+                    }
+                ]
+            },
+            "have_purchase_rule": 1,
+            "sku_hot": "0",
+            "sku_order_count": "0"
+        }
+    },
+    "paging": {
+        "has_more": false,
+        "count": "0"
+    },
+    "purchase_unit_rate_map": {
+        "405458385350164522": "1"
+    },
+    "categorys": {
+        "2": {
+            "category_id": "2",
+            "status": "0",
+            "revision": "0",
+            "create_time": "1651136255535",
+            "update_time": "1651136255535",
+            "delete_time": "0",
+            "group_id": "405348695559634968",
+            "parent_id": "0",
+            "source_category_id": "0",
+            "source_group_id": "0",
+            "name": "肉类",
+            "icon": "",
+            "rank": 1,
+            "level": 1
+        },
+        "4": {
+            "category_id": "4",
+            "status": "0",
+            "revision": "0",
+            "create_time": "1651136255555",
+            "update_time": "1651136255555",
+            "delete_time": "0",
+            "group_id": "405348695559634968",
+            "parent_id": "2",
+            "source_category_id": "0",
+            "source_group_id": "0",
+            "name": "肉类",
+            "icon": "",
+            "rank": 0,
+            "level": 2
+        }
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{filter:url(#Adobe_OpacityMaskFilter);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{mask:url(#mask-2_2_);fill-rule:evenodd;clip-rule:evenodd;fill-opacity:0.8;}
+</style>
+<g id="页面-1_1_">
+	<g id="商品列表-首页-copy-32_1_" transform="translate(-20.000000, -232.000000)">
+		<g id="分组-copy-69" transform="translate(20.000000, 232.000000)">
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0.5" y="0.5" width="15" height="15">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="0.5" y="0.5" width="15" height="15" id="mask-2_2_">
+				<g class="st2">
+					<polygon id="path-1_2_" class="st3" points="0.5,0.5 15.5,0.5 15.5,15.5 0.5,15.5 					"/>
+				</g>
+			</mask>
+			<path id="Fill-1" class="st4" d="M13.7,7.6c-1.2,1.2-3,1.6-4.4,0.9l-5.9,5.7C3,14.5,2.4,14.4,2,14c-0.4-0.4-0.5-1-0.2-1.5
+				l5.8-5.8C6.9,5.3,7.3,3.5,8.5,2.4c0.7-0.7,1.8-0.8,2.7-0.8c-1,1-1.1,2.3-0.2,3.4c1,1,2.4,0.9,3.4-0.1C14.5,5.8,14.4,6.9,13.7,7.6
+				 M15.1,3.1c-0.4,0.5-0.9,0.9-1.4,1.2c-0.8,0.5-1.4,0.3-1.8-0.2c-0.5-0.5-0.6-1-0.1-1.9c0.5-0.7,1.2-1.4,1.1-1.4
+				c-1.7-0.8-4-0.4-5.3,0.9C6.4,3,5.9,4.9,6.5,6.5l-5.1,5.1c-1.1,1.1-1.1,2.2-0.1,3.2c1,1,2.2,0.9,3.2-0.1l5.1-5.1
+				c1.7,0.4,3.4,0.1,4.6-1.1C15.6,7.2,15.8,4.8,15.1,3.1"/>
+		</g>
+	</g>
+</g>
+</svg>

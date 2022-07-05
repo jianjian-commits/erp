@@ -1,0 +1,15 @@
+export const MapTaskModule = {
+  ORDER: '订单',
+  PRODUCTION: '生产',
+  MERCHANDISE: '商品',
+  ENTERPRISE: '客户',
+  INVENTORY: '仓储',
+  SORTING: '分拣',
+  PURCHASE: '采购',
+  ESHOP: '订单',
+  AFTER: '订单',
+  INITIALIZATION: '财务',
+  FINANCE: '财务',
+  REPORT: '报表',
+  PAYSYS: '爱农支付',
+}

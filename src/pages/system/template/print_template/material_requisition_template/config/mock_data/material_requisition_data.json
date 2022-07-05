@@ -1,0 +1,794 @@
+{
+  "sheets": [
+    {
+      "material_order": {
+        "material_order_id": "410383998649369488",
+        "create_time": "1654137524616",
+        "update_time": "1654137524616",
+        "delete_time": "0",
+        "group_id": "409800171581341720",
+        "station_id": "409800172554420250",
+        "production_order_id": "410383258287604622",
+        "stock_sheet_id": "0",
+        "processor_id": "0",
+        "category_id": "0",
+        "state": 1,
+        "serial_no": "LLD22060200001",
+        "task_type": 1,
+        "type": 3,
+        "stock_sheet_serial_no": "",
+        "material_sheet_setting": {
+          "category_ids": [],
+          "not_package_sub_sku_types": []
+        },
+        "title": "领料单",
+        "delivery_time": "0"
+      },
+      "material_order_details": [
+        {
+          "material_order_detail_id": "410383998649369489",
+          "create_time": "1654137524620",
+          "update_time": "1654137524668",
+          "delete_time": "0",
+          "group_id": "409800171581341720",
+          "station_id": "409800172554420250",
+          "material_order_id": "410383998649369488",
+          "sku_id": "409800662717562922",
+          "production_order_id": "410383258287604622",
+          "unit_id": "500001",
+          "plan_amount": "25.43859650",
+          "actual_amount": "0.00000000",
+          "receive_amount": "0.00000000",
+          "return_amount": "0.00000000",
+          "receive_cost": "0.00000000",
+          "return_cost": "0.00000000",
+          "material_details": [],
+          "sku_details": [
+            {
+              "sku_id": "409800662918889514",
+              "unit_id": "500001",
+              "quantity": "2.33918129"
+            },
+            {
+              "sku_id": "409800663271211050",
+              "unit_id": "600041",
+              "quantity": "7.48538012"
+            },
+            {
+              "sku_id": "409800662835003434",
+              "unit_id": "500001",
+              "quantity": "1.11111111"
+            },
+            {
+              "sku_id": "409800663002775594",
+              "unit_id": "500001",
+              "quantity": "7.01754386"
+            },
+            {
+              "sku_id": "409807209875111978",
+              "unit_id": "500001",
+              "quantity": "4.21052632"
+            },
+            {
+              "sku_id": "409800663472537642",
+              "unit_id": "600039",
+              "quantity": "3.2748538"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "units": {
+    "600039": {
+      "unit_id": "600039",
+      "status": "0",
+      "revision": "0",
+      "create_time": "0",
+      "update_time": "0",
+      "delete_time": "0",
+      "group_id": "0",
+      "name": "盒",
+      "rate": "1",
+      "type": 5,
+      "parent_id": "0",
+      "country_id": "0"
+    }
+  },
+  "skus": {
+    "sku_map": {
+      "409800662717562922": {
+        "sku_id": "409800662717562922",
+        "status": "0",
+        "revision": "1653789829301",
+        "create_time": "1653789829302",
+        "update_time": "1653789829302",
+        "delete_time": "0",
+        "group_id": "409800171581341720",
+        "category_id": "15",
+        "category1_id": "8",
+        "category2_id": "15",
+        "category3_id": "0",
+        "category4_id": "0",
+        "category5_id": "0",
+        "spu_id": "409800662700785705",
+        "base_unit_id": "500001",
+        "second_base_unit_id": "0",
+        "second_base_unit_ratio": "",
+        "max_unit_id": "0",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "大白菜",
+        "name_pinyin_first_letter": "dbc",
+        "name_pinyin_letter": "dabaicai",
+        "customize_code": "dbc0204",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "dispatch_type": 1,
+        "rank": 0,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit_id": "0",
+        "production_unit": {
+          "unit_id": "500001",
+          "status": "0",
+          "revision": "0",
+          "create_time": "0",
+          "update_time": "0",
+          "delete_time": "0",
+          "group_id": "0",
+          "name": "斤",
+          "rate": "1",
+          "type": 0,
+          "parent_id": "500001",
+          "country_id": "0"
+        },
+        "purchase_unit_id": "500001",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "supplier_input_taxs": {
+          "supplier_input_tax": {}
+        },
+        "manual_purchase": false,
+        "shelf_id": "0",
+        "units": {
+          "units": []
+        },
+        "on_sale": true,
+        "is_weight": true,
+        "ingredients": {
+          "ingredients": []
+        },
+        "related_combine_sku_ids_map": {
+          "related_combine_sku_ids_map": {}
+        },
+        "package_calculate_type": 1,
+        "package_num": 1,
+        "package_sku_id": "0",
+        "cost": "",
+        "bar_code": "",
+        "min_price": "",
+        "max_price": "",
+        "supplier_cooperate_model_type": 1,
+        "sku_level": {
+          "sku_level": []
+        },
+        "have_purchase_rule": 2,
+        "sku_hot": "0",
+        "sku_order_count": "0"
+      },
+      "409800662835003434": {
+        "sku_id": "409800662835003434",
+        "status": "0",
+        "revision": "1653804316353",
+        "create_time": "1653789829369",
+        "update_time": "1653804316353",
+        "delete_time": "0",
+        "group_id": "409800171581341720",
+        "category_id": "17",
+        "category1_id": "16",
+        "category2_id": "17",
+        "category3_id": "0",
+        "category4_id": "0",
+        "category5_id": "0",
+        "spu_id": "409800662801449001",
+        "base_unit_id": "500001",
+        "second_base_unit_id": "600050",
+        "second_base_unit_ratio": "2",
+        "max_unit_id": "101",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "大白菜已处理",
+        "name_pinyin_first_letter": "dbcycl",
+        "name_pinyin_letter": "dabaicaiyichuli",
+        "customize_code": "dbcycl8805",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "dispatch_type": 1,
+        "rank": 0,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit_id": "500001",
+        "production_unit": {
+          "unit_id": "500001",
+          "status": "0",
+          "revision": "0",
+          "create_time": "0",
+          "update_time": "0",
+          "delete_time": "0",
+          "group_id": "0",
+          "name": "斤",
+          "rate": "1",
+          "type": 0,
+          "parent_id": "500001",
+          "country_id": "0"
+        },
+        "purchase_unit_id": "500001",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "supplier_input_taxs": {
+          "supplier_input_tax": {}
+        },
+        "manual_purchase": false,
+        "shelf_id": "0",
+        "units": {
+          "units": [
+            {
+              "unit_id": "101",
+              "status": "0",
+              "revision": "0",
+              "create_time": "0",
+              "update_time": "0",
+              "delete_time": "0",
+              "group_id": "0",
+              "name": "大包",
+              "rate": "3",
+              "type": 0,
+              "parent_id": "500001",
+              "country_id": "0"
+            }
+          ]
+        },
+        "on_sale": true,
+        "is_weight": true,
+        "ingredients": {
+          "ingredients": []
+        },
+        "related_combine_sku_ids_map": {
+          "related_combine_sku_ids_map": {}
+        },
+        "package_calculate_type": 1,
+        "package_num": 1,
+        "package_sku_id": "0",
+        "cost": "0",
+        "bar_code": "",
+        "min_price": "",
+        "max_price": "",
+        "supplier_cooperate_model_type": 1,
+        "sku_level": {
+          "sku_level": []
+        },
+        "have_purchase_rule": 2,
+        "sku_hot": "0",
+        "sku_order_count": "0"
+      },
+      "409800662918889514": {
+        "sku_id": "409800662918889514",
+        "status": "0",
+        "revision": "1653789829424",
+        "create_time": "1653789829425",
+        "update_time": "1653789829425",
+        "delete_time": "0",
+        "group_id": "409800171581341720",
+        "category_id": "18",
+        "category1_id": "16",
+        "category2_id": "17",
+        "category3_id": "18",
+        "category4_id": "0",
+        "category5_id": "0",
+        "spu_id": "409800662902112297",
+        "base_unit_id": "500001",
+        "second_base_unit_id": "0",
+        "second_base_unit_ratio": "",
+        "max_unit_id": "0",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "大白菜二次处理",
+        "name_pinyin_first_letter": "dbceccl",
+        "name_pinyin_letter": "dabaicaiercichuli",
+        "customize_code": "dbceccl2024",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "dispatch_type": 1,
+        "rank": 0,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit_id": "0",
+        "production_unit": {
+          "unit_id": "500001",
+          "status": "0",
+          "revision": "0",
+          "create_time": "0",
+          "update_time": "0",
+          "delete_time": "0",
+          "group_id": "0",
+          "name": "斤",
+          "rate": "1",
+          "type": 0,
+          "parent_id": "500001",
+          "country_id": "0"
+        },
+        "purchase_unit_id": "500001",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "supplier_input_taxs": {
+          "supplier_input_tax": {}
+        },
+        "manual_purchase": false,
+        "shelf_id": "0",
+        "units": {
+          "units": []
+        },
+        "on_sale": true,
+        "is_weight": true,
+        "ingredients": {
+          "ingredients": []
+        },
+        "related_combine_sku_ids_map": {
+          "related_combine_sku_ids_map": {}
+        },
+        "package_calculate_type": 1,
+        "package_num": 1,
+        "package_sku_id": "0",
+        "cost": "",
+        "bar_code": "",
+        "min_price": "",
+        "max_price": "",
+        "supplier_cooperate_model_type": 1,
+        "sku_level": {
+          "sku_level": []
+        },
+        "have_purchase_rule": 2,
+        "sku_hot": "0",
+        "sku_order_count": "0"
+      },
+      "409800663002775594": {
+        "sku_id": "409800663002775594",
+        "status": "0",
+        "revision": "1653789829475",
+        "create_time": "1653789829476",
+        "update_time": "1653789829476",
+        "delete_time": "0",
+        "group_id": "409800171581341720",
+        "category_id": "18",
+        "category1_id": "16",
+        "category2_id": "17",
+        "category3_id": "18",
+        "category4_id": "0",
+        "category5_id": "0",
+        "spu_id": "409800662985998377",
+        "base_unit_id": "500001",
+        "second_base_unit_id": "0",
+        "second_base_unit_ratio": "",
+        "max_unit_id": "0",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "大白菜三次处理",
+        "name_pinyin_first_letter": "dbcsccl",
+        "name_pinyin_letter": "dabaicaisancichuli",
+        "customize_code": "dbcsccl2176",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "dispatch_type": 1,
+        "rank": 0,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit_id": "0",
+        "production_unit": {
+          "unit_id": "500001",
+          "status": "0",
+          "revision": "0",
+          "create_time": "0",
+          "update_time": "0",
+          "delete_time": "0",
+          "group_id": "0",
+          "name": "斤",
+          "rate": "1",
+          "type": 0,
+          "parent_id": "500001",
+          "country_id": "0"
+        },
+        "purchase_unit_id": "500001",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "supplier_input_taxs": {
+          "supplier_input_tax": {}
+        },
+        "manual_purchase": false,
+        "shelf_id": "0",
+        "units": {
+          "units": []
+        },
+        "on_sale": true,
+        "is_weight": true,
+        "ingredients": {
+          "ingredients": []
+        },
+        "related_combine_sku_ids_map": {
+          "related_combine_sku_ids_map": {}
+        },
+        "package_calculate_type": 1,
+        "package_num": 1,
+        "package_sku_id": "0",
+        "cost": "",
+        "bar_code": "",
+        "min_price": "",
+        "max_price": "",
+        "supplier_cooperate_model_type": 1,
+        "sku_level": {
+          "sku_level": []
+        },
+        "have_purchase_rule": 2,
+        "sku_hot": "0",
+        "sku_order_count": "0"
+      },
+      "409800663271211050": {
+        "sku_id": "409800663271211050",
+        "status": "0",
+        "revision": "1653789898393",
+        "create_time": "1653789829639",
+        "update_time": "1653789898393",
+        "delete_time": "0",
+        "group_id": "409800171581341720",
+        "category_id": "12",
+        "category1_id": "12",
+        "category2_id": "0",
+        "category3_id": "0",
+        "category4_id": "0",
+        "category5_id": "0",
+        "spu_id": "409800663271211049",
+        "base_unit_id": "500001",
+        "second_base_unit_id": "0",
+        "second_base_unit_ratio": "",
+        "max_unit_id": "100",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "白菜炒肉",
+        "name_pinyin_first_letter": "bccr",
+        "name_pinyin_letter": "baicaichaorou",
+        "customize_code": "bccr3141",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "dispatch_type": 1,
+        "rank": 0,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit_id": "600041",
+        "production_unit": {
+          "unit_id": "600041",
+          "status": "0",
+          "revision": "0",
+          "create_time": "0",
+          "update_time": "0",
+          "delete_time": "0",
+          "group_id": "0",
+          "name": "份",
+          "rate": "2",
+          "type": 0,
+          "parent_id": "500001",
+          "country_id": "0"
+        },
+        "purchase_unit_id": "500001",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "supplier_input_taxs": {
+          "supplier_input_tax": {}
+        },
+        "manual_purchase": false,
+        "shelf_id": "0",
+        "units": {
+          "units": []
+        },
+        "on_sale": true,
+        "is_weight": true,
+        "ingredients": {
+          "ingredients": []
+        },
+        "related_combine_sku_ids_map": {
+          "related_combine_sku_ids_map": {}
+        },
+        "package_calculate_type": 1,
+        "package_num": 1,
+        "package_sku_id": "0",
+        "cost": "0",
+        "bar_code": "",
+        "min_price": "",
+        "max_price": "",
+        "supplier_cooperate_model_type": 1,
+        "sku_level": {
+          "sku_level": []
+        },
+        "have_purchase_rule": 2,
+        "sku_hot": "0",
+        "sku_order_count": "0"
+      },
+      "409800663472537642": {
+        "sku_id": "409800663472537642",
+        "status": "0",
+        "revision": "1653789892703",
+        "create_time": "1653789829750",
+        "update_time": "1653789892703",
+        "delete_time": "0",
+        "group_id": "409800171581341720",
+        "category_id": "22",
+        "category1_id": "12",
+        "category2_id": "22",
+        "category3_id": "0",
+        "category4_id": "0",
+        "category5_id": "0",
+        "spu_id": "409800663455760425",
+        "base_unit_id": "500001",
+        "second_base_unit_id": "0",
+        "second_base_unit_ratio": "",
+        "max_unit_id": "100",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "白菜炒肉套餐",
+        "name_pinyin_first_letter": "bccrtc",
+        "name_pinyin_letter": "baicaichaoroutaocan",
+        "customize_code": "bccrtc9444",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "dispatch_type": 1,
+        "rank": 0,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit_id": "600039",
+        "production_unit": {
+          "unit_id": "600039",
+          "status": "0",
+          "revision": "0",
+          "create_time": "0",
+          "update_time": "0",
+          "delete_time": "0",
+          "group_id": "0",
+          "name": "盒",
+          "rate": "2",
+          "type": 0,
+          "parent_id": "500001",
+          "country_id": "0"
+        },
+        "purchase_unit_id": "500001",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "supplier_input_taxs": {
+          "supplier_input_tax": {}
+        },
+        "manual_purchase": false,
+        "shelf_id": "0",
+        "units": {
+          "units": []
+        },
+        "on_sale": true,
+        "is_weight": true,
+        "ingredients": {
+          "ingredients": []
+        },
+        "related_combine_sku_ids_map": {
+          "related_combine_sku_ids_map": {}
+        },
+        "package_calculate_type": 1,
+        "package_num": 1,
+        "package_sku_id": "0",
+        "cost": "0",
+        "bar_code": "",
+        "min_price": "",
+        "max_price": "",
+        "supplier_cooperate_model_type": 1,
+        "sku_level": {
+          "sku_level": []
+        },
+        "have_purchase_rule": 2,
+        "sku_hot": "0",
+        "sku_order_count": "0"
+      },
+      "409807209875111978": {
+        "sku_id": "409807209875111978",
+        "status": "0",
+        "revision": "1653793731716",
+        "create_time": "1653793731717",
+        "update_time": "1653793731717",
+        "delete_time": "0",
+        "group_id": "409800171581341720",
+        "category_id": "22",
+        "category1_id": "12",
+        "category2_id": "22",
+        "category3_id": "0",
+        "category4_id": "0",
+        "category5_id": "0",
+        "spu_id": "409807209824780329",
+        "base_unit_id": "500001",
+        "second_base_unit_id": "0",
+        "second_base_unit_ratio": "",
+        "max_unit_id": "0",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "白菜炒肉套餐2",
+        "name_pinyin_first_letter": "bccrtc",
+        "name_pinyin_letter": "baicaichaoroutaocan",
+        "customize_code": "bccrtc22717",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "dispatch_type": 1,
+        "rank": 0,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit_id": "600039",
+        "production_unit": {
+          "unit_id": "600039",
+          "status": "0",
+          "revision": "0",
+          "create_time": "0",
+          "update_time": "0",
+          "delete_time": "0",
+          "group_id": "0",
+          "name": "盒",
+          "rate": "2",
+          "type": 0,
+          "parent_id": "500001",
+          "country_id": "0"
+        },
+        "purchase_unit_id": "500001",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "supplier_input_taxs": {
+          "supplier_input_tax": {}
+        },
+        "manual_purchase": false,
+        "shelf_id": "0",
+        "units": {
+          "units": []
+        },
+        "on_sale": true,
+        "is_weight": true,
+        "ingredients": {
+          "ingredients": []
+        },
+        "related_combine_sku_ids_map": {
+          "related_combine_sku_ids_map": {}
+        },
+        "package_calculate_type": 1,
+        "package_num": 1,
+        "package_sku_id": "0",
+        "cost": "0",
+        "bar_code": "",
+        "min_price": "",
+        "max_price": "",
+        "supplier_cooperate_model_type": 1,
+        "sku_level": {
+          "sku_level": []
+        },
+        "have_purchase_rule": 2,
+        "sku_hot": "0",
+        "sku_order_count": "0"
+      }
+    },
+    "finance_category_map": {},
+    "category_map": {
+      "18": {
+        "parent_id": "17",
+        "name": "多次处理",
+        "level": 3
+      },
+      "22": {
+        "parent_id": "12",
+        "name": "包装",
+        "level": 2
+      },
+      "8": {
+        "parent_id": "0",
+        "name": "蔬菜",
+        "level": 1
+      },
+      "12": {
+        "parent_id": "0",
+        "name": "熟食",
+        "level": 1
+      },
+      "15": {
+        "parent_id": "8",
+        "name": "叶菜",
+        "level": 2
+      },
+      "16": {
+        "parent_id": "0",
+        "name": "净菜",
+        "level": 1
+      },
+      "17": {
+        "parent_id": "16",
+        "name": "叶菜",
+        "level": 2
+      }
+    },
+    "ingredient_map": {}
+  },
+  "processors": {}
+}

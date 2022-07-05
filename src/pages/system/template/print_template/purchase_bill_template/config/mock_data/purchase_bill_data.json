@@ -1,0 +1,472 @@
+{
+  "purchase_sheet": {
+      "purchase_sheet_id": "394916447798689813",
+      "status": 256,
+      "create_time": "1644918145890",
+      "update_time": "1644918145890",
+      "delete_time": "0",
+      "group_id": "394328162185510936",
+      "station_id": "394328162823045146",
+      "creator_id": "394328163141812249",
+      "supplier_id": "394328162185510936",
+      "purchaser_id": "0",
+      "serial_no": "DD22021500025",
+      "details": {
+          "details": [
+              {
+                  "sku_id": "394335953289740330",
+                  "sku_revision": "1644911405459",
+                  "purchase_value": {
+                      "input": {
+                          "unit_id": "101",
+                          "quantity": "0.0740740740740741",
+                          "price": "0",
+                          "val": ""
+                      },
+                      "calculate": {
+                          "unit_id": "101",
+                          "quantity": "0.0740740740740741",
+                          "price": "0",
+                          "val": ""
+                      }
+                  },
+                  "purchase_task_id": "394911932445884451",
+                  "purchase_task_serial_no": "CG22021500025",
+                  "remark": "",
+                  "tax_price": "0",
+                  "input_tax": "0",
+                  "detail_id": "394916447832309782",
+                  "manufacture_date": "0",
+                  "plan_value": {
+                      "input": {
+                          "unit_id": "600009",
+                          "quantity": "1",
+                          "price": "0",
+                          "val": ""
+                      },
+                      "calculate": {
+                          "unit_id": "600009",
+                          "quantity": "1",
+                          "price": "0",
+                          "val": ""
+                      }
+                  },
+                  "supplier_cooperate_model_type": 1,
+                  "raw_detail_id": "394916447832244246",
+                  "receive_customer_id": "394328164332994587",
+                  "out_stock_unit_value": {
+                      "input": {
+                          "unit_id": "400002",
+                          "quantity": "0",
+                          "price": "0",
+                          "val": ""
+                      },
+                      "calculate": {
+                          "unit_id": "400002",
+                          "quantity": "0",
+                          "price": "0",
+                          "val": ""
+                      }
+                  },
+                  "up_relation": {
+                      "relations": [
+                          {
+                              "order_id": "394911877802491925",
+                              "order_detail_id": "394911877802557462"
+                          }
+                      ]
+                  },
+                  "purchase_requisition_id": "0",
+                  "purchase_requisition_detail_id": "0"
+              }
+          ]
+      },
+      "remark": "",
+      "amount": "0",
+      "tax_amount": "0",
+      "source": 2,
+      "outstock_time": "1644937200000",
+      "receive_time": "1644937200000",
+      "order_time": "1644918145856",
+      "app_type": 1,
+      "raw_details": {
+          "details": [
+              {
+                  "sku_id": "394335953289740330",
+                  "sku_revision": "1644911405459",
+                  "purchase_value": {
+                      "input": {
+                          "unit_id": "101",
+                          "quantity": "0.0740740740740741",
+                          "price": "0",
+                          "val": ""
+                      },
+                      "calculate": {
+                          "unit_id": "101",
+                          "quantity": "0.0740740740740741",
+                          "price": "0",
+                          "val": ""
+                      }
+                  },
+                  "purchase_task_id": "394911932445884451",
+                  "purchase_task_serial_no": "CG22021500025",
+                  "remark": "",
+                  "tax_price": "0",
+                  "input_tax": "0",
+                  "detail_id": "394916447832244246",
+                  "manufacture_date": "0",
+                  "plan_value": {
+                      "input": {
+                          "unit_id": "101",
+                          "quantity": "0.6666666666666667",
+                          "price": "0",
+                          "val": ""
+                      },
+                      "calculate": {
+                          "unit_id": "101",
+                          "quantity": "0.6666666666666667",
+                          "price": "0",
+                          "val": ""
+                      }
+                  },
+                  "supplier_cooperate_model_type": 1,
+                  "raw_detail_id": "0",
+                  "receive_customer_id": "0",
+                  "out_stock_unit_value": {
+                      "input": {
+                          "unit_id": "400002",
+                          "quantity": "0",
+                          "price": "0",
+                          "val": ""
+                      },
+                      "calculate": {
+                          "unit_id": "400002",
+                          "quantity": "0",
+                          "price": "0",
+                          "val": ""
+                      }
+                  },
+                  "up_relation": {
+                      "relations": [
+                          {
+                              "order_id": "394911877802491925",
+                              "order_detail_id": "394911877802557462"
+                          }
+                      ]
+                  },
+                  "purchase_requisition_id": "0",
+                  "purchase_requisition_detail_id": "0"
+              }
+          ]
+      }
+  },
+  "customers": {
+      "394328164332994587": {
+          "customer_id": "394328164332994587",
+          "status": "512",
+          "create_time": "1644567501606",
+          "update_time": "1644567501606",
+          "delete_time": "0",
+          "group_id": "394328162185510936",
+          "parent_id": "394328164064559131",
+          "create_group_user_id": "394328163141812249",
+          "sales_group_user_id": "394328163141812249",
+          "bound_station_id": "0",
+          "name": "【测试】大猪蹄子一号餐厅",
+          "remark": "",
+          "customized_code": "DZTZ01",
+          "type": 2,
+          "is_reviewed": true,
+          "is_in_whitelist": false,
+          "is_frozen": false,
+          "level": 2,
+          "child_number": "0",
+          "is_favorite": false,
+          "settlement": {
+              "weekly_or_monthly_credit_start_day": 0,
+              "weekly_or_monthly_credit_settle_day": 0,
+              "customized_credit_start_time": 0,
+              "customized_credit_proied_days": 0,
+              "customized_credit_deley_days": 0,
+              "china_vat_invoice": {
+                  "company_name": "",
+                  "company_address": "",
+                  "company_phone": "",
+                  "invoice_type": 2,
+                  "taxpayer_identity_number": "",
+                  "bank_name": "",
+                  "bank_account": "",
+                  "bank_card_owner_name": "",
+                  "max_invoice_amount": "",
+                  "business_license_number": "",
+                  "financial_contact_name": "",
+                  "financial_contact_phone": "",
+                  "taxpayer_type": 0
+              }
+          },
+          "settlement_method": 0,
+          "credit_type": 5,
+          "phone": "1234567",
+          "gender": 0,
+          "parent_phone": "",
+          "parent_name": "【测试】唐老鸭",
+          "city_id": "4403",
+          "district_id": "440305",
+          "street_id": "440305007",
+          "relation_group_id": "0",
+          "relation_supplier_id": "0",
+          "inquiry_time": "0",
+          "attrs": {
+              "addresses": [
+                  {
+                      "country_id": "0",
+                      "province_id": "0",
+                      "city_id": "4403",
+                      "district_id": "440305",
+                      "street_id": "440305007",
+                      "receiver": "李大姐",
+                      "phone": "87654321",
+                      "address": "羊肠小道",
+                      "poi_title": "",
+                      "poi_address": "",
+                      "company_name": "",
+                      "geotag": {
+                          "latitude": "113.943511",
+                          "longitude": "22.548308"
+                      },
+                      "is_default": false
+                  }
+              ],
+              "parent_ids": [
+                  "394328164064559131"
+              ],
+              "children_number": 0,
+              "menu_period_relation": {},
+              "last_menu_period_order_recv_time": {},
+              "dining_calendar": false
+          },
+          "school_type": 0,
+          "wait_pay_amount": "",
+          "wechat_avatar": "",
+          "warehouse_id": "394328162185510936"
+      }
+  },
+  "suppliers": {
+      "394328162185510936": {
+          "supplier_id": "394328162185510936",
+          "status": "0",
+          "create_time": "1644567502201",
+          "update_time": "1644915909553",
+          "delete_time": "0",
+          "group_id": "394328162185510936",
+          "default_purchase_id": "0",
+          "name": "默认供应商",
+          "description": "用于测试",
+          "is_valid": true,
+          "address": {
+              "country_id": "0",
+              "province_id": "0",
+              "city_id": "0",
+              "district_id": "0",
+              "street_id": "0",
+              "receiver": "",
+              "phone": "",
+              "address": "",
+              "poi_title": "",
+              "poi_address": "",
+              "company_name": "",
+              "is_default": false
+          },
+          "credit_type": 0,
+          "phone": "",
+          "customized_code": "899APW69ADX5",
+          "attrs": {
+              "qualification_images": [],
+              "available_category_ids": []
+          },
+          "settings": {
+              "code": false,
+              "name": false,
+              "receiver": false,
+              "phone": false,
+              "order_price": false
+          },
+          "warehouse_id": "394328162185510936",
+          "relation_group_id": "0",
+          "relation_customer_id": "0",
+          "supplier_type": 1
+      }
+  },
+  "group_users": {
+      "394328163141812249": {
+          "group_user_id": "394328163141812249",
+          "status": "0",
+          "create_time": "1644567500891",
+          "update_time": "1644567500891",
+          "delete_time": "0",
+          "group_id": "394328162185510936",
+          "account_id": "394328162990817281",
+          "distribution_contractor_id": "0",
+          "name": "admin",
+          "is_valid": true,
+          "type": 8,
+          "attrs": {
+              "visable_all_stations": false,
+              "visable_station_ids": [],
+              "permission_ids": [],
+              "bounded_customer_ids": [],
+              "distribution_contractor_ids": [],
+              "car_license_plate_number": "",
+              "id_number": ""
+          },
+          "remark": "",
+          "username": "admin",
+          "phone": "12312341234",
+          "email": "",
+          "warehouse_ids": []
+      }
+  },
+  "sku_snap_map": {
+      "394335953289740330_1644911405459": {
+          "sku_id": "394335953289740330",
+          "status": "0",
+          "revision": "1644911405459",
+          "create_time": "1644572144182",
+          "update_time": "1644911405459",
+          "delete_time": "0",
+          "group_id": "394328162185510936",
+          "category_id": "3",
+          "category1_id": "1",
+          "category2_id": "3",
+          "category3_id": "0",
+          "category4_id": "0",
+          "category5_id": "0",
+          "spu_id": "394335953256185897",
+          "base_unit_id": "400002",
+          "second_base_unit_id": "600009",
+          "second_base_unit_ratio": "6",
+          "max_unit_id": "101",
+          "source_sku_id": "0",
+          "source_group_id": "0",
+          "name": "009商品",
+          "name_pinyin_first_letter": "sp",
+          "name_pinyin_letter": "shangpin",
+          "customize_code": "009sp3687",
+          "desc": "",
+          "sku_type": 2,
+          "not_package_sub_sku_type": 1,
+          "package_sub_sku_type": 0,
+          "expiry_date": 0,
+          "repeated_field": {
+              "alias": [
+                  ""
+              ],
+              "images": [],
+              "extras": []
+          },
+          "dispatch_type": 1,
+          "rank": 0,
+          "purchaser_id": "0",
+          "supplier_id": "0",
+          "production_unit_id": "400002",
+          "production_unit": {
+              "unit_id": "400002",
+              "status": "0",
+              "revision": "0",
+              "create_time": "0",
+              "update_time": "0",
+              "delete_time": "0",
+              "group_id": "0",
+              "name": "L",
+              "rate": "1",
+              "type": 0,
+              "parent_id": "400002",
+              "country_id": "0"
+          },
+          "purchase_unit_id": "101",
+          "purchase_spec_id": "0",
+          "loss_ratio": "0",
+          "package_price": "",
+          "tax": "0",
+          "finance_category_id": "0",
+          "input_tax": "0",
+          "supplier_input_taxs": {
+              "supplier_input_tax": {
+                  "394328162185510936": "55"
+              }
+          },
+          "manual_purchase": false,
+          "shelf_id": "0",
+          "units": {
+              "units": [
+                  {
+                      "unit_id": "101",
+                      "status": "0",
+                      "revision": "0",
+                      "create_time": "0",
+                      "update_time": "0",
+                      "delete_time": "0",
+                      "group_id": "0",
+                      "name": "大包",
+                      "rate": "9",
+                      "type": 0,
+                      "parent_id": "400002",
+                      "country_id": "0"
+                  }
+              ]
+          },
+          "on_sale": true,
+          "is_weight": true,
+          "has_image": false,
+          "ingredients": {
+              "ingredients": []
+          },
+          "related_combine_sku_ids_map": {
+              "related_combine_sku_ids_map": {}
+          },
+          "package_calculate_type": 1,
+          "package_num": 1,
+          "package_sku_id": "0",
+          "cost": "0",
+          "min_price": "",
+          "max_price": "",
+          "supplier_cooperate_model_type": 1,
+          "sku_hot": "0",
+          "sku_order_count": "0"
+      }
+  },
+  "category_map": {
+      "1": {
+          "category_id": "1",
+          "status": "0",
+          "revision": "0",
+          "create_time": "1644567502574",
+          "update_time": "1644567502574",
+          "delete_time": "0",
+          "group_id": "394328162185510936",
+          "parent_id": "0",
+          "source_category_id": "0",
+          "source_group_id": "0",
+          "name": "蔬菜",
+          "icon": "",
+          "rank": 0,
+          "level": 1
+      },
+      "3": {
+          "category_id": "3",
+          "status": "0",
+          "revision": "0",
+          "create_time": "1644567502597",
+          "update_time": "1644567502597",
+          "delete_time": "0",
+          "group_id": "394328162185510936",
+          "parent_id": "1",
+          "source_category_id": "0",
+          "source_group_id": "0",
+          "name": "蔬菜",
+          "icon": "",
+          "rank": 0,
+          "level": 2
+      }
+  }
+}

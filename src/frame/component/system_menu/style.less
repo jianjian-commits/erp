@@ -1,0 +1,108 @@
+@left-bg-color: #282c36;
+@left-hover-color: #1c2129;
+@active-bg-color: #0363ff;
+
+.gm-system-setting-wrap {
+  width: 190px;
+  height: 100vh;
+  overflow: auto;
+  background-color: @left-bg-color;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .gm-system-setting-menu {
+    width: 100%;
+
+    .gm-system-setting-title {
+      display: flex;
+      align-items: center;
+      padding: 19px 0 19px 16px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      img {
+        width: 24px;
+        height: 24px;
+      }
+      .gm-system-setting-title-font {
+        margin-left: 4px;
+      }
+    }
+
+    // 一级 title hover 颜色
+    .ant-menu-submenu-title {
+      &:hover {
+        background: rgba(24, 27, 35, 0.68);
+      }
+    }
+
+    // menu 背景颜色
+    .ant-menu.ant-menu-dark,
+    .ant-menu-dark .ant-menu-sub,
+    .ant-menu.ant-menu-dark .ant-menu-sub {
+      background-color: @left-bg-color;
+    }
+
+    // item hover 背景颜色
+    .ant-menu-item.ant-menu-item-only-child {
+      height: 46px;
+      padding-left: 8px !important;
+      margin: 0;
+      line-height: 46px;
+      &:hover {
+        background-color: @left-hover-color;
+      }
+    }
+
+    // menu.item 选中状态
+    .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal)
+      .ant-menu-item-selected {
+      font-weight: 600;
+      background-color: transparent;
+    }
+
+    // 标题大小 & active 缩小尺寸
+    .ant-menu-title-content {
+      overflow: visible !important;
+      .gm-system-setting-item-title {
+        display: block;
+        width: 174px;
+        padding-left: 36px;
+        a {
+          color: #fff;
+        }
+
+        &.active {
+          height: 34px;
+          line-height: 34px;
+          background-color: @active-bg-color;
+          border-radius: 4px;
+        }
+      }
+    }
+
+    // title 高度
+    .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+      height: 46px;
+      padding-left: 16px !important;
+      margin: 0;
+      line-height: 46px;
+      .ant-menu-item-icon {
+        width: 20px;
+        height: 20px;
+      }
+
+      .ant-menu-title-content {
+        font-size: 16px;
+        color: #fff !important;
+      }
+    }
+
+    .ant-menu-submenu.ant-menu-submenu-inline {
+      margin-bottom: 12px;
+    }
+  }
+}

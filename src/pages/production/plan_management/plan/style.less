@@ -1,0 +1,213 @@
+.b-produce-plan {
+  height: calc(100vh - 64px);
+  border: 16px solid rgb(241, 241, 241);
+  .plan-side {
+    position: relative;
+    border-right: 1px solid #e7ebf0;
+    transition: width 0.3s;
+    .plan-side-box {
+      width: 100%;
+      overflow: hidden;
+    }
+    .plan-side-button {
+      position: absolute;
+      right: -42px;
+      bottom: 0;
+      z-index: 99;
+      width: 42px;
+      height: 72px;
+      padding: 13px 8px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #176cfe;
+      cursor: pointer;
+      background: #dae7ff;
+      border-radius: 0 8px 8px 0;
+    }
+  }
+
+  .plan-default {
+    position: relative;
+    width: 0;
+
+    .plan-default-header {
+      height: 80px;
+      padding: 0 25px;
+      box-shadow: inset 0 -1px 0 0 #e8ecf3;
+      .default-header-options {
+        & > :not(& > :last-child) {
+          margin-right: 16px;
+        }
+      }
+    }
+    .plan-default-box {
+      padding: 0 25px;
+      .plan-default-module {
+        height: calc(100vh - 300px);
+        // overflow-y: auto;
+      }
+      .ant-tabs-content-holder {
+        .ant-tabs-nav {
+          margin-bottom: 12px;
+          .ant-tabs-tab {
+            padding: 4px 16px;
+            .ant-tabs-tab-btn {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.b-plan-side-header {
+  width: 100%;
+  .plan-side-filter {
+    height: 168px;
+    padding: 24px;
+
+    & > div {
+      margin-bottom: 16px;
+    }
+    .gm-form-control {
+      font-size: 14px;
+    }
+  }
+  .plan-side-create {
+    padding: 12px 24px;
+    font-size: 14px;
+    border: 1px solid #e7ebf0;
+  }
+}
+
+.b-plan-list {
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  .plan-list-item {
+    padding: 16px 24px;
+    cursor: pointer;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .plan-list-item-select {
+    background: #c2d9ff;
+  }
+}
+
+.b-plan-info {
+  .b-order-name {
+    overflow: hidden;
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: PingFangSC-Medium, PingFang SC;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .plan-info-title {
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    .plan-info-status {
+      flex-shrink: 0;
+      width: 50px;
+      height: 22px;
+      margin-right: 8px;
+      /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.65);
+      background: #f5f5f5;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-radius: 2px;
+    }
+    .plan-info-status-ing {
+      color: #52c41a;
+      background: #f6ffed;
+      border-color: #b7eb8f;
+    }
+  }
+  .plan-info-delivery {
+    color: #ff6b5a;
+  }
+}
+
+.gm-progress {
+  .ant-progress-outer {
+    width: 80%;
+  }
+}
+
+.b-adjustment-modal {
+  .ant-modal {
+    width: 80% !important;
+    max-width: 1340px;
+  }
+  .merchandise-select-table {
+    .ant-row {
+      width: 100%;
+    }
+  }
+}
+
+.b-options-filter {
+  min-height: 55px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--gm-color-border) !important;
+}
+
+.b-produce-tab {
+  height: 100%;
+  .ant-table-wrapper {
+    height: inherit;
+    overflow-y: auto;
+  }
+
+  .b-production-pagination {
+    z-index: 10;
+    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.16);
+  }
+}
+
+// 改成antd的样式
+.gm-more-select-selected {
+  padding: 5px 18px 5px 18px;
+}
+
+.gm-more-select .gm-more-select-selected {
+  height: 32px;
+  line-height: 17px;
+  border: 1px solid #d9d9d9 !important;
+}
+
+.gm-selection {
+  height: 32px;
+  .gm-selection-selected {
+    height: 32px;
+    border: 1px solid #d9d9d9;
+  }
+}
+
+.ant-divider-horizontal {
+  margin: 6px 0;
+}
+
+.ant-steps-horizontal:not(.ant-steps-label-vertical)
+  .ant-steps-item-description {
+  max-width: 300px;
+  margin-bottom: 3px;
+}
+
+.gm-more-select-multiple .gm-more-select-selected {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ant-table .ant-table-tbody > tr {
+  height: 56px;
+  min-height: 56px;
+}
+
+.ant-table-cell-with-append {
+  min-height: 56px !important;
+}

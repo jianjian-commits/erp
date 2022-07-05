@@ -1,0 +1,269 @@
+// modal ant drawer title style
+.ant-modal-title,
+.ant-drawer-title {
+  position: relative;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.85);
+  // 弹窗抽屉标题前的伪类 ， 目前设计不要这个，先注释
+
+  // &::before {
+  //   position: absolute;
+  //   top: 3px;
+  //   left: -12px;
+  //   width: 4px;
+  //   height: 16px;
+  //   line-height: 24px;
+  //   content: ' ';
+  //   background-color: #176cfe;
+  // }
+}
+
+.ant-btn-primary {
+  background-color: #0363ff;
+  border-color: #0363ff;
+
+  &:hover {
+    background-color: #2e7eff;
+  }
+}
+
+.ant-btn[disabled] {
+  font-weight: 400;
+  color: #5f5f5f;
+  background: #f6f6f6;
+  border: 1px solid #d4d8db;
+  border-radius: 2px;
+}
+
+.ant-btn-text {
+  &:hover {
+    color: #2e7eff;
+    background: none;
+  }
+}
+
+// 抽屉和弹窗的底部操作按钮样式，模拟antd 默认的样式
+.ant-modal,
+.ant-drawer {
+  .gm-modal-footer,
+  .gm-drawer-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    padding: 10px 16px;
+    text-align: right;
+    background-color: #fff;
+    border-top: 1px solid #e9e9e9;
+
+    .ant-btn {
+      margin-right: 12px;
+    }
+
+    .ant-btn-primary {
+      margin-right: 0;
+    }
+  }
+}
+
+// .ant-input-group-addon {
+//   .ant-input-search-button {
+//     color: #888;
+//     background-color: #eef1f5;
+//     border: 1px solid #d9d9d9;
+//   }
+// }
+
+.ant-tabs {
+  background-color: #fff;
+}
+
+.ant-card-head-title {
+  font-weight: 600;
+}
+
+.ant-modal-confirm-btns {
+  .ant-btn-dangerous {
+    color: #fff;
+    background-color: #ff4d4f;
+  }
+}
+
+// 弹窗内文字断行问题
+.ant-modal-confirm-content {
+  word-break: break-all;
+}
+
+@min-height: 50;
+@max-height: 150;
+// 页面布局的临时解决方案
+.gm-site-card-loop(@n, @i:@min-height) when (@i <= @n) {
+  .gm-site-card-border-less-wrapper-@{i} {
+    min-height: calc(100vh - 1px * @i);
+    background: #fff;
+    border: 16px solid #f1f1f1;
+    .gm-table-x-select-batch-action-bar {
+      padding-left: 0;
+      background-color: #fff;
+    }
+
+    // 修改 table actionbar 的样式 & table header
+    .gm-table-x-select-batch-action-bar-container
+      .gm-table-x-select-batch-action-bar {
+      bottom: -12px;
+      height: 62px;
+    }
+
+    .gm-table-x {
+      top: 12px;
+    }
+    // set table header bg color
+    .gm-table-x .gm-table-x-table .gm-table-x-tr .gm-table-x-th {
+      background-color: #eef1f5;
+    }
+
+    // set checkobx border color
+    .gm-table-x-td,
+    .gm-table-x-th {
+      .gm-checkbox .gm-checkbox-input + .gm-checkbox-span {
+        border: 1px solid #d9d9d9;
+      }
+    }
+
+    .gm-table-x .gm-table-x-table .gm-table-x-tr {
+      min-height: 64px;
+    }
+
+    // 无数据时,  tbody 往下来
+    .gm-flex.gm-flex-column.gm-flex-justify-center.gm-flex-align-center {
+      margin-top: 50px !important;
+    }
+  }
+
+  .gm-site-card-loop(@n, (@i + 1));
+}
+
+.gm-table-x .gm-table-x-table .gm-table-x-thead .gm-table-x-tr {
+  min-height: 50px !important;
+}
+
+.gm-site-card-loop(@max-height);
+
+// table
+.ant-table {
+  .ant-table-thead {
+    tr {
+      height: 50px;
+      th {
+        padding: 13.5px 16px;
+        background-color: #eef1f5;
+      }
+    }
+  }
+
+  .ant-table-tbody > tr {
+    height: 64px;
+    min-height: 64px;
+  }
+
+  .ant-table-tbody > tr.ant-table-row > td {
+    padding: 0 16px;
+  }
+
+  .ant-table-row-level-0 {
+    &:hover {
+      background-color: #b2d5ff;
+    }
+    // 嵌套表格下展开收起按钮居中
+    .ant-table-cell.ant-table-cell-with-append {
+      display: flex;
+      align-items: center;
+      min-height: 64px;
+      .ant-table-row-indent + .ant-table-row-expand-icon {
+        flex-shrink: 0;
+        margin-top: -1px;
+      }
+    }
+
+    // 展开/收起按钮在外面, 里面的hover 样式
+    &.table-expandedRow-color {
+      background-color: #f7f8fa;
+      &:hover {
+        background-color: #b2d5ff;
+      }
+    }
+  }
+
+  // 展开/收起按钮在外面, 里面的hover 样式
+  .ant-table-row-level-1 {
+    background-color: #f7f8fa;
+    &:hover {
+      background-color: #b2d5ff;
+    }
+  }
+
+  .ant-table-tbody > tr.ant-table-row:hover > td {
+    background-color: transparent;
+  }
+
+  // 嵌套表格特殊处理 带 展开按钮的字段, columns添加自有class, 对齐
+  .ant-table-thead > tr > th.gm-order-unit-columns {
+    padding-left: 38px;
+  }
+
+  .ant-table-tbody > tr.ant-table-row-level-1 > td.gm-order-unit-columns {
+    padding-left: 2px;
+  }
+}
+
+// set tab title font size
+.ant-tabs-tab-btn {
+  font-size: 16px;
+}
+
+// set formItem with help tip
+.ant-form {
+  .ant-form-item-with-help {
+    margin-bottom: 24px;
+  }
+
+  // set input number formItem width
+  .ant-input-number-group-wrapper {
+    width: 100%;
+  }
+}
+
+// card body 全局样式
+.ant-card-body {
+  padding: 16px 24px;
+}
+
+// confirm 去掉 icon & 标题加粗
+.ant-modal-confirm-body {
+  .ant-modal-confirm-title {
+    font-weight: 600;
+  }
+}
+
+// 为了配合 设置页 的 mwnu 宽度
+.gm-system-setting-special {
+  .gm-framework-inner {
+    .gm-framework-container {
+      .gm-framework-left {
+        width: 190px;
+      }
+    }
+  }
+  .gm-flex.gm-flex-align-end.gm-framework-full-tabs-head {
+    left: 190px;
+  }
+}
+
+// 更改设置页顶部 button 样式
+.gm-system-button.ant-btn-background-ghost.ant-btn-primary {
+  margin-left: 74px;
+  color: #0363ff;
+  border: 1px solid #0363ff;
+  box-shadow: none;
+}

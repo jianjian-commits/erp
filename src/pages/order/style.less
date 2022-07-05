@@ -1,0 +1,12 @@
+@over-flow-ellipsis-base: {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+};
+
+.over-flow-ellipsis-3 {
+  @over-flow-ellipsis-base();
+
+  -webkit-line-clamp: 3;
+}

@@ -1,0 +1,128 @@
+.b-sepc-tabs {
+  .tab {
+    border-radius: 2px;
+    background-color: #f7f8fa;
+
+    &.active {
+      background-color: var(--gm-color-primary-active);
+      color: #fff;
+    }
+  }
+}
+
+.b-sepc-group {
+  background-color: #f7f8fa;
+
+  .group {
+    border: 2px solid var(--gm-color-primary-active);
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 0 8px;
+
+    &:hover {
+      border-color: var(--gm-color-primary);
+      background-color: #c5e0fc;
+    }
+
+    &.active {
+      border-color: var(--gm-color-primary);
+      background-color: #c5e0fc;
+    }
+  }
+
+  &-add {
+    width: 100%;
+    height: 63px;
+    margin-top: 6px;
+    background: white;
+    color: var(--gm-color-primary-active);
+    // border: 2px dashed fadeout(var(--gm-color-primary-active), 50%);
+    &:hover {
+      border-color: var(--gm-color-primary-active);
+      background-color: #c5e0fc;
+    }
+  }
+}
+
+.b-class-group-add {
+  width: 100%;
+  height: 63px;
+  // margin-top: 6px;
+  background: white;
+  color: #56a3f2;
+  border: 2px dashed rgba(216, 222, 231, 0.5);
+}
+
+.b-form-item-value {
+  display: inline-block;
+  padding-top: 6px;
+}
+
+.b-customer-label-span {
+  color: var(--gm-color-primary);
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  tbody {
+    tr {
+      border-bottom: 1px solid  #d4d8d8;
+    }
+  }
+
+  thead > tr > th {
+    vertical-align: middle;
+  }
+
+  tbody > tr > td {
+    vertical-align: middle;
+  }
+
+  &.table-bordered {
+    border: 1px solid  #d4d8d8;
+
+    thead {
+      tr {
+        th {
+          padding: 5px;
+          border: 1px solid  #d4d8d8;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          padding: 5px;
+          border: 1px solid  #d4d8d8;
+        }
+      }
+    }
+  }
+}
+
+@media print {
+  .table {
+    thead {
+      tr {
+        height: inherit;
+      }
+    }
+
+    tbody {
+      tr {
+        height: inherit;
+      }
+    }
+  }
+}
+
+.hidden-print {
+  @media print {
+    display: none !important;
+  }
+}

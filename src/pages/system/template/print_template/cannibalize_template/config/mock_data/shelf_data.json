@@ -1,0 +1,63 @@
+{
+  "shelves": [
+    {
+      "create_time": "1618920967913",
+      "delete_time": "0",
+      "group_id": "350683219634421784",
+      "is_leaf": true,
+      "name": "货位1",
+      "parent_id": "0",
+      "remark": "",
+      "shelf_id": "351300420796153868",
+      "station_id": "350683220087406618",
+      "update_time": "1618920967913"
+    },
+    {
+      "shelf_id": "351390063508062220",
+      "create_time": "1618974399138",
+      "update_time": "1618974399138",
+      "delete_time": "0",
+      "group_id": "350683219634421784",
+      "station_id": "350683220087406618",
+      "parent_id": "0",
+      "name": "小黑屋",
+      "remark": "",
+      "is_leaf": false
+    },
+    {
+      "shelf_id": "351390086509625356",
+      "create_time": "1618974412851",
+      "update_time": "1618974412851",
+      "delete_time": "0",
+      "group_id": "350683219634421784",
+      "station_id": "350683220087406618",
+      "parent_id": "351390063508062220",
+      "name": "黑屋一号房",
+      "remark": ""
+    },
+    {
+      "shelf_id": "351300126372790285",
+      "create_time": "1606720338797",
+      "update_time": "1606720338797",
+      "delete_time": "0",
+      "group_id": "330525565587030040",
+      "station_id": "330525565654138906",
+      "parent_id": "330831136856997900",
+      "name": "二层",
+      "remark": "",
+      "is_leaf": true
+    },
+    {
+      "shelf_id": "0",
+      "create_time": "1606720344445",
+      "update_time": "1606720344445",
+      "delete_time": "0",
+      "group_id": "330525565587030040",
+      "station_id": "330525565654138906",
+      "parent_id": "330831136856997900",
+      "name": "三层",
+      "remark": "",
+      "is_leaf": true
+    }
+  ]
+}

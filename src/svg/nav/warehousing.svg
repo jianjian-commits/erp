@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/菜单/仓储</title>
+    <g id="icon/菜单/仓储" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3.33465904,6.77870899 L8.25198856,3.25323491 C9.29692491,2.50406892 10.7030751,2.50406892 11.7480114,3.25323491 L16.665341,6.77870899 C17.189261,7.15433293 17.5,7.75946671 17.5,8.404126 L17.5,15 C17.5,16.1045695 16.6045695,17 15.5,17 L4.5,17 C3.3954305,17 2.5,16.1045695 2.5,15 L2.5,8.404126 C2.5,7.75946671 2.81073895,7.15433293 3.33465904,6.77870899 Z" id="矩形" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round"></path>
+        <rect id="矩形" fill="#FFFFFF" x="5" y="13" width="2" height="2"></rect>
+        <rect id="矩形" fill="#FFFFFF" x="9" y="13" width="2" height="2"></rect>
+        <rect id="矩形" fill="#FFFFFF" x="5" y="9" width="2" height="2"></rect>
+    </g>
+</svg>

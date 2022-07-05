@@ -1,0 +1,95 @@
+.tab-bar {
+  position: fixed;
+  width: 100%;
+  padding: 0 32px;
+  background-color: #fff;
+}
+
+.task-list {
+  margin-top: 46px;
+  margin-bottom: 56px;
+}
+
+.task-list-clear {
+  position: fixed;
+  bottom: 0;
+  width: 380px;
+  height: 56px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  cursor: pointer;
+  background-color: #fff;
+  border-top: 1px solid rgba(202, 202, 202, 0.5);
+}
+
+.task-list-item {
+  position: relative;
+  box-sizing: border-box;
+  width: 380px;
+  min-height: 70px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  border-bottom: 1px solid #eceef2;
+  .task-list-item-line {
+    padding: 0 40px;
+  }
+  .task-list-item-point-box {
+    width: 24px;
+    margin-left: -32px;
+    .task-list-item-point {
+      width: 8px;
+      height: 8px;
+      border-radius: 4px;
+    }
+    .task-list-item-success {
+      background: #176cfe;
+    }
+    .task-list-item-faulire {
+      background: #e02020;
+    }
+  }
+  .task-list-item-title {
+    width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .task-list-item-title-short {
+    width: 200px;
+  }
+  .task-list-item-progress {
+    width: 315px;
+  }
+  .task-list-item-btn {
+    position: absolute;
+    right: 40px;
+  }
+  .task-list-item-faulire-count {
+    color: #e02020;
+  }
+  .task-list-item-btn-success {
+    color: #176cfe;
+  }
+  .task-list-item-time {
+    color: #999;
+  }
+}
+
+.task-list-export {
+  padding: 6px 0;
+}
+
+.task-list-import {
+  padding: 14px 0;
+}
+
+.task-list-modal-title {
+  height: 14px;
+  padding: 0 6px;
+  margin-right: -6px;
+  font-weight: 500;
+  color: #243351;
+  border-left: 3px solid #176cfe;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/菜单/订单</title>
+    <g id="icon/菜单/订单" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="订单_order" transform="translate(4.500000, 2.500000)" stroke="#FFFFFF" stroke-width="1.2">
+            <path d="M8.61090313,1.5 L10.3125,1.5 C10.6922062,1.5 11,1.81461054 11,2.2027027 L11,13.7972973 C11,14.1854 10.6922062,14.5 10.3125,14.5 L0.6875,14.5 C0.307804062,14.5 0,14.1854 0,13.7972973 L0,2.2027027 C0,1.81461054 0.307804062,1.5 0.6875,1.5 L2.75,1.5" id="路径"></path>
+            <rect id="矩形" stroke-linecap="round" x="3" y="0" width="5" height="3"></rect>
+            <polyline id="路径" stroke-linecap="round" points="6.46653333 5.83333333 3.8 8.5004 7.13466667 8.5004 4.46676667 11.1672667"></polyline>
+        </g>
+    </g>
+</svg>

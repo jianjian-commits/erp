@@ -1,0 +1,204 @@
+.rules {
+  height: calc(100vh - 64px);
+  background-color: #e8ecf3;
+  padding: 19px 16px;
+  box-sizing: border-box;
+  .rules-item {
+    height: 100%;
+    background-color: #fff;
+    .ant-tabs {
+      height: 100%;
+      .ant-tabs-tab-active {
+        font-weight: 600 !important;
+      }
+      .ant-tabs-content {
+        height: 100%;
+      }
+    }
+    .ant-tabs-nav {
+      margin: 0;
+      height: 56px;
+    }
+    .rules-list {
+      height: 100%;
+      width: 100%;
+      .rules-list-item {
+        width: 100%;
+        .rules-list-left-box {
+          border-right: 1px solid #e7ebf0;
+          position: relative;
+          height: 100%;
+          max-width: 257px;
+          width: 100%;
+          box-sizing: border-box;
+          .rules-list-left-filter {
+            width: 100%;
+            padding: 16px 12px;
+            box-sizing: border-box;
+          }
+          .rules-list-left-bottom {
+            height: calc(100% - 100px);
+            overflow-y: auto;
+            .bottom-item {
+              width: 100%;
+              height: 48px;
+              padding: 0 12px;
+              font-size: 14px;
+              box-sizing: border-box;
+              span {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              }
+              cursor: pointer;
+              &.active {
+                transition: all 0.3s;
+                background: #c2d9ff;
+              }
+            }
+            // tree
+            .rules-tree-node {
+              width: 100%;
+              height: 48px !important;
+              padding: 0 12px;
+              box-sizing: border-box;
+              align-items: center;
+              &.active {
+                background: #c2d9ff;
+                transition: all 0.3s;
+              }
+              .ant-tree-switcher {
+                margin-top: 3px;
+                align-self: center !important;
+              }
+            }
+          }
+          .rules-list-left-filter-absolute {
+            width: 100%;
+            height: 34px;
+            background: #f8f8f8;
+            position: absolute;
+            font-size: 12px;
+            bottom: 0;
+            left: 0;
+          }
+        }
+
+        .rules-list-right-box {
+          position: relative;
+          height: 100%;
+          width: 100%;
+          padding: 19px 24px;
+          box-sizing: border-box;
+          //client-filter
+          .ant-tabs-nav {
+            height: 40px;
+            font-size: 14px;
+            .ant-tabs-tab-active {
+              font-weight: normal;
+            }
+          }
+          .rules-list-right-filter {
+            width: 100%;
+            height: 140px;
+            margin-bottom: 10px;
+          }
+          //client-header
+          .right-filter-header {
+            font-size: 18px;
+            color: #000;
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
+          // client-right-bottom
+          .rules-list-right-bottom {
+            box-sizing: border-box;
+            height: calc(100% - 150px);
+            box-sizing: border-box;
+            overflow-y: auto;
+          }
+
+          //merchandise-header
+          .rule-list-right-header {
+            height: 64px;
+            width: 100%;
+            margin-bottom: 15px;
+          }
+
+          //merchandise-tabs
+          .rules-list-right-tabs {
+            width: 100%;
+            height: calc(100% - 64px);
+            box-sizing: border-box;
+            //merchandise-tables
+            .rules-list-right-tabs-tables {
+              width: 100%;
+              padding-top: 10px;
+              height: calc(100% - 15px);
+              overflow-y: auto;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.rules-info {
+  padding: 0 15px;
+  box-sizing: border-box;
+  .rules-info-header {
+    height: 78px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .header-color {
+    color: #0363ff;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .rules-info-body {
+    .ant-form-item {
+      margin: 0;
+    }
+    .ant-form-item-explain {
+      display: none;
+    }
+  }
+}
+
+.grade-components {
+  .ant-modal-body {
+    padding: 0;
+  }
+
+  .grade-header {
+    height: 78px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 45px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .grade-body {
+    margin-top: 20px;
+    padding: 0 45px;
+    box-sizing: border-box;
+    .ant-form-item {
+      margin: 0;
+    }
+    .ant-form-item-explain {
+      display: none;
+    }
+  }
+  .grade-footer {
+    padding: 0 45px;
+    box-sizing: border-box;
+  }
+}
+
+// .bottom-pagination {
+//   padding-right: 20px;
+//   box-sizing: border-box;
+// }

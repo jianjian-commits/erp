@@ -1,0 +1,23 @@
+{
+  "extends": "ts-config-gm-react-app/tsconfig",
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./",
+    "importsNotUsedAsValues": "preserve",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "files": [
+    "./node_modules/gm_api/src/enterprise/types.ts"
+  ],
+  "include": [
+    "src/**/*",
+    "global.d.ts",
+    "./node_modules/gm_api/src/**/*"
+
+  ],
+  "exclude": [
+//    "./node_modules"
+  ]
+}

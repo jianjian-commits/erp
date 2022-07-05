@@ -1,0 +1,21 @@
+{
+  // script
+  "typescript.validate.enable": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifierEnding": "minimal",
+  // style
+  "stylelint.enable": true,
+  // edit
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  // files
+  "files.eol": "\n",
+  "cSpell.words": [
+    "boms"
+  ]
+}

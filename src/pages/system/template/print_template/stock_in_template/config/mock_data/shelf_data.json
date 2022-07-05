@@ -1,0 +1,64 @@
+{
+  "shelves": [
+    {
+      "shelf_id": "330831126539010060",
+      "create_time": "1606720317790",
+      "update_time": "1606720317790",
+      "delete_time": "0",
+      "group_id": "330525565587030040",
+      "station_id": "330525565654138906",
+      "parent_id": "0",
+      "name": "冷藏仓",
+      "remark": "",
+      "is_leaf": false
+    },
+    {
+      "shelf_id": "330831136856997900",
+      "create_time": "1606720323935",
+      "update_time": "1606720323935",
+      "delete_time": "0",
+      "group_id": "330525565587030040",
+      "station_id": "330525565654138906",
+      "parent_id": "330831126539010060",
+      "name": "东区",
+      "remark": "",
+      "is_leaf": false
+    },
+    {
+      "shelf_id": "330831149540573196",
+      "create_time": "1606720331493",
+      "update_time": "1606720331493",
+      "delete_time": "0",
+      "group_id": "330525565587030040",
+      "station_id": "330525565654138906",
+      "parent_id": "330831136856997900",
+      "name": "一层",
+      "remark": "",
+      "is_leaf": true
+    },
+    {
+      "shelf_id": "330831161787940876",
+      "create_time": "1606720338797",
+      "update_time": "1606720338797",
+      "delete_time": "0",
+      "group_id": "330525565587030040",
+      "station_id": "330525565654138906",
+      "parent_id": "330831136856997900",
+      "name": "二层",
+      "remark": "",
+      "is_leaf": true
+    },
+    {
+      "shelf_id": "330831171267067916",
+      "create_time": "1606720344445",
+      "update_time": "1606720344445",
+      "delete_time": "0",
+      "group_id": "330525565587030040",
+      "station_id": "330525565654138906",
+      "parent_id": "330831136856997900",
+      "name": "三层",
+      "remark": "",
+      "is_leaf": true
+    }
+  ]
+}

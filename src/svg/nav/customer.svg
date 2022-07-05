@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/菜单/客户</title>
+    <g id="icon/菜单/客户" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="人群_peoples-2" transform="translate(3.000000, 3.250000)" stroke="#FFFFFF" stroke-width="1.2">
+            <g id="人群_peoples">
+                <path d="M5,6 C6.65685714,6 8,4.65685714 8,3 C8,1.34314714 6.65685714,0 5,0 C3.34314286,0 2,1.34314714 2,3 C2,4.65685714 3.34314286,6 5,6 Z" id="路径"></path>
+                <path d="M10,0.375 C10.847,0.885375 11.4135,1.81404167 11.4135,2.875 C11.4135,3.93595833 10.847,4.864625 10,5.375" id="路径"></path>
+                <path d="M0,13.25 L10,13.25 L10,11.25 C10,9.59314575 8.65685425,8.25 7,8.25 L3,8.25 C1.34314575,8.25 -2.02906125e-16,9.59314575 0,11.25 L0,13.25 L0,13.25 Z" id="路径"></path>
+                <path d="M14.1380375,13.1730375 L14.1380375,12.7230375 C14.1380375,11.0428875 14.1380375,10.2028125 13.811075,9.561075 C13.52345,8.9965875 13.0644875,8.537625 12.5,8.25" id="路径"></path>
+            </g>
+        </g>
+    </g>
+</svg>

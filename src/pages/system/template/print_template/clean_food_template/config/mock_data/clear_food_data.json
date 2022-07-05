@@ -1,0 +1,2368 @@
+{
+  "sheets": [
+    {
+      "code": "2110190267",
+      "processor_id": "0",
+      "process_task_commands": [
+        {
+          "process_task_command_id": "377654659948478541",
+          "create_time": "1634629318544",
+          "update_time": "1634629318544",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377654659243901004",
+          "process_template_id": "375965126836092931",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "3330",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "377654659243835468",
+                "prev_process_task_sign": "5aaf161eb58eba1d2591934e97650d5c",
+                "prev_process_id": "2",
+                "prev_process_template_id": "375965126785761283"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500000",
+                  "plan_amount": "333",
+                  "actual_amount": "",
+                  "base_unit_id": "500000",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              },
+              {
+                "material": {
+                  "sku_id": "376036711156678698",
+                  "unit_id": "500004",
+                  "plan_amount": "0",
+                  "actual_amount": "",
+                  "base_unit_id": "500004",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 2
+              }
+            ]
+          },
+          "state": 1,
+          "sequence_no": 1,
+          "delivery_time": "1635523200000",
+          "input_sku_id": "376035206408175658",
+          "type": 3,
+          "main_output": {
+            "material": {
+              "sku_id": "376035762455445546",
+              "unit_id": "500000",
+              "plan_amount": "333",
+              "actual_amount": "",
+              "base_unit_id": "500000",
+              "base_unit_actual_amount": "",
+              "difference_amount": ""
+            },
+            "type": 1
+          },
+          "processor": "0",
+          "target_customer_id": "0",
+          "target_route_id": "0",
+          "sign": "0e447ccf656bbbf16aaac92e8be07e82",
+          "first_start_time": "0",
+          "last_start_time": "0",
+          "last_finish_time": "0",
+          "new_sign": "e14feae854ca44b698cffa447754517d"
+        },
+        {
+          "process_task_command_id": "377654852534141005",
+          "create_time": "1634629433335",
+          "update_time": "1634629433335",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377654852181819468",
+          "process_template_id": "375965126785761283",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "220",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "0",
+                "prev_process_task_sign": "",
+                "prev_process_id": "0",
+                "prev_process_template_id": "0"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "220",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              }
+            ]
+          },
+          "state": 1,
+          "sequence_no": 1,
+          "delivery_time": "1634572800000",
+          "input_sku_id": "376035206408175658",
+          "type": 3,
+          "main_output": {
+            "material": {
+              "sku_id": "376035206408175658",
+              "unit_id": "500001",
+              "plan_amount": "220",
+              "actual_amount": "",
+              "base_unit_id": "500001",
+              "base_unit_actual_amount": "",
+              "difference_amount": ""
+            },
+            "type": 1
+          },
+          "processor": "0",
+          "target_customer_id": "0",
+          "target_route_id": "0",
+          "sign": "d6c18b5a5919dcda341d164fd20e1143",
+          "first_start_time": "0",
+          "last_start_time": "0",
+          "last_finish_time": "0",
+          "new_sign": "17c6ef0b7119f2bb98e53978ce9cb93c"
+        },
+        {
+          "process_task_command_id": "377654852886462541",
+          "create_time": "1634629433550",
+          "update_time": "1634629433550",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377654852181885004",
+          "process_template_id": "375965126836092931",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "220",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "377654852181819468",
+                "prev_process_task_sign": "d6c18b5a5919dcda341d164fd20e1143",
+                "prev_process_id": "2",
+                "prev_process_template_id": "375965126785761283"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500000",
+                  "plan_amount": "33",
+                  "actual_amount": "",
+                  "base_unit_id": "500000",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              },
+              {
+                "material": {
+                  "sku_id": "376036711156678698",
+                  "unit_id": "500004",
+                  "plan_amount": "0",
+                  "actual_amount": "",
+                  "base_unit_id": "500004",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 2
+              }
+            ]
+          },
+          "state": 1,
+          "sequence_no": 1,
+          "delivery_time": "1634572800000",
+          "input_sku_id": "376035206408175658",
+          "type": 3,
+          "main_output": {
+            "material": {
+              "sku_id": "376035762455445546",
+              "unit_id": "500000",
+              "plan_amount": "33",
+              "actual_amount": "",
+              "base_unit_id": "500000",
+              "base_unit_actual_amount": "",
+              "difference_amount": ""
+            },
+            "type": 1
+          },
+          "processor": "0",
+          "target_customer_id": "0",
+          "target_route_id": "0",
+          "sign": "c706f1ed6fbb25f9b39e70f28f45c0d4",
+          "first_start_time": "0",
+          "last_start_time": "0",
+          "last_finish_time": "0",
+          "new_sign": "e14feae854ca44b698cffa447754517d"
+        },
+        {
+          "process_task_command_id": "377660732914794573",
+          "create_time": "1634632938319",
+          "update_time": "1634632938319",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377660732562473036",
+          "process_template_id": "375965126802538499",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "377660465318199338",
+                  "unit_id": "600028",
+                  "plan_amount": "4",
+                  "actual_amount": "",
+                  "base_unit_id": "600028",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "0",
+                "prev_process_task_sign": "",
+                "prev_process_id": "0",
+                "prev_process_template_id": "0"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500000",
+                  "plan_amount": "40",
+                  "actual_amount": "",
+                  "base_unit_id": "500000",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              }
+            ]
+          },
+          "state": 1,
+          "sequence_no": 1,
+          "delivery_time": "1634659200000",
+          "input_sku_id": "377660465318199338",
+          "type": 3,
+          "main_output": {
+            "material": {
+              "sku_id": "376035762455445546",
+              "unit_id": "500000",
+              "plan_amount": "40",
+              "actual_amount": "",
+              "base_unit_id": "500000",
+              "base_unit_actual_amount": "",
+              "difference_amount": ""
+            },
+            "type": 1
+          },
+          "processor": "0",
+          "target_customer_id": "0",
+          "target_route_id": "0",
+          "sign": "a3a387ad8782a840c283bd024ba37a06",
+          "first_start_time": "0",
+          "last_start_time": "0",
+          "last_finish_time": "0",
+          "new_sign": "05d85b2cc2dcf9a74e931f4edae4737b"
+        }
+      ],
+      "early_delivery_time": "1634572800000",
+      "last_delivery_time": "1635523200000"
+    }
+  ],
+  "process_task_details": {
+    "377654659243901004": {
+      "process_task": {
+        "process_task_id": "377654659243901004",
+        "create_time": "1634629318541",
+        "update_time": "1634629318541",
+        "delete_time": "0",
+        "group_id": "375965096653881368",
+        "station_id": "375965104807608346",
+        "process_template_id": "375965126836092931",
+        "raw_inputs": {
+          "inputs": [
+            {
+              "material": {
+                "sku_id": "376035206408175658",
+                "unit_id": "500001",
+                "quantity": "100",
+                "property": 2
+              },
+              "prev_process_id": "2",
+              "cooked_quantity": "",
+              "cook_yield_rate": "20",
+              "cost_unit_name": ""
+            }
+          ]
+        },
+        "sign": "0e447ccf656bbbf16aaac92e8be07e82",
+        "process_name": "清洗",
+        "attrs": {
+          "attrs": [
+            {
+              "attr_id": "1",
+              "name": "清洗时长",
+              "val": "是多少大V"
+            },
+            {
+              "attr_id": "2",
+              "name": "清洗设备",
+              "val": "是的SV"
+            },
+            {
+              "attr_id": "3",
+              "name": "清洗型号",
+              "val": "生产"
+            },
+            {
+              "attr_id": "4",
+              "name": "清洗要求",
+              "val": "生产"
+            }
+          ]
+        },
+        "inputs": {
+          "inputs": [
+            {
+              "material": {
+                "sku_id": "376035206408175658",
+                "unit_id": "500001",
+                "plan_amount": "3330",
+                "actual_amount": "",
+                "base_unit_id": "500001",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "prev_process_task_id": "377654659243835468",
+              "prev_process_task_sign": "5aaf161eb58eba1d2591934e97650d5c",
+              "prev_process_id": "2",
+              "prev_process_template_id": "375965126785761283"
+            }
+          ]
+        },
+        "outputs": {
+          "outputs": [
+            {
+              "material": {
+                "sku_id": "376035762455445546",
+                "unit_id": "500000",
+                "plan_amount": "333",
+                "actual_amount": "",
+                "base_unit_id": "500000",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "type": 1
+            },
+            {
+              "material": {
+                "sku_id": "376036711156678698",
+                "unit_id": "500004",
+                "plan_amount": "0",
+                "actual_amount": "",
+                "base_unit_id": "500004",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "type": 2
+            }
+          ]
+        },
+        "state": 1,
+        "delivery_time": "1635523200000",
+        "serial_no": "SCGD21101900031",
+        "input_sku_id": "376035206408175658",
+        "type": 3,
+        "main_output": {
+          "material": {
+            "sku_id": "376035762455445546",
+            "unit_id": "500000",
+            "plan_amount": "333",
+            "actual_amount": "",
+            "base_unit_id": "500000",
+            "base_unit_actual_amount": "",
+            "difference_amount": ""
+          },
+          "type": 1
+        },
+        "processor": "0",
+        "target_customer_id": "0",
+        "target_route_id": "0",
+        "new_sign": "e14feae854ca44b698cffa447754517d"
+      },
+      "process_task_commands": [
+        {
+          "process_task_command_id": "377654659948478541",
+          "create_time": "1634629318544",
+          "update_time": "1634629318544",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377654659243901004",
+          "process_template_id": "375965126836092931",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "3330",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "377654659243835468",
+                "prev_process_task_sign": "5aaf161eb58eba1d2591934e97650d5c",
+                "prev_process_id": "2",
+                "prev_process_template_id": "375965126785761283"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500000",
+                  "plan_amount": "333",
+                  "actual_amount": "",
+                  "base_unit_id": "500000",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              },
+              {
+                "material": {
+                  "sku_id": "376036711156678698",
+                  "unit_id": "500004",
+                  "plan_amount": "0",
+                  "actual_amount": "",
+                  "base_unit_id": "500004",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 2
+              }
+            ]
+          },
+          "state": 1,
+          "sequence_no": 1,
+          "delivery_time": "1635523200000",
+          "input_sku_id": "376035206408175658",
+          "type": 3,
+          "main_output": {
+            "material": {
+              "sku_id": "376035762455445546",
+              "unit_id": "500000",
+              "plan_amount": "333",
+              "actual_amount": "",
+              "base_unit_id": "500000",
+              "base_unit_actual_amount": "",
+              "difference_amount": ""
+            },
+            "type": 1
+          },
+          "processor": "0",
+          "target_customer_id": "0",
+          "target_route_id": "0",
+          "sign": "0e447ccf656bbbf16aaac92e8be07e82",
+          "first_start_time": "0",
+          "last_start_time": "0",
+          "last_finish_time": "0",
+          "new_sign": "e14feae854ca44b698cffa447754517d"
+        }
+      ],
+      "process_task_relations": [
+        {
+          "process_task_relation_id": "216",
+          "create_time": "1634629318545",
+          "update_time": "1634629318545",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377654659243901004",
+          "task_id": "377654550158376966",
+          "process_id": "3",
+          "process_template_id": "375965126836092931",
+          "bom_id": "376036823027154949",
+          "bom_revision": "2",
+          "delivery_time": "1635523200000",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "3330",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "0",
+                "prev_process_task_sign": "5aaf161eb58eba1d2591934e97650d5c",
+                "prev_process_id": "2",
+                "prev_process_template_id": "375965126785761283"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500000",
+                  "plan_amount": "333",
+                  "actual_amount": "",
+                  "base_unit_id": "500000",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              },
+              {
+                "material": {
+                  "sku_id": "376036711156678698",
+                  "unit_id": "500004",
+                  "plan_amount": "0",
+                  "actual_amount": "",
+                  "base_unit_id": "500004",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 2
+              }
+            ]
+          },
+          "output_sku_id": "376035762455445546",
+          "is_task_last_process": true
+        }
+      ]
+    },
+    "377654852181819468": {
+      "process_task": {
+        "process_task_id": "377654852181819468",
+        "create_time": "1634629433332",
+        "update_time": "1634629433332",
+        "delete_time": "0",
+        "group_id": "375965096653881368",
+        "station_id": "375965104807608346",
+        "process_template_id": "375965126785761283",
+        "raw_inputs": {
+          "inputs": [
+            {
+              "material": {
+                "sku_id": "376035206408175658",
+                "unit_id": "500001",
+                "quantity": "100",
+                "property": 2
+              },
+              "prev_process_id": "0",
+              "cooked_quantity": "",
+              "cook_yield_rate": "100",
+              "cost_unit_name": ""
+            }
+          ]
+        },
+        "sign": "d6c18b5a5919dcda341d164fd20e1143",
+        "process_name": "去皮",
+        "attrs": {
+          "attrs": [
+            {
+              "attr_id": "1",
+              "name": "去皮设备",
+              "val": "床上叠床"
+            },
+            {
+              "attr_id": "2",
+              "name": "去皮分类",
+              "val": "陈思诚"
+            }
+          ]
+        },
+        "inputs": {
+          "inputs": [
+            {
+              "material": {
+                "sku_id": "376035206408175658",
+                "unit_id": "500001",
+                "plan_amount": "220",
+                "actual_amount": "",
+                "base_unit_id": "500001",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "prev_process_task_id": "0",
+              "prev_process_task_sign": "",
+              "prev_process_id": "0",
+              "prev_process_template_id": "0"
+            }
+          ]
+        },
+        "outputs": {
+          "outputs": [
+            {
+              "material": {
+                "sku_id": "376035206408175658",
+                "unit_id": "500001",
+                "plan_amount": "220",
+                "actual_amount": "",
+                "base_unit_id": "500001",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "type": 1
+            }
+          ]
+        },
+        "state": 1,
+        "delivery_time": "1634572800000",
+        "serial_no": "SCGD21101900032",
+        "input_sku_id": "376035206408175658",
+        "type": 3,
+        "main_output": {
+          "material": {
+            "sku_id": "376035206408175658",
+            "unit_id": "500001",
+            "plan_amount": "220",
+            "actual_amount": "",
+            "base_unit_id": "500001",
+            "base_unit_actual_amount": "",
+            "difference_amount": ""
+          },
+          "type": 1
+        },
+        "processor": "0",
+        "target_customer_id": "0",
+        "target_route_id": "0",
+        "new_sign": "17c6ef0b7119f2bb98e53978ce9cb93c"
+      },
+      "process_task_commands": [
+        {
+          "process_task_command_id": "377654852534141005",
+          "create_time": "1634629433335",
+          "update_time": "1634629433335",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377654852181819468",
+          "process_template_id": "375965126785761283",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "220",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "0",
+                "prev_process_task_sign": "",
+                "prev_process_id": "0",
+                "prev_process_template_id": "0"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "220",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              }
+            ]
+          },
+          "state": 1,
+          "sequence_no": 1,
+          "delivery_time": "1634572800000",
+          "input_sku_id": "376035206408175658",
+          "type": 3,
+          "main_output": {
+            "material": {
+              "sku_id": "376035206408175658",
+              "unit_id": "500001",
+              "plan_amount": "220",
+              "actual_amount": "",
+              "base_unit_id": "500001",
+              "base_unit_actual_amount": "",
+              "difference_amount": ""
+            },
+            "type": 1
+          },
+          "processor": "0",
+          "target_customer_id": "0",
+          "target_route_id": "0",
+          "sign": "d6c18b5a5919dcda341d164fd20e1143",
+          "first_start_time": "0",
+          "last_start_time": "0",
+          "last_finish_time": "0",
+          "new_sign": "17c6ef0b7119f2bb98e53978ce9cb93c"
+        }
+      ],
+      "process_task_relations": [
+        {
+          "process_task_relation_id": "217",
+          "create_time": "1634629433336",
+          "update_time": "1634629433336",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377654852181819468",
+          "task_id": "377654835421380614",
+          "process_id": "2",
+          "process_template_id": "375965126785761283",
+          "bom_id": "376036823027154949",
+          "bom_revision": "3",
+          "delivery_time": "1634572800000",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "220",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "0",
+                "prev_process_task_sign": "",
+                "prev_process_id": "0",
+                "prev_process_template_id": "0"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "220",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              }
+            ]
+          },
+          "output_sku_id": "376035762455445546",
+          "is_task_last_process": false
+        }
+      ]
+    },
+    "377654852181885004": {
+      "process_task": {
+        "process_task_id": "377654852181885004",
+        "create_time": "1634629433547",
+        "update_time": "1634629433547",
+        "delete_time": "0",
+        "group_id": "375965096653881368",
+        "station_id": "375965104807608346",
+        "process_template_id": "375965126836092931",
+        "raw_inputs": {
+          "inputs": [
+            {
+              "material": {
+                "sku_id": "376035206408175658",
+                "unit_id": "500001",
+                "quantity": "100",
+                "property": 2
+              },
+              "prev_process_id": "2",
+              "cooked_quantity": "",
+              "cook_yield_rate": "30",
+              "cost_unit_name": ""
+            }
+          ]
+        },
+        "sign": "c706f1ed6fbb25f9b39e70f28f45c0d4",
+        "process_name": "清洗",
+        "attrs": {
+          "attrs": [
+            {
+              "attr_id": "1",
+              "name": "清洗时长",
+              "val": "是多少大V"
+            },
+            {
+              "attr_id": "2",
+              "name": "清洗设备",
+              "val": "是的SV"
+            },
+            {
+              "attr_id": "3",
+              "name": "清洗型号",
+              "val": "生产"
+            },
+            {
+              "attr_id": "4",
+              "name": "清洗要求",
+              "val": "生产"
+            }
+          ]
+        },
+        "inputs": {
+          "inputs": [
+            {
+              "material": {
+                "sku_id": "376035206408175658",
+                "unit_id": "500001",
+                "plan_amount": "220",
+                "actual_amount": "",
+                "base_unit_id": "500001",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "prev_process_task_id": "377654852181819468",
+              "prev_process_task_sign": "d6c18b5a5919dcda341d164fd20e1143",
+              "prev_process_id": "2",
+              "prev_process_template_id": "375965126785761283"
+            }
+          ]
+        },
+        "outputs": {
+          "outputs": [
+            {
+              "material": {
+                "sku_id": "376035762455445546",
+                "unit_id": "500000",
+                "plan_amount": "33",
+                "actual_amount": "",
+                "base_unit_id": "500000",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "type": 1
+            },
+            {
+              "material": {
+                "sku_id": "376036711156678698",
+                "unit_id": "500004",
+                "plan_amount": "0",
+                "actual_amount": "",
+                "base_unit_id": "500004",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "type": 2
+            }
+          ]
+        },
+        "state": 1,
+        "delivery_time": "1634572800000",
+        "serial_no": "SCGD21101900033",
+        "input_sku_id": "376035206408175658",
+        "type": 3,
+        "main_output": {
+          "material": {
+            "sku_id": "376035762455445546",
+            "unit_id": "500000",
+            "plan_amount": "33",
+            "actual_amount": "",
+            "base_unit_id": "500000",
+            "base_unit_actual_amount": "",
+            "difference_amount": ""
+          },
+          "type": 1
+        },
+        "processor": "0",
+        "target_customer_id": "0",
+        "target_route_id": "0",
+        "new_sign": "e14feae854ca44b698cffa447754517d"
+      },
+      "process_task_commands": [
+        {
+          "process_task_command_id": "377654852886462541",
+          "create_time": "1634629433550",
+          "update_time": "1634629433550",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377654852181885004",
+          "process_template_id": "375965126836092931",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "220",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "377654852181819468",
+                "prev_process_task_sign": "d6c18b5a5919dcda341d164fd20e1143",
+                "prev_process_id": "2",
+                "prev_process_template_id": "375965126785761283"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500000",
+                  "plan_amount": "33",
+                  "actual_amount": "",
+                  "base_unit_id": "500000",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              },
+              {
+                "material": {
+                  "sku_id": "376036711156678698",
+                  "unit_id": "500004",
+                  "plan_amount": "0",
+                  "actual_amount": "",
+                  "base_unit_id": "500004",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 2
+              }
+            ]
+          },
+          "state": 1,
+          "sequence_no": 1,
+          "delivery_time": "1634572800000",
+          "input_sku_id": "376035206408175658",
+          "type": 3,
+          "main_output": {
+            "material": {
+              "sku_id": "376035762455445546",
+              "unit_id": "500000",
+              "plan_amount": "33",
+              "actual_amount": "",
+              "base_unit_id": "500000",
+              "base_unit_actual_amount": "",
+              "difference_amount": ""
+            },
+            "type": 1
+          },
+          "processor": "0",
+          "target_customer_id": "0",
+          "target_route_id": "0",
+          "sign": "c706f1ed6fbb25f9b39e70f28f45c0d4",
+          "first_start_time": "0",
+          "last_start_time": "0",
+          "last_finish_time": "0",
+          "new_sign": "e14feae854ca44b698cffa447754517d"
+        }
+      ],
+      "process_task_relations": [
+        {
+          "process_task_relation_id": "218",
+          "create_time": "1634629433551",
+          "update_time": "1634629433551",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377654852181885004",
+          "task_id": "377654835421380614",
+          "process_id": "3",
+          "process_template_id": "375965126836092931",
+          "bom_id": "376036823027154949",
+          "bom_revision": "3",
+          "delivery_time": "1634572800000",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "plan_amount": "220",
+                  "actual_amount": "",
+                  "base_unit_id": "500001",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "0",
+                "prev_process_task_sign": "d6c18b5a5919dcda341d164fd20e1143",
+                "prev_process_id": "2",
+                "prev_process_template_id": "375965126785761283"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500000",
+                  "plan_amount": "33",
+                  "actual_amount": "",
+                  "base_unit_id": "500000",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              },
+              {
+                "material": {
+                  "sku_id": "376036711156678698",
+                  "unit_id": "500004",
+                  "plan_amount": "0",
+                  "actual_amount": "",
+                  "base_unit_id": "500004",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 2
+              }
+            ]
+          },
+          "output_sku_id": "376035762455445546",
+          "is_task_last_process": true
+        }
+      ]
+    },
+    "377660732562473036": {
+      "process_task": {
+        "process_task_id": "377660732562473036",
+        "create_time": "1634632938317",
+        "update_time": "1634632938317",
+        "delete_time": "0",
+        "group_id": "375965096653881368",
+        "station_id": "375965104807608346",
+        "process_template_id": "375965126802538499",
+        "raw_inputs": {
+          "inputs": [
+            {
+              "material": {
+                "sku_id": "377660465318199338",
+                "unit_id": "500001",
+                "quantity": "100",
+                "property": 2
+              },
+              "prev_process_id": "0",
+              "cooked_quantity": "",
+              "cook_yield_rate": "100",
+              "cost_unit_name": ""
+            }
+          ]
+        },
+        "sign": "a3a387ad8782a840c283bd024ba37a06",
+        "process_name": "解冻",
+        "attrs": {
+          "attrs": []
+        },
+        "inputs": {
+          "inputs": [
+            {
+              "material": {
+                "sku_id": "377660465318199338",
+                "unit_id": "600028",
+                "plan_amount": "4",
+                "actual_amount": "",
+                "base_unit_id": "600028",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "prev_process_task_id": "0",
+              "prev_process_task_sign": "",
+              "prev_process_id": "0",
+              "prev_process_template_id": "0"
+            }
+          ]
+        },
+        "outputs": {
+          "outputs": [
+            {
+              "material": {
+                "sku_id": "376035762455445546",
+                "unit_id": "500000",
+                "plan_amount": "40",
+                "actual_amount": "",
+                "base_unit_id": "500000",
+                "base_unit_actual_amount": "",
+                "difference_amount": ""
+              },
+              "type": 1
+            }
+          ]
+        },
+        "state": 1,
+        "delivery_time": "1634659200000",
+        "serial_no": "SCGD21101900037",
+        "input_sku_id": "377660465318199338",
+        "type": 3,
+        "main_output": {
+          "material": {
+            "sku_id": "376035762455445546",
+            "unit_id": "500000",
+            "plan_amount": "40",
+            "actual_amount": "",
+            "base_unit_id": "500000",
+            "base_unit_actual_amount": "",
+            "difference_amount": ""
+          },
+          "type": 1
+        },
+        "processor": "0",
+        "target_customer_id": "0",
+        "target_route_id": "0",
+        "new_sign": "05d85b2cc2dcf9a74e931f4edae4737b"
+      },
+      "process_task_commands": [
+        {
+          "process_task_command_id": "377660732914794573",
+          "create_time": "1634632938319",
+          "update_time": "1634632938319",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377660732562473036",
+          "process_template_id": "375965126802538499",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "377660465318199338",
+                  "unit_id": "600028",
+                  "plan_amount": "4",
+                  "actual_amount": "",
+                  "base_unit_id": "600028",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "0",
+                "prev_process_task_sign": "",
+                "prev_process_id": "0",
+                "prev_process_template_id": "0"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500000",
+                  "plan_amount": "40",
+                  "actual_amount": "",
+                  "base_unit_id": "500000",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              }
+            ]
+          },
+          "state": 1,
+          "sequence_no": 1,
+          "delivery_time": "1634659200000",
+          "input_sku_id": "377660465318199338",
+          "type": 3,
+          "main_output": {
+            "material": {
+              "sku_id": "376035762455445546",
+              "unit_id": "500000",
+              "plan_amount": "40",
+              "actual_amount": "",
+              "base_unit_id": "500000",
+              "base_unit_actual_amount": "",
+              "difference_amount": ""
+            },
+            "type": 1
+          },
+          "processor": "0",
+          "target_customer_id": "0",
+          "target_route_id": "0",
+          "sign": "a3a387ad8782a840c283bd024ba37a06",
+          "first_start_time": "0",
+          "last_start_time": "0",
+          "last_finish_time": "0",
+          "new_sign": "05d85b2cc2dcf9a74e931f4edae4737b"
+        }
+      ],
+      "process_task_relations": [
+        {
+          "process_task_relation_id": "222",
+          "create_time": "1634632938321",
+          "update_time": "1634632938321",
+          "delete_time": "0",
+          "group_id": "375965096653881368",
+          "station_id": "375965104807608346",
+          "process_task_id": "377660732562473036",
+          "task_id": "377660715768479750",
+          "process_id": "2",
+          "process_template_id": "375965126802538499",
+          "bom_id": "377660164385275909",
+          "bom_revision": "2",
+          "delivery_time": "1634659200000",
+          "inputs": {
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "377660465318199338",
+                  "unit_id": "600028",
+                  "plan_amount": "4",
+                  "actual_amount": "",
+                  "base_unit_id": "600028",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "prev_process_task_id": "0",
+                "prev_process_task_sign": "",
+                "prev_process_id": "0",
+                "prev_process_template_id": "0"
+              }
+            ]
+          },
+          "outputs": {
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500000",
+                  "plan_amount": "40",
+                  "actual_amount": "",
+                  "base_unit_id": "500000",
+                  "base_unit_actual_amount": "",
+                  "difference_amount": ""
+                },
+                "type": 1
+              }
+            ]
+          },
+          "output_sku_id": "376035762455445546",
+          "is_task_last_process": true
+        }
+      ]
+    }
+  },
+  "process_templates": {
+    "375965126785761283": {
+      "process_template_id": "375965126785761283",
+      "status": "0",
+      "create_time": "1633622278300",
+      "update_time": "1633622278300",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "process_type_id": "375965126483771394",
+      "name": "去皮",
+      "customized_code": "GX0003",
+      "description": "",
+      "attrs": {
+        "attrs": [
+          {
+            "attr_id": "1",
+            "name": "去皮设备",
+            "type": 1,
+            "values": []
+          },
+          {
+            "attr_id": "2",
+            "name": "去皮分类",
+            "type": 1,
+            "values": []
+          }
+        ],
+        "latest_attr_id": "2"
+      }
+    },
+    "375965126802538499": {
+      "process_template_id": "375965126802538499",
+      "status": "0",
+      "create_time": "1633622278315",
+      "update_time": "1633622278315",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "process_type_id": "375965126483771394",
+      "name": "解冻",
+      "customized_code": "GX0005",
+      "description": "",
+      "attrs": {
+        "attrs": [
+          {
+            "attr_id": "1",
+            "name": "解冻时长",
+            "type": 1,
+            "values": []
+          },
+          {
+            "attr_id": "2",
+            "name": "解冻设备",
+            "type": 1,
+            "values": []
+          }
+        ],
+        "latest_attr_id": "2"
+      }
+    },
+    "375965126836092931": {
+      "process_template_id": "375965126836092931",
+      "status": "0",
+      "create_time": "1633622278336",
+      "update_time": "1633622278336",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "process_type_id": "375965126483771394",
+      "name": "清洗",
+      "customized_code": "GX0006",
+      "description": "",
+      "attrs": {
+        "attrs": [
+          {
+            "attr_id": "1",
+            "name": "清洗时长",
+            "type": 1,
+            "values": []
+          },
+          {
+            "attr_id": "2",
+            "name": "清洗设备",
+            "type": 1,
+            "values": []
+          },
+          {
+            "attr_id": "3",
+            "name": "清洗型号",
+            "type": 1,
+            "values": []
+          },
+          {
+            "attr_id": "4",
+            "name": "清洗要求",
+            "type": 1,
+            "values": []
+          }
+        ],
+        "latest_attr_id": "4"
+      }
+    }
+  },
+  "processors": {
+    "376632684308332548": {
+      "processor_id": "376632684308332548",
+      "create_time": "1634020173600",
+      "update_time": "1634020173600",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "parent_id": "376632666641924100",
+      "name": "火娃"
+    },
+    "376632600237703172": {
+      "processor_id": "376632600237703172",
+      "create_time": "1634020123483",
+      "update_time": "1634020123483",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "parent_id": "0",
+      "name": "天线bb车间"
+    },
+    "376632622735949828": {
+      "processor_id": "376632622735949828",
+      "create_time": "1634020136891",
+      "update_time": "1634020136891",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "parent_id": "376632600237703172",
+      "name": "玛卡巴卡"
+    },
+    "376632635906064388": {
+      "processor_id": "376632635906064388",
+      "create_time": "1634020144749",
+      "update_time": "1634020144749",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "parent_id": "376632600237703172",
+      "name": "唔西迪西"
+    },
+    "376632666641924100": {
+      "processor_id": "376632666641924100",
+      "create_time": "1634020163072",
+      "update_time": "1634020163072",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "parent_id": "0",
+      "name": "葫芦娃车间"
+    },
+    "376632676859248644": {
+      "processor_id": "376632676859248644",
+      "create_time": "1634020169155",
+      "update_time": "1634020169155",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "parent_id": "376632666641924100",
+      "name": "水娃"
+    }
+  },
+  "skus": {
+    "376035206408175658": {
+      "category_infos": [],
+      "sku": {
+        "sku_id": "376035206408175658",
+        "status": "0",
+        "revision": "1633664049011",
+        "create_time": "1633664049014",
+        "update_time": "1633664049014",
+        "delete_time": "0",
+        "group_id": "375965096653881368",
+        "category_id": "375965120125206568",
+        "spu_id": "375965120964067369",
+        "base_unit_id": "500001",
+        "max_unit_id": "1",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "土猪肉",
+        "customize_code": "tzr910",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "process": false,
+        "process_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "purchase_type": 1,
+        "dispatch_type": 1,
+        "rank": 5,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit": {
+          "unit_id": "500001",
+          "status": "0",
+          "revision": "1633622258417",
+          "create_time": "1633622258417",
+          "update_time": "1633622258417",
+          "delete_time": "0",
+          "group_id": 0,
+          "name": "斤",
+          "rate": "1",
+          "type": 4,
+          "parent_id": "500001",
+          "country_id": "0"
+        },
+        "purchase_method_type": 2,
+        "manual_purchase": false,
+        "purchase_spec_id": "0",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "shelf_id": "0"
+      },
+      "ssu_map": {
+        "1": {
+          "ssu": {
+            "ssu_id": "376035206441730159",
+            "status": "0",
+            "revision": "1633664049027",
+            "create_time": "1633664049030",
+            "update_time": "1633664049033",
+            "delete_time": "0",
+            "group_id": "375965096653881368",
+            "sku_id": "376035206408175658",
+            "category_id": "375965120125206568",
+            "spu_id": "375965120964067369",
+            "sku_type": 2,
+            "not_package_sub_sku_type": 1,
+            "package_sub_sku_type": 0,
+            "process": false,
+            "sku_name": "土猪肉",
+            "unit_id": "1",
+            "source_ssu_id": "0",
+            "source_group_id": "0",
+            "customize_code": "t1106",
+            "description": "",
+            "repeated_field": {
+              "images": []
+            },
+            "has_image": false,
+            "name": "土猪肉",
+            "is_default_ssu": true,
+            "on_sale": true,
+            "shipping_fee_unit_id": "500001",
+            "shipping_fee_unit": 1,
+            "minimum_order_number": "1",
+            "unit_type": 1,
+            "unit": {
+              "unit_id": "1",
+              "status": "0",
+              "revision": "1633622258417",
+              "create_time": "1633622258417",
+              "update_time": "1633622258417",
+              "delete_time": "0",
+              "group_id": 0,
+              "name": "斤",
+              "rate": "1",
+              "type": 4,
+              "parent_id": "500001",
+              "country_id": "0"
+            },
+            "base_unit_id": "500001",
+            "purchase_unit_id": "1",
+            "purchase_ssu_id": "376035206441730159",
+            "is_weight": true,
+            "split_flag": 0,
+            "need_package": true,
+            "need_package_work": false,
+            "package_calculate_type": 1,
+            "package_num": 1,
+            "package_price": "0",
+            "package_id": {
+              "sku_id": "0",
+              "unit_id": "0"
+            },
+            "package_ssu_id": "0",
+            "ingredients": {
+              "ssu_ratios": []
+            },
+            "default_price": "0",
+            "type": 1,
+            "related_combine_ssu_ids": {
+              "related_combine_ssu_ids": []
+            },
+            "real_related_combine_ssu_real_ssu_ids": {
+              "related_combine_ssu_ids": []
+            },
+            "tax": "0",
+            "input_tax": "0",
+            "loss_ratio": "0",
+            "last_inquiry_time": "0",
+            "ssu_hot": "0"
+          },
+          "basic_prices": []
+        }
+      }
+    },
+    "376035762455445546": {
+      "category_infos": [],
+      "sku": {
+        "sku_id": "376035762455445546",
+        "status": "0",
+        "revision": "1633664380443",
+        "create_time": "1633664380445",
+        "update_time": "1633664380445",
+        "delete_time": "0",
+        "group_id": "375965096653881368",
+        "category_id": "375965120125206568",
+        "spu_id": "375965120964067369",
+        "base_unit_id": "500000",
+        "max_unit_id": "1",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "猪肉丝",
+        "customize_code": "zrs1103",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "process": true,
+        "process_type": 1,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "purchase_type": 1,
+        "dispatch_type": 1,
+        "rank": 12,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit": {
+          "unit_id": "500000",
+          "status": "0",
+          "revision": "1633622258417",
+          "create_time": "1633622258417",
+          "update_time": "1633622258417",
+          "delete_time": "0",
+          "group_id": 0,
+          "name": "公斤",
+          "rate": "1",
+          "type": 4,
+          "parent_id": "500000",
+          "country_id": "0"
+        },
+        "purchase_method_type": 2,
+        "manual_purchase": false,
+        "purchase_spec_id": "0",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "shelf_id": "0"
+      },
+      "ssu_map": {
+        "1": {
+          "ssu": {
+            "ssu_id": "376035762489000047",
+            "status": "0",
+            "revision": "1633664380460",
+            "create_time": "1633664380464",
+            "update_time": "1633664380466",
+            "delete_time": "0",
+            "group_id": "375965096653881368",
+            "sku_id": "376035762455445546",
+            "category_id": "375965120125206568",
+            "spu_id": "375965120964067369",
+            "sku_type": 2,
+            "not_package_sub_sku_type": 1,
+            "package_sub_sku_type": 0,
+            "process": true,
+            "sku_name": "猪肉丝",
+            "unit_id": "1",
+            "source_ssu_id": "0",
+            "source_group_id": "0",
+            "customize_code": "s1355",
+            "description": "",
+            "repeated_field": {
+              "images": []
+            },
+            "has_image": false,
+            "name": "猪肉丝",
+            "is_default_ssu": true,
+            "on_sale": true,
+            "shipping_fee_unit_id": "500000",
+            "shipping_fee_unit": 1,
+            "minimum_order_number": "1",
+            "unit_type": 1,
+            "unit": {
+              "unit_id": "1",
+              "status": "0",
+              "revision": "1633622258417",
+              "create_time": "1633622258417",
+              "update_time": "1633622258417",
+              "delete_time": "0",
+              "group_id": 0,
+              "name": "公斤",
+              "rate": "1",
+              "type": 4,
+              "parent_id": "500000",
+              "country_id": "0"
+            },
+            "base_unit_id": "500000",
+            "purchase_unit_id": "1",
+            "purchase_ssu_id": "376035762489000047",
+            "is_weight": true,
+            "split_flag": 0,
+            "need_package": true,
+            "need_package_work": false,
+            "package_calculate_type": 1,
+            "package_num": 1,
+            "package_price": "0",
+            "package_id": {
+              "sku_id": "0",
+              "unit_id": "0"
+            },
+            "package_ssu_id": "0",
+            "ingredients": {
+              "ssu_ratios": []
+            },
+            "default_price": "0",
+            "type": 1,
+            "related_combine_ssu_ids": {
+              "related_combine_ssu_ids": []
+            },
+            "real_related_combine_ssu_real_ssu_ids": {
+              "related_combine_ssu_ids": []
+            },
+            "tax": "0",
+            "input_tax": "0",
+            "loss_ratio": "0",
+            "last_inquiry_time": "0",
+            "ssu_hot": "0"
+          },
+          "basic_prices": []
+        }
+      }
+    },
+    "376036711156678698": {
+      "category_infos": [],
+      "sku": {
+        "sku_id": "376036711156678698",
+        "status": "0",
+        "revision": "1633664945914",
+        "create_time": "1633664945916",
+        "update_time": "1633664945916",
+        "delete_time": "0",
+        "group_id": "375965096653881368",
+        "category_id": "375965120259424296",
+        "spu_id": "375965121198948393",
+        "base_unit_id": "500004",
+        "max_unit_id": "1",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "猪肉末",
+        "customize_code": "zrm9726",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "process": false,
+        "process_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "purchase_type": 1,
+        "dispatch_type": 1,
+        "rank": 4,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit": {
+          "unit_id": "500004",
+          "status": "0",
+          "revision": "1633622258417",
+          "create_time": "1633622258417",
+          "update_time": "1633622258417",
+          "delete_time": "0",
+          "group_id": 0,
+          "name": "g",
+          "rate": "1",
+          "type": 4,
+          "parent_id": "500004",
+          "country_id": "0"
+        },
+        "purchase_method_type": 2,
+        "manual_purchase": false,
+        "purchase_spec_id": "0",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "shelf_id": "0"
+      },
+      "ssu_map": {
+        "1": {
+          "ssu": {
+            "ssu_id": "376036711173455983",
+            "status": "0",
+            "revision": "1633664945927",
+            "create_time": "1633664945931",
+            "update_time": "1633664945933",
+            "delete_time": "0",
+            "group_id": "375965096653881368",
+            "sku_id": "376036711156678698",
+            "category_id": "375965120259424296",
+            "spu_id": "375965121198948393",
+            "sku_type": 2,
+            "not_package_sub_sku_type": 1,
+            "package_sub_sku_type": 0,
+            "process": false,
+            "sku_name": "猪肉末",
+            "unit_id": "1",
+            "source_ssu_id": "0",
+            "source_group_id": "0",
+            "customize_code": "z9453",
+            "description": "",
+            "repeated_field": {
+              "images": []
+            },
+            "has_image": false,
+            "name": "猪肉末",
+            "is_default_ssu": true,
+            "on_sale": true,
+            "shipping_fee_unit_id": "500004",
+            "shipping_fee_unit": 1,
+            "minimum_order_number": "1",
+            "unit_type": 1,
+            "unit": {
+              "unit_id": "1",
+              "status": "0",
+              "revision": "1633622258417",
+              "create_time": "1633622258417",
+              "update_time": "1633622258417",
+              "delete_time": "0",
+              "group_id": 0,
+              "name": "g",
+              "rate": "1",
+              "type": 4,
+              "parent_id": "500004",
+              "country_id": "0"
+            },
+            "base_unit_id": "500004",
+            "purchase_unit_id": "1",
+            "purchase_ssu_id": "376036711173455983",
+            "is_weight": true,
+            "split_flag": 0,
+            "need_package": true,
+            "need_package_work": false,
+            "package_calculate_type": 1,
+            "package_num": 1,
+            "package_price": "0",
+            "package_id": {
+              "sku_id": "0",
+              "unit_id": "0"
+            },
+            "package_ssu_id": "0",
+            "ingredients": {
+              "ssu_ratios": []
+            },
+            "default_price": "0",
+            "type": 1,
+            "related_combine_ssu_ids": {
+              "related_combine_ssu_ids": []
+            },
+            "real_related_combine_ssu_real_ssu_ids": {
+              "related_combine_ssu_ids": []
+            },
+            "tax": "0",
+            "input_tax": "0",
+            "loss_ratio": "0",
+            "last_inquiry_time": "0",
+            "ssu_hot": "0"
+          },
+          "basic_prices": []
+        }
+      }
+    },
+    "377660465318199338": {
+      "category_infos": [],
+      "sku": {
+        "sku_id": "377660465318199338",
+        "status": "0",
+        "revision": "1634632801277",
+        "create_time": "1634632778815",
+        "update_time": "1634632801277",
+        "delete_time": "0",
+        "group_id": "375965096653881368",
+        "category_id": "375965120259424296",
+        "spu_id": "375965121198948393",
+        "base_unit_id": "600028",
+        "max_unit_id": "1",
+        "source_sku_id": "0",
+        "source_group_id": "0",
+        "name": "猪肉佬",
+        "customize_code": "zrl7503",
+        "desc": "",
+        "sku_type": 2,
+        "not_package_sub_sku_type": 1,
+        "package_sub_sku_type": 0,
+        "process": false,
+        "process_type": 0,
+        "expiry_date": 0,
+        "repeated_field": {
+          "alias": [],
+          "images": [],
+          "extras": []
+        },
+        "purchase_type": 1,
+        "dispatch_type": 1,
+        "rank": 8,
+        "purchaser_id": "0",
+        "supplier_id": "0",
+        "production_unit": {
+          "unit_id": "500001",
+          "status": "0",
+          "revision": "1633622258417",
+          "create_time": "1633622258417",
+          "update_time": "1633622258417",
+          "delete_time": "0",
+          "group_id": 0,
+          "name": "斤",
+          "rate": "20",
+          "type": 5,
+          "parent_id": "600028",
+          "country_id": "0"
+        },
+        "purchase_method_type": 2,
+        "manual_purchase": false,
+        "purchase_spec_id": "0",
+        "loss_ratio": "0",
+        "package_price": "",
+        "tax": "0",
+        "finance_category_id": "0",
+        "input_tax": "0",
+        "shelf_id": "0"
+      },
+      "ssu_map": {
+        "1": {
+          "ssu": {
+            "ssu_id": "377660465351753839",
+            "status": "0",
+            "revision": "1634632801305",
+            "create_time": "1634632778830",
+            "update_time": "1634632801325",
+            "delete_time": "0",
+            "group_id": "375965096653881368",
+            "sku_id": "377660465318199338",
+            "category_id": "375965120259424296",
+            "spu_id": "375965121198948393",
+            "sku_type": 2,
+            "not_package_sub_sku_type": 1,
+            "package_sub_sku_type": 0,
+            "process": false,
+            "sku_name": "猪肉佬",
+            "unit_id": "1",
+            "source_ssu_id": "0",
+            "source_group_id": "0",
+            "customize_code": "z9476",
+            "description": "",
+            "repeated_field": {
+              "images": []
+            },
+            "has_image": false,
+            "name": "猪肉佬",
+            "is_default_ssu": true,
+            "on_sale": true,
+            "shipping_fee_unit_id": "600028",
+            "shipping_fee_unit": 1,
+            "minimum_order_number": "1",
+            "unit_type": 1,
+            "unit": {
+              "unit_id": "1",
+              "status": "0",
+              "revision": "1633622258417",
+              "create_time": "1633622258417",
+              "update_time": "1633622258417",
+              "delete_time": "0",
+              "group_id": 0,
+              "name": "桶",
+              "rate": "1",
+              "type": 5,
+              "parent_id": "600028",
+              "country_id": "0"
+            },
+            "base_unit_id": "600028",
+            "purchase_unit_id": "1",
+            "purchase_ssu_id": "377660465351753839",
+            "is_weight": true,
+            "split_flag": 0,
+            "need_package": true,
+            "need_package_work": false,
+            "package_calculate_type": 1,
+            "package_num": 1,
+            "package_price": "0",
+            "package_id": {
+              "sku_id": "0",
+              "unit_id": "0"
+            },
+            "package_ssu_id": "0",
+            "ingredients": {
+              "ssu_ratios": []
+            },
+            "default_price": "0",
+            "type": 1,
+            "related_combine_ssu_ids": {
+              "related_combine_ssu_ids": []
+            },
+            "real_related_combine_ssu_real_ssu_ids": {
+              "related_combine_ssu_ids": []
+            },
+            "tax": "0",
+            "input_tax": "0",
+            "loss_ratio": "0",
+            "last_inquiry_time": "0",
+            "ssu_hot": "0"
+          },
+          "basic_prices": []
+        }
+      }
+    }
+  },
+  "customers": {},
+  "routes": {},
+  "boms_info": {
+    "376036823027154949": {
+      "bom_id": "376036823027154949",
+      "status": "0",
+      "revision": "3",
+      "create_time": "1633665012594",
+      "update_time": "1634632249792",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "sku_id": "376035762455445546",
+      "unit_id": "0",
+      "name": "猪肉丝",
+      "desc": "",
+      "type": 3,
+      "customized_code": "zrs1510",
+      "base_unit_id": "500001",
+      "quantity": "30.00000000",
+      "default_cook_yield_rate": "100",
+      "processes": {
+        "processes": [
+          {
+            "process_id": "2",
+            "process_template_id": "375965126785761283",
+            "attrs": [
+              {
+                "attr_id": "1",
+                "val": "床上叠床"
+              },
+              {
+                "attr_id": "2",
+                "val": "陈思诚"
+              }
+            ],
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "quantity": "100",
+                  "property": 2
+                },
+                "prev_process_id": "0",
+                "cooked_quantity": "",
+                "cook_yield_rate": "100",
+                "cost_unit_name": ""
+              }
+            ],
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "quantity": "100",
+                  "property": 2
+                },
+                "type": 1,
+                "next_process_id": "3"
+              }
+            ],
+            "type": 1,
+            "rank": 0
+          },
+          {
+            "process_id": "3",
+            "process_template_id": "375965126836092931",
+            "attrs": [
+              {
+                "attr_id": "1",
+                "val": "是多少大V"
+              },
+              {
+                "attr_id": "2",
+                "val": "是的SV"
+              },
+              {
+                "attr_id": "3",
+                "val": "生产"
+              },
+              {
+                "attr_id": "4",
+                "val": "生产"
+              }
+            ],
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "376035206408175658",
+                  "unit_id": "500001",
+                  "quantity": "100",
+                  "property": 2
+                },
+                "prev_process_id": "2",
+                "cooked_quantity": "",
+                "cook_yield_rate": "30",
+                "cost_unit_name": ""
+              }
+            ],
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500001",
+                  "quantity": "30",
+                  "property": 1
+                },
+                "type": 1,
+                "next_process_id": "0"
+              },
+              {
+                "material": {
+                  "sku_id": "376036711156678698",
+                  "unit_id": "500004",
+                  "quantity": "30",
+                  "property": 2
+                },
+                "type": 2,
+                "next_process_id": "0"
+              }
+            ],
+            "type": 1,
+            "rank": 1
+          }
+        ],
+        "latest_process_id": "3"
+      },
+      "customer_ids": {
+        "customer_ids": []
+      },
+      "product_cost": "",
+      "cost_unit_name": ""
+    },
+    "377660164385275909": {
+      "bom_id": "377660164385275909",
+      "status": "512",
+      "revision": "2",
+      "create_time": "1634632599447",
+      "update_time": "1634632885040",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "sku_id": "376035762455445546",
+      "unit_id": "0",
+      "name": "猪肉丝-生产",
+      "desc": "",
+      "type": 3,
+      "customized_code": "zrs-sc2939",
+      "base_unit_id": "500001",
+      "quantity": "100.00000000",
+      "default_cook_yield_rate": "100",
+      "processes": {
+        "processes": [
+          {
+            "process_id": "2",
+            "process_template_id": "375965126802538499",
+            "attrs": [],
+            "inputs": [
+              {
+                "material": {
+                  "sku_id": "377660465318199338",
+                  "unit_id": "500001",
+                  "quantity": "100",
+                  "property": 2
+                },
+                "prev_process_id": "0",
+                "cooked_quantity": "",
+                "cook_yield_rate": "100",
+                "cost_unit_name": ""
+              }
+            ],
+            "outputs": [
+              {
+                "material": {
+                  "sku_id": "376035762455445546",
+                  "unit_id": "500001",
+                  "quantity": "100",
+                  "property": 1
+                },
+                "type": 1,
+                "next_process_id": "0"
+              }
+            ],
+            "type": 1,
+            "rank": 0
+          }
+        ],
+        "latest_process_id": "2"
+      },
+      "customer_ids": {
+        "customer_ids": []
+      },
+      "product_cost": "",
+      "cost_unit_name": ""
+    }
+  },
+  "tasks_info": {
+    "377654835421380614": {
+      "task_id": "377654835421380614",
+      "create_time": "1634629423373",
+      "update_time": "1634629433343",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "sku_id": "376035762455445546",
+      "sku_name": "猪肉丝",
+      "unit_id": "500000",
+      "sku_customize_code": "zrs1103",
+      "bom_id": "376036823027154949",
+      "bom_name": "猪肉丝",
+      "bom_revision": "3",
+      "serial_no": "SC21101900021",
+      "batch": "",
+      "delivery_time": "1634572800000",
+      "release_time": "1634629433343",
+      "finish_time": "0",
+      "state": 2,
+      "type": 3,
+      "order_amount": "33.00000000",
+      "plan_amount": "33.00000000",
+      "output_amount": "0.00000000",
+      "base_unit_id": "500000",
+      "base_unit_output_amount": "0.00000000",
+      "source": 2,
+      "by_products": {
+        "by_products": [
+          {
+            "sku_id": "376036711156678698",
+            "sku_name": "猪肉末",
+            "unit_id": "500004",
+            "plan_amount": "0",
+            "output_amount": "0"
+          }
+        ]
+      },
+      "target_customer_id": "0",
+      "last_process_id": "3",
+      "input_receive_total_price": "0.00000000",
+      "input_return_total_price": "0.00000000",
+      "input_actual_usage_total_price": "0.00000000",
+      "target_route_id": "0",
+      "demand_numbers": {}
+    },
+    "377660715768479750": {
+      "task_id": "377660715768479750",
+      "create_time": "1634632928317",
+      "update_time": "1634632938326",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "sku_id": "376035762455445546",
+      "sku_name": "猪肉丝",
+      "unit_id": "500000",
+      "sku_customize_code": "zrs1103",
+      "bom_id": "377660164385275909",
+      "bom_name": "猪肉丝-生产",
+      "bom_revision": "2",
+      "serial_no": "SC21101900025",
+      "batch": "",
+      "delivery_time": "1634659200000",
+      "release_time": "1634632938326",
+      "finish_time": "0",
+      "state": 2,
+      "type": 3,
+      "order_amount": "40.00000000",
+      "plan_amount": "40.00000000",
+      "output_amount": "0.00000000",
+      "base_unit_id": "500000",
+      "base_unit_output_amount": "0.00000000",
+      "source": 2,
+      "by_products": {
+        "by_products": []
+      },
+      "target_customer_id": "0",
+      "last_process_id": "2",
+      "input_receive_total_price": "0.00000000",
+      "input_return_total_price": "0.00000000",
+      "input_actual_usage_total_price": "0.00000000",
+      "target_route_id": "0",
+      "demand_numbers": {}
+    },
+    "377654550158376966": {
+      "task_id": "377654550158376966",
+      "create_time": "1634629253320",
+      "update_time": "1634629318337",
+      "delete_time": "0",
+      "group_id": "375965096653881368",
+      "station_id": "375965104807608346",
+      "sku_id": "376035762455445546",
+      "sku_name": "猪肉丝",
+      "unit_id": "500000",
+      "sku_customize_code": "zrs1103",
+      "bom_id": "376036823027154949",
+      "bom_name": "猪肉丝",
+      "bom_revision": "2",
+      "serial_no": "SC21101900020",
+      "batch": "",
+      "delivery_time": "1635523200000",
+      "release_time": "1634629318337",
+      "finish_time": "0",
+      "state": 2,
+      "type": 3,
+      "order_amount": "333.00000000",
+      "plan_amount": "333.00000000",
+      "output_amount": "0.00000000",
+      "base_unit_id": "500000",
+      "base_unit_output_amount": "0.00000000",
+      "source": 2,
+      "by_products": {
+        "by_products": [
+          {
+            "sku_id": "376036711156678698",
+            "sku_name": "猪肉末",
+            "unit_id": "500004",
+            "plan_amount": "0",
+            "output_amount": "0"
+          }
+        ]
+      },
+      "target_customer_id": "0",
+      "last_process_id": "3",
+      "input_receive_total_price": "0.00000000",
+      "input_return_total_price": "0.00000000",
+      "input_actual_usage_total_price": "0.00000000",
+      "target_route_id": "0",
+      "demand_numbers": {}
+    }
+  }
+}

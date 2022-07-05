@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/菜单/客户/selected</title>
+    <g id="icon/菜单/客户/selected" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="人群_peoples" transform="translate(1.000000, 1.000000)">
+            <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="18" height="18"></rect>
+            <path d="M7,8.25 C8.65685714,8.25 10,6.90685714 10,5.25 C10,3.59314714 8.65685714,2.25 7,2.25 C5.34314286,2.25 4,3.59314714 4,5.25 C4,6.90685714 5.34314286,8.25 7,8.25 Z" id="路径" stroke="#FFFFFF" stroke-width="1.2" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M12.0865375,2.625 C12.9335375,3.135375 13.5000375,4.06404167 13.5000375,5.125 C13.5000375,6.18595833 12.9335375,7.114625 12.0865375,7.625" id="路径" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M1.5,15.75 L12.75,15.75 L12.75,13.5 C12.75,11.8431458 11.4068542,10.5 9.75,10.5 L4.5,10.5 C2.84314575,10.5 1.5,11.8431458 1.5,13.5 L1.5,15.75 L1.5,15.75 Z" id="路径" stroke="#FFFFFF" stroke-width="1.2" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M16.1380375,15.75 L16.1380375,15.3 C16.1380375,13.61985 16.1380375,12.779775 15.811075,12.1380375 C15.52345,11.57355 15.0644875,11.1145875 14.5,10.8269625" id="路径" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

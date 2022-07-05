@@ -1,0 +1,95 @@
+@import '~@gm-pc/react/src/var.less';
+
+.b-shelf-full {
+  height: calc(100vh - 90px);
+  background-color: var(--gm-color-bg-back);
+
+  .gm-form-panel-content {
+    height: calc(100% - 40px);
+  }
+}
+
+.b-shelf-action {
+  visibility: hidden;
+}
+
+// 激活时,常驻显示
+.gm-popover-active {
+  .b-shelf-action {
+    color: var(--gm-color-primary);
+    visibility: visible;
+  }
+}
+
+.b-shelf {
+  .b-shelf-item {
+    height: 60px;
+
+    .b-shelf-item-sign {
+      display: inline-block;
+      padding: 2px;
+      margin-left: 5px;
+      color: var(--gm-color-primary);
+      border: 1px solid var(--gm-color-primary);
+      border-radius: 2px;
+    }
+
+    &:hover {
+      .b-shelf-action {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.b-shelf-product {
+  overflow-y: auto;
+}
+
+.spu-list-card-virtual {
+  height: 0 !important;
+}
+
+.spu-list-card {
+  position: relative;
+  min-width: 360px;
+  height: 160px;
+  background-color: rgb(247, 250, 254);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+  &-left {
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 4px;
+
+    & > img {
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+    }
+  }
+
+  h4,
+  p {
+    margin: 0;
+  }
+
+  h4 {
+    margin-bottom: 4px !important;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  p {
+    color: rgb(144, 145, 146);
+
+    span {
+      padding-left: 5;
+      font-size: 15px;
+      font-weight: 600;
+      color: rgb(51, 51, 51);
+    }
+  }
+}

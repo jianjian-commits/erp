@@ -1,0 +1,138 @@
+@import '~@gm-pc/react/src/var.less';
+
+.b-panel-header {
+  width: 100%;
+  height: 30px;
+
+  .b-panel-header-symbol {
+    width: 5px;
+    height: 20px;
+    background-color: var(--gm-color-primary);
+  }
+
+  .b-panel-header-title {
+    width: 100%;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 18px;
+  }
+
+  .b-panel-header-underline {
+    border-bottom: 1px solid var(--gm-color-primary);
+  }
+}
+
+.b-schedule-full-screen {
+  background-image: url('../../img/performance_fullscreen.jpg');
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.b-select-width {
+  width: 95px;
+}
+
+.b-24-text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.b-command-flex {
+  height: 80px;
+
+  .b-command-sku {
+    height: 50%;
+    border-bottom: 1px solid var(--gm-color-border);
+  }
+
+  .b-command-info {
+    height: 50%;
+
+    .b-info-text {
+      flex: 1;
+      height: 100%;
+    }
+  }
+
+  .b-info-border {
+    border-right: 1px solid var(--gm-color-border);
+  }
+
+  .b-flex-center {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.b-flex-margin-8 {
+  margin: -8px;
+}
+
+.b-flex-margin-20 {
+  margin: -8px -20px -8px -8px;
+}
+
+.b-tr-height {
+  height: 60px;
+
+  .b-tr-div {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .b-tr-border {
+    border-right: 1px solid var(--gm-color-border);
+  }
+}
+
+.b-summary-title {
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(244, 244, 244);
+  .b-border {
+    height: 40px;
+    border-right: 1px solid var(--gm-color-desc);
+  }
+  .b-title-info {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+    div:last-child {
+      margin-top: 5px;
+      font-size: 18px;
+    }
+  }
+}
+
+.b-radio-margin {
+  display: inline-block;
+  margin-right: 47px;
+}
+
+.b-diy-batch {
+  height: 100%;
+  .b-batch-top {
+    height: 88%;
+    .b-batch-chose {
+      width: 25%;
+    }
+  }
+  .b-span-border {
+    display: block;
+    border-right: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .b-batch-template {
+    height: 95%;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+}
+
+.footer-color {
+  color: #0363ff;
+  cursor: pointer;
+}

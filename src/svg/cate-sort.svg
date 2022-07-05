@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>排序</title>
+    <g id="切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="排序" fill="#7F7F7F">
+            <path d="M7,12 L41,12 L41,15 L7,15 L7,12 Z M7,23 L41,23 L41,26 L7,26 L7,23 Z M7,34 L41,34 L41,37 L7,37 L7,34 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

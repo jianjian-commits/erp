@@ -1,0 +1,129 @@
+.b-purchase-status-unpublished {
+  background: #ed6089;
+}
+
+.b-purchase-status-release {
+  background: #86b04e;
+}
+
+.b-purchase-status-done {
+  background: #43545c;
+}
+
+.b-purchase-status {
+  height: 20px;
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 20px;
+  color: white;
+}
+.b-input-long {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.split {
+  .split-header {
+    box-sizing: border-box;
+    height: 83px;
+    padding: 10px 30px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .split-body {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 30px;
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+    .ant-form-item-explain {
+      display: none;
+    }
+    .split-table-header {
+      box-sizing: border-box;
+      width: 100%;
+      height: 60px;
+      padding: 0 20px;
+      background-color: #f4f7fd;
+      .split-table-header-border {
+        box-sizing: border-box;
+        padding-right: 10px;
+        margin: 0 8px;
+        border-right: 1px solid #ccc;
+      }
+      .split-table-header-batchButton {
+        color: #0363ff;
+        border: 1px solid #0363ff;
+      }
+    }
+    .ant-table-footer {
+      padding: 0;
+      background-color: #fff;
+    }
+  }
+}
+.split-success {
+  box-sizing: border-box;
+  width: 478px;
+  height: auto;
+  max-height: 340px;
+  padding: 15px;
+  overflow-y: auto;
+  .split-success-feedback {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    overflow: hidden; /* 超出要隐藏 */
+    line-height: 50px;
+    text-overflow: ellipsis; /* 让截断的文字显示为点点。还有一个值是clip意截断不显示点点 */
+    white-space: nowrap; /* 让文字不换行 */
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: -20px;
+      display: block;
+      width: 478px;
+      height: 1px;
+      content: '';
+      border-bottom: 1px solid #f0f0f0;
+    }
+  }
+}
+
+.purchaseTask-boxTable {
+  box-sizing: border-box;
+  min-height: calc(100vh - 120px);
+  padding: 10px 16px;
+  border: 16px solid #f1f1f1;
+  .ant-select-selector {
+    height: 29px !important;
+    border: 1px solid var(--gm-color-border) !important;
+  }
+  .gm-box-table-header {
+    box-sizing: border-box;
+    height: 60px;
+    padding: 0 !important;
+    background-color: #fff !important;
+  }
+  .gm-table-x-select-batch-action-bar {
+    box-sizing: border-box;
+    height: 60px;
+    padding: 0 !important;
+    background-color: #fff !important;
+  }
+  .gm-table-x .gm-table-x-table .gm-table-x-tr .gm-table-x-th {
+    background-color: #ebeff3;
+  }
+}
+
+.purchase_task_drawer {
+  .ant-drawer-header-title {
+    box-sizing: border-box;
+    justify-content: end !important;
+    padding-top: 15px;
+  }
+}

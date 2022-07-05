@@ -1,0 +1,52 @@
+{
+  "shelves": [
+    {
+      "shelf_id": "332148939023187980",
+      "create_time": "1607505795231",
+      "update_time": "1607505795231",
+      "delete_time": "0",
+      "group_id": "331413304809357336",
+      "station_id": "331413304926797850",
+      "parent_id": "0",
+      "name": "大厅",
+      "remark": "",
+      "is_leaf": true
+    },
+    {
+      "shelf_id": "332148986536263692",
+      "create_time": "1607505823554",
+      "update_time": "1607505823554",
+      "delete_time": "0",
+      "group_id": "331413304809357336",
+      "station_id": "331413304926797850",
+      "parent_id": "0",
+      "name": "仓库",
+      "remark": "",
+      "is_leaf": false
+    },
+    {
+      "shelf_id": "332149008128540684",
+      "create_time": "1607505836427",
+      "update_time": "1607505836427",
+      "delete_time": "0",
+      "group_id": "331413304809357336",
+      "station_id": "331413304926797850",
+      "parent_id": "332148986536263692",
+      "name": "冷冻室",
+      "remark": "",
+      "is_leaf": false
+    },
+    {
+      "shelf_id": "332149039183167500",
+      "create_time": "1607505854939",
+      "update_time": "1607505854939",
+      "delete_time": "0",
+      "group_id": "331413304809357336",
+      "station_id": "331413304926797850",
+      "parent_id": "332149008128540684",
+      "name": "究极冰冻模式",
+      "remark": "",
+      "is_leaf": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <g id="采购模块" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="菜单-采购计划规则（按客户）" transform="translate(-367.000000, -201.000000)">
+            <g id="Group-7" transform="translate(152.000000, 178.000000)">
+                <g id="客户筛选+搜索" transform="translate(12.000000, 17.000000)">
+                    <g id="Icon/Calendar" transform="translate(203.000000, 6.000000)">
+                        <path d="M12.3357864,13.8357864 L16.8357864,13.8357864 C17.25,13.8357864 17.5857864,14.1715729 17.5857864,14.5857864 C17.5857864,15 17.25,15.3357864 16.8357864,15.3357864 L12.3357864,15.3357864 C11.9215729,15.3357864 11.5857864,15 11.5857864,14.5857864 C11.5857864,14.1715729 11.9215729,13.8357864 12.3357864,13.8357864 Z" id="矩形" fill="#454545" transform="translate(14.585786, 14.585786) rotate(-315.000000) translate(-14.585786, -14.585786) "></path>
+                        <path d="M9,14.5 C12.0375675,14.5 14.5,12.0375675 14.5,9 C14.5,5.9624325 12.0375675,3.5 9,3.5 C5.9624325,3.5 3.5,5.9624325 3.5,9 C3.5,12.0375675 5.9624325,14.5 9,14.5 Z" id="路径" stroke="#454545" stroke-width="1.5" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

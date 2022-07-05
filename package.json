@@ -1,0 +1,145 @@
+{
+  "name": "gm_static_x_erp",
+  "aliasName": "erp",
+  "clientName": "GmERP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "git pull; yarn; yarn run build:prod; gmrsync erp_test",
+    "prod": "git pull; yarn; yarn run build:prod; gmrsync erp_master",
+    "start": "gras start",
+    "start:master": "yarn start_with_env master",
+    "start:dev": "yarn start_with_env dev",
+    "start:lite": "yarn start_with_env lite",
+    "start:feature": "yarn start_with_env feature",
+    "build:test": "gras test",
+    "build:prod": "gras build",
+    "update_api": "node ./node_modules/gm_api/scripts/update_gm_api.js",
+    "api": "yarn update_api; yarn;",
+    "api:lite": "yarn update_api lite-master; yarn;",
+    "api:master": "yarn update_api master; yarn;",
+    "lint": "eslint \"src/**/*.{ts,tsx,js}\"",
+    "lint:fix": "yarn lint --cache --fix",
+    "lint:staged": "yarn lint-staged",
+    "stylelint": "stylelint \"src/**/*.{less,css}\"",
+    "stylelint:fix": "yarn stylelint --cache --fix",
+    "preinstall": "node ./scripts/checkYarn.js",
+    "start_with_env": "node ./scripts/start_with_env.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.guanmai.cn:fe-x/gm_static_x_erp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "lint-staged": {
+    "./src/**/*.{ts,tsx,js}": [
+      "eslint --cache --fix"
+    ],
+    "./src/**/*.{less,css}": [
+      "stylelint --cache --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "browserslist": {
+    "production": [
+      "iOS >= 8",
+      "Android >= 5.0"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@gm-react-app/commitlint-gm-react-app"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/charts": "^1.1.17",
+    "@ant-design/icons": "^4.6.2",
+    "@antv/g6": "^4.3.11",
+    "@gm-common/date": "^2.12.0",
+    "@gm-common/graph": "^2.12.0",
+    "@gm-common/hooks": "^2.12.0",
+    "@gm-common/image": "^2.12.0",
+    "@gm-common/map": "^2.12.0",
+    "@gm-common/mobx": "^2.12.0",
+    "@gm-common/qiniup": "^2.12.0",
+    "@gm-common/router": "^2.12.0",
+    "@gm-common/tool": "^2.12.0",
+    "@gm-common/x-request": "^2.12.0",
+    "@gm-pc/business": "1.9.0",
+    "@gm-pc/frame": "1.9.0",
+    "@gm-pc/keyboard": "1.9.0",
+    "@gm-pc/react": "1.9.0",
+    "@gm-pc/sortable": "1.9.0",
+    "@gm-pc/table-x": "1.9.0",
+    "@gm-pc/vision": "1.9.0",
+    "@gm-react-app/scripts": "3.7.7",
+    "@gm-react-app/tailwind-gm-react-app": "3.7.7",
+    "antd": "^4.18.0",
+    "babel-plugin-mobx-deep-action": "^1.6.1",
+    "big.js": "^6.0.3",
+    "classnames": "^2.2.6",
+    "clipboard": "^2.0.6",
+    "crypto-js": "^4.0.0",
+    "debug": "^4.3.2",
+    "gm-excel": "1.0.2",
+    "gm-printer-label": "3.0.7",
+    "gm-service": "^1.8.7",
+    "gm-svg": "^0.3.23",
+    "gm-util": "^5.12.3",
+    "gm-x-printer": "1.4.0",
+    "gm_api": "git+https://code.guanmai.cn/fe-x/gm_api.git#a5dfafaaa1d5f5630aca0dd9bd81c9d889ea48c7",
+    "gm_auth": "git+https://code.guanmai.cn/fe-x/gm_auth.git#98ed63e414bc0dfd9fe7f3538005732b63789ced",
+    "html2canvas": "^1.4.1",
+    "jsbarcode": "^3.11.3",
+    "lodash": "^4.17.19",
+    "mobx": "^6.0.3",
+    "mobx-react": "^7.0.4",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.2.4",
+    "prop-types": "^15.7.2",
+    "qrcode.react": "^3.0.0",
+    "query-string": "^6.13.8",
+    "rc-virtual-list": "^3.4.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-loadable": "^5.5.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-use": "^17.2.3",
+    "styled-components": "^5.2.1",
+    "tailwindcss": "^2.0.2",
+    "weixin-js-sdk": "^1.6.0",
+    "xlsx": "^0.18.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.14.5",
+    "@types/big.js": "^6.0.2",
+    "@types/classnames": "^2.2.11",
+    "@types/clipboard": "^2.0.1",
+    "@types/crypto-js": "^4.0.1",
+    "@types/debug": "^4.1.6",
+    "@types/lodash": "^4.14.168",
+    "@types/react-dom": "^16.9.9",
+    "@types/react-router": "^5.1.11",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.7",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+include:
+  - project: fe-x/gitlab_ci
+    file: common_workflow.yaml
+    ref: master
+
+#
+# https://code.guanmai.cn/group/project/-/settings/ci_cd config the variable 'PROJECT_ALIAS'
+# variables:
+#   PROJECT_ALIAS: "erp"

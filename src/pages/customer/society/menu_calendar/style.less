@@ -1,0 +1,169 @@
+.root_calendar {
+  .gm-calendar1 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    background: white;
+    border: 1px solid var(--gm-color-border);
+
+    .gm-calendar-head {
+      height: 30px;
+      border: 1px solid #d6d6d6;
+
+      .gm-calendar-head-icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: var(--gm-color-desc);
+        text-align: center;
+      }
+
+      .gm-calendar-head-text {
+        height: 30px;
+        font-weight: bold;
+        line-height: 30px;
+        text-align: center;
+
+        &:hover {
+          color: var(--gm-color-primary);
+        }
+      }
+
+      .gm-calendar-head-year-icon {
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    .gm-calendar-years-or-months {
+      position: absolute;
+      top: 37px;
+      bottom: 5px;
+      width: 100%;
+      height: fit-content;
+      color: black;
+      background-color: white;
+    }
+
+    .gm-calendar-year-or-month {
+      display: inline-block;
+      width: 60px;
+      height: 28px;
+      margin: 9px 7px;
+      line-height: 28px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid white;
+
+      &.active {
+        color: var(--gm-color-primary);
+        background-color: white;
+        border: 1px solid var(--gm-color-primary);
+      }
+
+      &:hover {
+        color: white;
+        background-color: var(--gm-color-primary);
+      }
+    }
+
+    .gm-calendar-week {
+      height: 24px;
+      height: 60px;
+      font-size: 14px;
+      // color:#D6D6D6;
+      color: black;
+      border: 1px solid;
+      border-color: #d6d6d6;
+      border-bottom: none;
+    }
+
+    .gm-calendar-content {
+      background-color: #e2edff;
+      border: 1px solid #d6d6d6;
+      border-top: none;
+      border-bottom: none;
+    }
+
+    .gm-calendar-day {
+      display: inline-block;
+      width: 100%;
+      height: 30px;
+      line-height: 25px;
+      color: black;
+      text-align: center;
+
+      &:hover:not(.gm-calendar-day-disabled):not(.active):not(.gm-calendar-day-old):not(.gm-calendar-day-new) {
+        color: white;
+        background-color: var(--gm-color-primary);
+      }
+
+      &.gm-calendar-day-old,
+      &.gm-calendar-day-new {
+        color: var(--gm-color-desc);
+      }
+
+      &.gm-calendar-day-now:not(.gm-calendar-day-old):not(.gm-calendar-day-new) {
+        color: var(--gm-color-primary);
+        outline: 1px solid var(--gm-color-primary);
+        outline-offset: -4px;
+      }
+
+      &.gm-calendar-day-will:not(.active) {
+        outline: 1px solid var(--gm-color-primary);
+        outline-offset: -4px;
+      }
+
+      &.active:not(.gm-calendar-day-old):not(.gm-calendar-day-new) {
+        color: black;
+        background-color: #d7e8fc;
+        border-right: none;
+        border-left: none;
+      }
+
+      &.gm-calendar-day-hover:not(.gm-calendar-day-old):not(.gm-calendar-day-new):not(.gm-calendar-day-disabled) {
+        color: black;
+        background-color: #d7e8fc;
+        border-right: none;
+        border-left: none;
+        transition: background-color 0.2s ease;
+      }
+
+      &.gm-calendar-day-begin:not(.gm-calendar-day-old):not(.gm-calendar-day-new),
+      &.gm-calendar-day-end:not(.gm-calendar-day-old):not(.gm-calendar-day-new),
+      &.gm-calendar-day-hover-end:not(.gm-calendar-day-old):not(.gm-calendar-day-new) {
+        color: white;
+        background-color: var(--gm-color-primary);
+        border: 3px solid white;
+      }
+    }
+  }
+
+  .gm-input {
+    text-align: center;
+    border-radius: 0;
+  }
+
+  .gm-input-calendar-diff {
+    color: #176cfe;
+  }
+
+  .ant-input-number {
+    width: inherit;
+    &:hover {
+      z-index: 1;
+    }
+    &:focus {
+      z-index: 1;
+    }
+  }
+  .ant-input-number-input {
+    text-align: center;
+  }
+
+  .ant-input-number-focused {
+    z-index: 1;
+  }
+}

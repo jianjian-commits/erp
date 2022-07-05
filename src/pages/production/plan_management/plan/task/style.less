@@ -1,0 +1,68 @@
+.gm-form-control {
+  height: 36px;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+.gm-text-ellipsis {
+  line-height: 22px;
+}
+.gm-table-x-select-batch-action-bar-container {
+  .gm-table-x-select-batch-action-bar {
+    padding-left: 0;
+    background-color: white;
+  }
+}
+
+.gm-input {
+  font-size: 14px;
+}
+
+.gm-table-x-th {
+  height: 50px;
+}
+
+.b-task-filter {
+  .gm-box-form {
+    padding: 0;
+  }
+}
+
+
+
+ .ant-table {
+    .ant-table-expanded-row-fixed {
+      padding: 0px;
+    }
+ }
+ 
+
+ .gmDisabledWith() {
+  &.disabled,
+  &[disabled] {
+    .gmDisabled();
+  }
+}
+
+.gmDisabled() {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}
+
+
+ .gm-table-x-operation-icon {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--gm-color-default);
+
+  &:hover:not(.disabled) {
+    color: var(--gm-color-primary);
+  }
+
+  .gmDisabledWith();
+
+  & + .gm-table-x-operation-icon {
+    margin-left: 10px;
+  }
+}
